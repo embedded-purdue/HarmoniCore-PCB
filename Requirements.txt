@@ -1,0 +1,19 @@
+Requirements:
+FPGA PN: AMD/XILINX XC7A25T-2CSG325I
+2 1/4'' Female connectors
+16-bit ADC with 50kHz sampling rate.
+16-bit DAC with 50kHz
+Low pass filter land pattern for ADC input and DAC output
+Power input must be Barrel jack
+JTAG Programming headers must be exposed
+12 IO pins with switches
+ON/OFF Switch for the system
+
+Wants:
+On-board USB-UART bridge
+QSPI Flash can maybe store different configurations for the user
+ADC and DAC with output clock for synchronization with FPGA (connect them to 2 IOs)
+ Ideally an extra power source 9V Alkaline battery
+To choose the power source, ideally we can do it automatically, but can implement it with a switch
+Size less than 100mm x 100mm
+4-layer board (probably won't be met, and will be 6 layer)
