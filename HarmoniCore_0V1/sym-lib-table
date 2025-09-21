@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ICs")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/ICs.kicad_sym")(options "")(descr ""))
+  (lib (name "passives")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/passives.kicad_sym")(options "")(descr ""))
+  (lib (name "Power")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/Power.kicad_sym")(options "")(descr ""))
+  (lib (name "Semiconductors")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/Semiconductors.kicad_sym")(options "")(descr ""))
+  (lib (name "User_Input")(type "KiCad")(uri "${KIPRJMOD}/lib/sym/User_Input.kicad_sym")(options "")(descr ""))
+)

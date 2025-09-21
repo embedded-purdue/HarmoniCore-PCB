@@ -1,0 +1,192 @@
+(footprint "C_0402"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor handsolder")
+	(property "Reference" "REF**"
+		(at 0 -1.1 0)
+		(layer "F.SilkS")
+		(uuid "67ca1fba-0c39-4e9e-b3b4-2ed1df8d057c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_0402"
+		(at 0 1.16 0)
+		(layer "F.Fab")
+		(uuid "1f6994cd-6a22-4796-bd6e-12cc724001db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f44a3d57-d861-4c7d-9cd9-219c9c99bca2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f46ba3d3-0ff5-49fb-99f9-888c5d326f99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.115835 -0.36)
+		(end 0.115835 -0.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e615293-8434-4972-8429-a6a38096bba7")
+	)
+	(fp_line
+		(start -0.115835 0.36)
+		(end 0.115835 0.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1271b97f-dcdb-4ef6-9428-e41403b130fb")
+	)
+	(fp_line
+		(start -1 -0.46)
+		(end 1 -0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80c83007-b574-4b55-b3f1-06a2301626b6")
+	)
+	(fp_line
+		(start -1 0.46)
+		(end -1 -0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eab30fb3-fee5-4774-a2a4-ed98f345c2e5")
+	)
+	(fp_line
+		(start 1 -0.46)
+		(end 1 0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1736d215-6def-4f6f-a7c7-c096fc24b035")
+	)
+	(fp_line
+		(start 1 0.46)
+		(end -1 0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9415c6b3-afb2-412d-9c0f-e31dff54002d")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "562c40b1-9ab5-4213-b8af-05f7bd66cfc3")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db1037f3-cefd-4f5a-9436-93fa38cfadcc")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee1ee7eb-6d98-4a07-83f1-46798eaf87d3")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c5050c0-1aad-418c-b428-45b4a5e6de5d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cb60e109-9813-4c8b-84ba-b3578dd97e97")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.5675 0)
+		(size 0.735 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c479bc32-99cf-4cf1-bb66-eeef8a7653d7")
+	)
+	(pad "2" smd roundrect
+		(at 0.5675 0)
+		(size 0.735 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b0952d50-fcf0-4e6c-99dd-347a09d6e910")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/step/C_0402.step"
+		(offset
+			(xyz 0 -0.3175 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
