@@ -491,9 +491,7 @@
       "ICs"
     ],
     "pinned_symbol_libs": [
-      "ICs",
-      "Power",
-      "passives"
+      "ICs"
     ]
   },
   "meta": {
@@ -524,6 +522,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -696,6 +695,10 @@
     [
       "a527885e-a52f-4920-b92e-9eb2339a94bf",
       "Programming"
+    ],
+    [
+      "0db1585d-6420-4db0-a495-665c76333017",
+      "Power Electronics"
     ]
   ],
   "text_variables": {
