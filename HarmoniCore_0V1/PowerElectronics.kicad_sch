@@ -1045,7 +1045,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "passives:GRT21BR61A226ME13L"
+		(symbol "passives:22uF_0805"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1125,7 +1125,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GRT21BR61A226ME13L_0_1"
+			(symbol "22uF_0805_0_1"
 				(arc
 					(start -0.762 1.524)
 					(mid -0.3734 0)
@@ -1151,7 +1151,7 @@
 					)
 				)
 			)
-			(symbol "GRT21BR61A226ME13L_1_1"
+			(symbol "22uF_0805_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 2.032)
@@ -2879,7 +2879,7 @@
 		(uuid "ffe6e46a-8236-4732-b1df-b0207cba1ff4")
 	)
 	(symbol
-		(lib_id "passives:GRT21BR61A226ME13L")
+		(lib_id "passives:22uF_0805")
 		(at 31.75 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2889,7 +2889,7 @@
 		(fields_autoplaced yes)
 		(uuid "0035e48e-3603-4e57-b7d3-533195924f87")
 		(property "Reference" "C1003"
-			(at 35.56 119.3799 90)
+			(at 34.29 120.777 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,7 +2898,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 35.56 121.9199 90)
+			(at 34.29 123.317 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +3967,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:GRT21BR61A226ME13L")
+		(lib_id "passives:22uF_0805")
 		(at 134.62 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3977,7 +3977,7 @@
 		(fields_autoplaced yes)
 		(uuid "43360d0c-b195-4d84-aba3-20ebb72ac7f6")
 		(property "Reference" "C1012"
-			(at 138.43 129.5399 90)
+			(at 137.16 130.937 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +3986,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 138.43 132.0799 90)
+			(at 137.16 133.477 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,7 +4069,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:GRT21BR61A226ME13L")
+		(lib_id "passives:22uF_0805")
 		(at 121.92 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4079,7 +4079,7 @@
 		(fields_autoplaced yes)
 		(uuid "44dcb02d-f1f7-4360-8a69-5a8ec5750e06")
 		(property "Reference" "C1008"
-			(at 125.73 82.5499 90)
+			(at 124.46 83.947 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,7 +4088,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 125.73 85.0899 90)
+			(at 124.46 86.487 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4171,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:GRT21BR61A226ME13L")
+		(lib_id "passives:22uF_0805")
 		(at 121.92 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4181,7 +4181,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b71960f-3afe-47f1-98fe-0dfb6eb96564")
 		(property "Reference" "C1007"
-			(at 125.73 33.0199 90)
+			(at 124.46 34.417 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,7 +4190,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 125.73 35.5599 90)
+			(at 124.46 36.957 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +4347,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:GRT21BR61A226ME13L")
+		(lib_id "passives:22uF_0805")
 		(at 134.62 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4357,7 +4357,7 @@
 		(fields_autoplaced yes)
 		(uuid "511b9c45-76d6-446d-9eb1-cae30e385ee1")
 		(property "Reference" "C1010"
-			(at 138.43 34.2899 90)
+			(at 137.16 35.687 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,7 +4366,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 138.43 36.8299 90)
+			(at 137.16 38.227 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,7 +4946,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:GRT21BR61A226ME13L")
+		(lib_id "passives:22uF_0805")
 		(at 121.92 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4956,7 +4956,7 @@
 		(fields_autoplaced yes)
 		(uuid "881ac7a2-df9d-4442-9c09-4a93de19ff3d")
 		(property "Reference" "C1009"
-			(at 125.73 129.5399 90)
+			(at 124.46 130.937 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +4965,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 125.73 132.0799 90)
+			(at 124.46 133.477 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5372,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:GRT21BR61A226ME13L")
+		(lib_id "passives:22uF_0805")
 		(at 31.75 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5382,7 +5382,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2d1b721-a4f4-4747-a328-e76d0fc4ed01")
 		(property "Reference" "C1002"
-			(at 35.56 72.3899 90)
+			(at 34.29 73.787 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5391,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 35.56 74.9299 90)
+			(at 34.29 76.327 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +6525,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:GRT21BR61A226ME13L")
+		(lib_id "passives:22uF_0805")
 		(at 31.75 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6535,7 +6535,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8a64e2a-9acd-4db0-a6e4-005c4c5da3be")
 		(property "Reference" "C1001"
-			(at 35.56 25.3999 90)
+			(at 34.29 26.797 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6544,7 +6544,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 35.56 27.9399 90)
+			(at 34.29 29.337 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,7 +6627,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:GRT21BR61A226ME13L")
+		(lib_id "passives:22uF_0805")
 		(at 134.62 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6637,7 +6637,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4bc454e-d108-4dd6-ab53-89bcd412f258")
 		(property "Reference" "C1011"
-			(at 138.43 82.5499 90)
+			(at 137.16 83.947 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +6646,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 138.43 85.0899 90)
+			(at 137.16 86.487 90)
 			(effects
 				(font
 					(size 1.27 1.27)
