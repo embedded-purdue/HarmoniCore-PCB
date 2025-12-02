@@ -272,148 +272,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GRT21BR61A226ME13L_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "22u"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "passives:CAPC2012X135N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BR61A226ME13-01.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAP CER 22UF 10V X5R 0805 -- 22 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DigiKey Part Number" "490-12374-2-ND - Tape & Reel (TR) 490-12374-1-ND - Cut Tape (CT) 490-12374-6-ND - Digi-Reel®"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "  GRT21BR61A226ME13L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Price" "$1.12"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GRT21BR61A226ME13L_1_0_0"
-				(rectangle
-					(start 0 1.905)
-					(end 0.635 -1.905)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.905 1.905)
-					(end 2.54 -1.905)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ICs:SY8003ADFC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1187,6 +1045,152 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "passives:GRT21BR61A226ME13L"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "22u"
+				(at -1.27 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "passives:CAPC2012X135N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BR61A226ME13-01.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 22UF 10V X5R 0805 -- 22 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey Part Number" "490-12374-2-ND - Tape & Reel (TR) 490-12374-1-ND - Cut Tape (CT) 490-12374-6-ND - Digi-Reel®"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "  GRT21BR61A226ME13L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "$1.12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GRT21BR61A226ME13L_0_1"
+				(arc
+					(start -0.762 1.524)
+					(mid -0.3734 0)
+					(end -0.762 -1.524)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.524) (xy 0.508 -1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GRT21BR61A226ME13L_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "passives:SRP2512A-2R2M"
 			(pin_names
 				(hide yes)
@@ -1756,6 +1760,12 @@
 		(uuid "20afd0ae-c92a-40f5-ad7f-2249d46c65ea")
 	)
 	(junction
+		(at 31.75 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2da9d053-1a35-4cab-9bc5-605763cdebfd")
+	)
+	(junction
 		(at 22.86 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1798,12 +1808,6 @@
 		(uuid "54133d3a-5cbb-4727-b670-220fce29083f")
 	)
 	(junction
-		(at 31.75 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55c38158-c8f2-4331-97d4-0f06dd416181")
-	)
-	(junction
 		(at 121.92 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1834,16 +1838,16 @@
 		(uuid "7fbcbb27-5d70-47cc-8b1b-b667caa9bbb6")
 	)
 	(junction
+		(at 31.75 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83d9d971-6817-4329-b901-b73b8eb65611")
+	)
+	(junction
 		(at 99.06 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8608bed0-1472-4727-9b42-4e919d54c4e8")
-	)
-	(junction
-		(at 31.75 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bce7e9d-0229-467c-a317-c7708b0807f9")
 	)
 	(junction
 		(at 99.06 135.89)
@@ -1894,12 +1898,6 @@
 		(uuid "d4e42b0b-3335-46a6-8c28-77ba96ae6372")
 	)
 	(junction
-		(at 31.75 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5d9e23d-5fc1-4d7d-aa14-9464c30dc979")
-	)
-	(junction
 		(at 121.92 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1914,16 +1912,6 @@
 			(type default)
 		)
 		(uuid "00ab8a5d-ddf0-45e3-b5d4-26727b9022a0")
-	)
-	(wire
-		(pts
-			(xy 134.62 77.47) (xy 134.62 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06396963-72c5-4946-907d-3d73ce3243d5")
 	)
 	(wire
 		(pts
@@ -1997,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 124.46) (xy 134.62 127)
+			(xy 134.62 124.46) (xy 134.62 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2248,7 +2236,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 77.47) (xy 121.92 80.01)
+			(xy 121.92 77.47) (xy 121.92 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2258,13 +2246,33 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 124.46) (xy 44.45 124.46)
+			(xy 31.75 30.48) (xy 44.45 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6000aaf3-c395-4b5f-bf6e-f24259284a59")
+		(uuid "598ee548-228b-4c5a-8468-975fdbdb2022")
+	)
+	(wire
+		(pts
+			(xy 31.75 116.84) (xy 31.75 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b26f72-9568-49d5-a2a5-b5b4f5c2144d")
+	)
+	(wire
+		(pts
+			(xy 31.75 69.85) (xy 31.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b143eda-4b0d-4236-9b57-56e9116fe8e4")
 	)
 	(wire
 		(pts
@@ -2295,6 +2303,26 @@
 			(type default)
 		)
 		(uuid "68794a7a-02f7-4d17-8d0a-3aa7432258e5")
+	)
+	(wire
+		(pts
+			(xy 134.62 77.47) (xy 134.62 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b749bda-7495-4a9b-912b-29740915cf1e")
+	)
+	(wire
+		(pts
+			(xy 31.75 77.47) (xy 44.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef6127d-f30d-4fa2-94cc-eb76ead5c9b3")
 	)
 	(wire
 		(pts
@@ -2375,16 +2403,6 @@
 			(type default)
 		)
 		(uuid "8670938f-00bd-490b-a8dc-92158848546c")
-	)
-	(wire
-		(pts
-			(xy 31.75 77.47) (xy 44.45 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "867905bd-229d-4b1d-b956-a20779f5e54e")
 	)
 	(wire
 		(pts
@@ -2479,6 +2497,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 38.1) (xy 121.92 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8336d38-0cdb-4170-9bb4-896be2a1c250")
+	)
+	(wire
+		(pts
 			(xy 99.06 124.46) (xy 110.49 124.46)
 		)
 		(stroke
@@ -2509,6 +2537,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 22.86) (xy 31.75 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb3e2c4-4ef2-42ad-8bf9-386996bd8290")
+	)
+	(wire
+		(pts
 			(xy 39.37 87.63) (xy 44.45 87.63)
 		)
 		(stroke
@@ -2519,7 +2557,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 124.46) (xy 31.75 124.46)
+			(xy 29.21 124.46) (xy 44.45 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2641,16 +2679,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 124.46) (xy 121.92 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cac20009-894b-4f05-b028-9cd3c372d59f")
-	)
-	(wire
-		(pts
 			(xy 110.49 124.46) (xy 121.92 124.46)
 		)
 		(stroke
@@ -2678,6 +2706,16 @@
 			(type default)
 		)
 		(uuid "ce5fe718-6836-4f5c-9866-2a08703908cc")
+	)
+	(wire
+		(pts
+			(xy 121.92 124.46) (xy 121.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d118922c-cfbc-4357-9c62-733d1c2e916a")
 	)
 	(wire
 		(pts
@@ -2739,16 +2777,6 @@
 		)
 		(uuid "dc837b91-688f-4ed6-8b84-7d57e8ea65cd")
 	)
-	(wire
-		(pts
-			(xy 31.75 30.48) (xy 44.45 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e10a32ef-fce0-41f3-abcf-9d6386020206")
-	)
 	(polyline
 		(pts
 			(xy 119.38 87.63) (xy 154.94 97.79)
@@ -2772,6 +2800,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 39.37) (xy 134.62 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd0278c-a2bf-4300-a85b-3ea002e9332f")
+	)
+	(wire
+		(pts
 			(xy 29.21 40.64) (xy 29.21 30.48)
 		)
 		(stroke
@@ -2792,7 +2830,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 30.48) (xy 134.62 33.02)
+			(xy 134.62 30.48) (xy 134.62 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2841,7 +2879,6 @@
 		(uuid "ffe6e46a-8236-4732-b1df-b0207cba1ff4")
 	)
 	(symbol
-		(lib_name "GRT21BR61A226ME13L_1")
 		(lib_id "passives:GRT21BR61A226ME13L")
 		(at 31.75 121.92 90)
 		(unit 1)
@@ -3930,7 +3967,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GRT21BR61A226ME13L_1")
 		(lib_id "passives:GRT21BR61A226ME13L")
 		(at 134.62 132.08 90)
 		(unit 1)
@@ -4033,7 +4069,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GRT21BR61A226ME13L_1")
 		(lib_id "passives:GRT21BR61A226ME13L")
 		(at 121.92 85.09 90)
 		(unit 1)
@@ -4136,9 +4171,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GRT21BR61A226ME13L_1")
 		(lib_id "passives:GRT21BR61A226ME13L")
-		(at 121.92 38.1 90)
+		(at 121.92 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4147,7 +4181,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b71960f-3afe-47f1-98fe-0dfb6eb96564")
 		(property "Reference" "C1007"
-			(at 125.73 35.5599 90)
+			(at 125.73 33.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4156,7 +4190,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 125.73 38.0999 90)
+			(at 125.73 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +4199,7 @@
 			)
 		)
 		(property "Footprint" "passives:CAPC2012X135N"
-			(at 121.92 38.1 0)
+			(at 121.92 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +4209,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BR61A226ME13-01.pdf"
-			(at 121.92 38.1 0)
+			(at 121.92 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4218,7 @@
 			)
 		)
 		(property "Description" "CAP CER 22UF 10V X5R 0805 -- 22 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 121.92 38.1 0)
+			(at 121.92 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4227,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "490-12374-2-ND - Tape & Reel (TR) 490-12374-1-ND - Cut Tape (CT) 490-12374-6-ND - Digi-Reel®"
-			(at 121.92 38.1 0)
+			(at 121.92 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +4236,7 @@
 			)
 		)
 		(property "Part Number" "  GRT21BR61A226ME13L"
-			(at 121.92 38.1 0)
+			(at 121.92 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +4245,7 @@
 			)
 		)
 		(property "Price" "$1.12"
-			(at 121.92 38.1 0)
+			(at 121.92 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,9 +4347,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GRT21BR61A226ME13L_1")
 		(lib_id "passives:GRT21BR61A226ME13L")
-		(at 134.62 38.1 90)
+		(at 134.62 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4324,7 +4357,7 @@
 		(fields_autoplaced yes)
 		(uuid "511b9c45-76d6-446d-9eb1-cae30e385ee1")
 		(property "Reference" "C1010"
-			(at 138.43 35.5599 90)
+			(at 138.43 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4366,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 138.43 38.0999 90)
+			(at 138.43 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,7 +4375,7 @@
 			)
 		)
 		(property "Footprint" "passives:CAPC2012X135N"
-			(at 134.62 38.1 0)
+			(at 134.62 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4385,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BR61A226ME13-01.pdf"
-			(at 134.62 38.1 0)
+			(at 134.62 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +4394,7 @@
 			)
 		)
 		(property "Description" "CAP CER 22UF 10V X5R 0805 -- 22 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 134.62 38.1 0)
+			(at 134.62 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4403,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "490-12374-2-ND - Tape & Reel (TR) 490-12374-1-ND - Cut Tape (CT) 490-12374-6-ND - Digi-Reel®"
-			(at 134.62 38.1 0)
+			(at 134.62 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +4412,7 @@
 			)
 		)
 		(property "Part Number" "  GRT21BR61A226ME13L"
-			(at 134.62 38.1 0)
+			(at 134.62 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,7 +4421,7 @@
 			)
 		)
 		(property "Price" "$1.12"
-			(at 134.62 38.1 0)
+			(at 134.62 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4946,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GRT21BR61A226ME13L_1")
 		(lib_id "passives:GRT21BR61A226ME13L")
 		(at 121.92 132.08 90)
 		(unit 1)
@@ -5340,7 +5372,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GRT21BR61A226ME13L_1")
 		(lib_id "passives:GRT21BR61A226ME13L")
 		(at 31.75 74.93 90)
 		(unit 1)
@@ -6494,7 +6525,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GRT21BR61A226ME13L_1")
 		(lib_id "passives:GRT21BR61A226ME13L")
 		(at 31.75 27.94 90)
 		(unit 1)
@@ -6597,7 +6627,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GRT21BR61A226ME13L_1")
 		(lib_id "passives:GRT21BR61A226ME13L")
 		(at 134.62 85.09 90)
 		(unit 1)
