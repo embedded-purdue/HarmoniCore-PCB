@@ -363,7 +363,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0db1585d-6420-4db0-a495-665c76333017")
-		(property "Sheetname" "Power Electronics"
+		(property "Sheetname" "Power Electronics: Digital (page 10)"
 			(at 203.2 182.1684 0)
 			(effects
 				(font
@@ -427,6 +427,48 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 213.36)
+		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "35ed9e01-30aa-4ce3-822c-32bc71b37f70")
+		(property "Sheetname" "Power Electronics: Analog (page 11)"
+			(at 204.47 212.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerElectronics.kicad_sch"
+			(at 204.47 236.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "11")
 				)
 			)
 		)
