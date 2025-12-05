@@ -4285,7 +4285,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "PS"
-			(at 26.67 7.62 0)
+			(at 26.67 5.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,50 +4403,14 @@
 		)
 		(symbol "SY8003ADFC_1_1"
 			(rectangle
-				(start 5.08 2.54)
-				(end 25.4 -20.32)
+				(start 5.08 0.635)
+				(end 25.4 -22.225)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type background)
-				)
-			)
-			(pin passive line
-				(at 0 0 0)
-				(length 5.08)
-				(name "FB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -2.54 0)
-				(length 5.08)
-				(name "PG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin passive line
@@ -4468,7 +4432,43 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 0)
+				(at 0 -8.89 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 0)
+				(length 5.08)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -27.305 90)
 				(length 5.08)
 				(name "PGND_1"
 					(effects
@@ -4486,7 +4486,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -25.4 90)
+				(at 15.24 -27.305 90)
 				(length 5.08)
 				(name "PGND_2"
 					(effects
@@ -4504,7 +4504,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 0 180)
+				(at 20.32 -27.305 90)
 				(length 5.08)
 				(name "SGND"
 					(effects
@@ -4514,24 +4514,6 @@
 					)
 				)
 				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 30.48 -2.54 180)
-				(length 5.08)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4557,8 +4539,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 30.48 -8.89 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin no_connect line
-				(at 30.48 -7.62 180)
+				(at 30.48 -12.7 180)
 				(length 5.08)
 				(name "NC"
 					(effects

@@ -674,12 +674,24 @@
       "Project Architecture"
     ],
     [
-      "7d5a1283-086b-46b0-8df7-a9850521fb5e",
-      "Section A - Title A"
+      "db7dbef2-8018-4cbd-910a-63ca18756cca",
+      "Artix7_PWR"
     ],
     [
-      "e6015f1e-cbce-46f4-85e1-3d5463a17dc1",
-      "Section B - Title B"
+      "a4f0bdbc-b007-4d98-b53f-91e97b1989ac",
+      "Artix7_14_15_34"
+    ],
+    [
+      "23621a02-c13b-4cf6-ae44-e1073ce197c7",
+      "Analog_Frontend"
+    ],
+    [
+      "a527885e-a52f-4920-b92e-9eb2339a94bf",
+      "Programming"
+    ],
+    [
+      "0db1585d-6420-4db0-a495-665c76333017",
+      "PE_Digital"
     ],
     [
       "13eb0b07-00a1-4d61-8da3-582545eb29a8",
@@ -688,18 +700,6 @@
     [
       "e7c91631-be85-488a-af7a-f2a810f3fbfe",
       "Revision History"
-    ],
-    [
-      "23621a02-c13b-4cf6-ae44-e1073ce197c7",
-      "Analog Frontend"
-    ],
-    [
-      "a527885e-a52f-4920-b92e-9eb2339a94bf",
-      "Programming"
-    ],
-    [
-      "0db1585d-6420-4db0-a495-665c76333017",
-      "Power Electronics: Digital"
     ]
   ],
   "text_variables": {
