@@ -4404,7 +4404,7 @@
 		(symbol "SY8003ADFC_1_1"
 			(rectangle
 				(start 5.08 0.635)
-				(end 25.4 -22.225)
+				(end 25.4 -21.844)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4432,7 +4432,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -8.89 0)
+				(at 0 -10.16 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -4450,7 +4450,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -12.7 0)
+				(at 0 -15.24 0)
 				(length 5.08)
 				(name "PG"
 					(effects
@@ -4468,7 +4468,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -27.305 90)
+				(at 10.16 -26.67 90)
 				(length 5.08)
 				(name "PGND_1"
 					(effects
@@ -4486,7 +4486,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -27.305 90)
+				(at 15.24 -26.67 90)
 				(length 5.08)
 				(name "PGND_2"
 					(effects
@@ -4504,7 +4504,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -27.305 90)
+				(at 20.32 -26.67 90)
 				(length 5.08)
 				(name "SGND"
 					(effects
@@ -4540,7 +4540,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -8.89 180)
+				(at 30.48 -10.16 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -4557,8 +4557,8 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 30.48 -12.7 180)
+			(pin free line
+				(at 30.48 -15.24 180)
 				(length 5.08)
 				(name "NC"
 					(effects

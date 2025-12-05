@@ -1779,7 +1779,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "passives:CAPC2012X135N"
+		(property "Footprint" "passives:C_0805"
 			(at 0 0 0)
 			(effects
 				(font
