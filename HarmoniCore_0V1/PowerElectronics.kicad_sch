@@ -3649,10 +3649,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2179357b-a297-4679-9fc3-4177946a088b")
+			(uuid "3212e01a-15d9-4385-8eb5-ac664a04439b")
 		)
 		(pin "1"
-			(uuid "2bd41d9a-2586-4539-9730-bb2b7b20cfd2")
+			(uuid "c252296b-d441-4c2d-9c0d-c4bdb8c7dbba")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -3806,31 +3806,31 @@
 			)
 		)
 		(pin "3"
-			(uuid "0bcae057-32a4-41b4-ac4b-7ece21fa49d8")
+			(uuid "7f67e22a-6612-44e1-89e6-f2ccb6bfc8bb")
 		)
 		(pin "4"
-			(uuid "e0a0ecdd-4dbc-4ee8-a8f4-dc6fddb8fbd1")
+			(uuid "01d20454-b7fe-4aea-870c-c7504544824d")
 		)
 		(pin "9"
-			(uuid "ed8899bd-9de6-4dc3-b4c2-dc1c5a7af003")
+			(uuid "0b22797f-34dc-498c-8765-83c3062851ac")
 		)
 		(pin "8"
-			(uuid "bbb67ad1-9ba2-4a84-97f9-32ec431ad018")
+			(uuid "a2b43fbd-3cd8-4460-9593-0b04206b08c7")
 		)
 		(pin "7"
-			(uuid "1af58b84-3d50-4cd2-a397-4e22c7e4a6df")
+			(uuid "159c6479-0f75-4f23-a08f-14d3c8c99234")
 		)
 		(pin "6"
-			(uuid "9bb52d75-fa9f-46cf-bf6e-b9363230273b")
+			(uuid "405c0404-a8b5-4568-ac3f-b576638765f0")
 		)
 		(pin "5"
-			(uuid "6b8a7e94-1cab-48c4-9fe3-41b4ab2a986d")
+			(uuid "ccc2ecec-891f-464b-aab1-ff3210cbdc86")
 		)
 		(pin "2"
-			(uuid "52bde740-32ef-4450-8d63-98d515684089")
+			(uuid "549c14ab-6970-4efe-8df8-87efae9279b1")
 		)
 		(pin "1"
-			(uuid "01eb5920-9ed4-4fd8-8721-982ba91f168d")
+			(uuid "aa65ed67-09aa-4762-9bc1-49ff8f3a477c")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -3851,7 +3851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04e9fb2a-b470-45e2-8988-a77b02fd8eba")
-		(property "Reference" "R805"
+		(property "Reference" "R5"
 			(at 101.6 46.9899 90)
 			(effects
 				(font
@@ -3933,18 +3933,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e1d8fcf6-a595-4864-b4d8-cae847200389")
+			(uuid "1d0259d6-9083-44c3-8e4f-9e0a2c2c72a5")
 		)
 		(pin "2"
-			(uuid "e50c763a-9c8a-4061-b9a3-7e5b7a561391")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
-					(reference "R805")
-					(unit 1)
-				)
-			)
+			(uuid "4f5d205a-adc8-4370-a30d-dffaa8596184")
 		)
 	)
 	(symbol
@@ -3957,7 +3949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c902911-1406-467e-b4d2-2bcf8810d431")
-		(property "Reference" "R804"
+		(property "Reference" "R4"
 			(at 101.6 36.8299 90)
 			(effects
 				(font
@@ -4039,18 +4031,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed94e774-3ce9-47e8-8bbe-5beb57c66810")
+			(uuid "befccbce-7ad3-4377-a652-f0efc4e370b0")
 		)
 		(pin "2"
-			(uuid "550da907-25ba-447d-bdc0-b1e93eafd23a")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
-					(reference "R804")
-					(unit 1)
-				)
-			)
+			(uuid "d7a26480-f069-4848-9f40-db20d6d06721")
 		)
 	)
 	(symbol
@@ -4109,7 +4093,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8191281-1e92-4dcf-ba95-47919fd8b70a")
+			(uuid "f104b92a-58f2-4029-81c8-a080b544b901")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -4176,7 +4160,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "79806ba8-0d43-4429-b64e-9c3a565c7b5c")
+			(uuid "ad986e70-e680-4430-aaf7-238d731cfbf1")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -4197,7 +4181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26d3185d-2bcb-46f3-ad29-318db2f696bc")
-		(property "Reference" "C2"
+		(property "Reference" "C8"
 			(at 113.03 124.5869 90)
 			(effects
 				(font
@@ -4279,18 +4263,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a19863bb-6765-4980-a157-c0f4b621826c")
+			(uuid "a91a4a40-9878-4c9d-b65f-2b0810de3762")
 		)
 		(pin "1"
-			(uuid "d4bfc988-2b0f-4665-a016-c6e17685d67b")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
-					(reference "C2")
-					(unit 1)
-				)
-			)
+			(uuid "6033f1c2-5f14-4a84-b862-e0bb3e0eb3da")
 		)
 	)
 	(symbol
@@ -4399,10 +4375,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c020388-eb27-4636-9720-15a79e0cb6ad")
+			(uuid "73aab0d5-491e-47f5-b931-9b57a14f4d8d")
 		)
 		(pin "2"
-			(uuid "4a26986d-20bb-4c45-8b08-0bc1a07c8ef0")
+			(uuid "82c2003e-03bb-4236-9fed-f570ecfa4e53")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -4469,7 +4445,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4cc8301b-75da-4f6d-be9f-3dad803325ae")
+			(uuid "ed8749b3-23a6-4d49-a3c5-64bd9560b6e4")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -4490,7 +4466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2eb84eda-e8fa-4636-ace1-a3e6a25d5160")
-		(property "Reference" "C804"
+		(property "Reference" "C6"
 			(at 113.03 34.4169 90)
 			(effects
 				(font
@@ -4572,18 +4548,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7c117c90-d04c-4cf2-bd60-19d12cd83367")
+			(uuid "c181e3c6-1e13-40da-b3e8-877a29bf30f7")
 		)
 		(pin "1"
-			(uuid "226e8fd7-4911-40b8-b109-858b15fb2a6a")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
-					(reference "C804")
-					(unit 1)
-				)
-			)
+			(uuid "926fd8b2-5c5f-4ab8-8868-39e0c3bd2b63")
 		)
 	)
 	(symbol
@@ -4596,7 +4564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3330d172-fe2e-405d-be3b-a849e8c0d68a")
-		(property "Reference" "C1"
+		(property "Reference" "C7"
 			(at 113.03 80.1369 90)
 			(effects
 				(font
@@ -4678,18 +4646,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a93ff9c0-4502-4819-ac9c-5f48792856ba")
+			(uuid "52fe3700-d126-42cd-b517-5a8fba7585a4")
 		)
 		(pin "2"
-			(uuid "69f9bcb1-1a85-41b4-a9e7-226528f15c0e")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
-					(reference "C1")
-					(unit 1)
-				)
-			)
+			(uuid "89db5bc8-271b-44e8-91a1-65c48bad4632")
 		)
 	)
 	(symbol
@@ -4798,10 +4758,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ddda922-6ed7-4741-8018-61e6bd98960d")
+			(uuid "347218c4-6809-46f2-b3e0-c9ba6d1cb726")
 		)
 		(pin "2"
-			(uuid "0aad0995-2044-47ec-9341-bee07cb8e565")
+			(uuid "61fc3a07-df5e-4840-9a32-e61fa59d2790")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -4868,7 +4828,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2905db85-0a3b-45c8-8bc6-386215384bc0")
+			(uuid "66e42d44-69ad-4c3d-bc7e-5b1835436b64")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -4985,10 +4945,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "aeea940f-005d-4f76-98b5-a8530ae1bbea")
+			(uuid "41e00bde-e0b3-40f3-acfb-6bc30c160e9a")
 		)
 		(pin "2"
-			(uuid "c1df02aa-fb1d-42bb-94f7-e4eb16d2d63f")
+			(uuid "dcd0ec08-51e2-49aa-b5ba-f85baff1f939")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -5083,10 +5043,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8860a3de-6447-4548-8cdf-2ce7f0d28e4e")
+			(uuid "113e8664-c7b8-4084-aa10-0a016613fd00")
 		)
 		(pin "1"
-			(uuid "33e1c272-6eb1-4d51-90ec-0511cf5d8f41")
+			(uuid "1ebbf49c-8ae0-4eb1-825a-89bade769839")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -5181,10 +5141,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "eee3c956-b193-4e4a-b14a-36694373fbb2")
+			(uuid "1c8537b5-5482-49e7-a05d-2e73dca11f54")
 		)
 		(pin "1"
-			(uuid "086c35cd-6625-4cd1-b331-c45656505512")
+			(uuid "22e91c40-8a9f-4e4f-9736-3030646a3b00")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -5205,7 +5165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47ce18d5-d7cd-4a85-b588-029343985d0c")
-		(property "Reference" "R808"
+		(property "Reference" "R8"
 			(at 101.6 126.9999 90)
 			(effects
 				(font
@@ -5287,18 +5247,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "96a5a288-472e-4a34-9c88-1dfd141de16a")
+			(uuid "3b9258a2-8a85-4a0f-9fe4-00d3c0267bff")
 		)
 		(pin "2"
-			(uuid "a9785a0e-ab4b-45d4-a385-6a9b33556093")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
-					(reference "R808")
-					(unit 1)
-				)
-			)
+			(uuid "a6c2253b-aef9-4726-a762-9dbb9d040340")
 		)
 	)
 	(symbol
@@ -5385,10 +5337,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2ff8ca49-f65f-42ff-b0b1-0b18976a1e56")
+			(uuid "70652a88-8506-4cf9-aea7-4103e2e9de38")
 		)
 		(pin "1"
-			(uuid "2e17d0e4-4180-48c7-9300-e8d631dc041c")
+			(uuid "89534c91-30d4-45c4-9e97-2ae79f5b9095")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -5483,10 +5435,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d79fb009-a9c1-4b88-9285-d121960c5cee")
+			(uuid "9681936b-5a68-4f55-b82b-0728c0aee383")
 		)
 		(pin "1"
-			(uuid "cf2e0b6d-7932-4c57-8cd5-cf9a5af10a7d")
+			(uuid "7066b703-8ddb-450e-bc0d-720604a38e03")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -5552,7 +5504,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "41802c25-3271-44b3-90a8-a253b130ab73")
+			(uuid "b529fc5d-0aa7-45a1-8e6d-448bc38f08a6")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -5655,10 +5607,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f8fd305e-f471-48f4-be4e-2782239b1089")
+			(uuid "318581fd-5251-46be-ace8-61b4239a13e9")
 		)
 		(pin "2"
-			(uuid "e085d3fd-fdaa-4128-996c-79f2246719a0")
+			(uuid "53953f7a-29c5-46f2-85f2-9863ecb79ad0")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -5679,7 +5631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69753a32-642d-40e1-920b-ed2cc3a0ea75")
-		(property "Reference" "R801"
+		(property "Reference" "R1"
 			(at 31.75 40.6399 90)
 			(effects
 				(font
@@ -5761,18 +5713,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "50ef0e9e-f70e-4d40-9310-de6eec9bf08e")
+			(uuid "8230b528-e92c-4893-84c6-6308c49418cd")
 		)
 		(pin "2"
-			(uuid "74777823-cb49-4197-aa10-460fa14e7a54")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
-					(reference "R801")
-					(unit 1)
-				)
-			)
+			(uuid "52daa507-9032-43bb-85e4-285146fc9f5b")
 		)
 	)
 	(symbol
@@ -5831,7 +5775,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3aab82c7-23e8-4ab7-bf70-151482c19ed3")
+			(uuid "9e84b5d2-d310-4cb5-9ca4-99bbae55a57c")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -5898,7 +5842,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bdfb2905-392b-4384-96b0-4422603306b3")
+			(uuid "960679b5-f8d7-4cd5-96d4-68539140d672")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -6001,10 +5945,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1696633-b371-4c39-8751-3b2a89a86287")
+			(uuid "4304ff5b-f9d3-42c5-a161-c61dd7248951")
 		)
 		(pin "2"
-			(uuid "70b50ec2-7fc7-4e2f-9c06-d196f1520f80")
+			(uuid "cdafc820-9564-4453-abe6-09a75dca91a2")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -6070,7 +6014,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0f55bb1-9940-4ea5-a2d6-0a1f7970ec48")
+			(uuid "e2d75c44-f1ac-45d5-a667-d6b89eb72a71")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -6137,7 +6081,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dedd2ad2-949a-45d7-81f7-e59308b4edc3")
+			(uuid "39baec78-39ad-4a15-ba40-ad3f148d31ae")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -6232,10 +6176,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d891f6eb-1015-4d49-a5d3-55c9538882bb")
+			(uuid "361a87fe-35c5-41d4-be5e-719a92d4b387")
 		)
 		(pin "1"
-			(uuid "fb2c9225-ddb6-4126-8597-1218d36e0ade")
+			(uuid "a1380a8c-a5db-43c4-bf18-bf3587d20ab3")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -6302,7 +6246,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "816c8568-e01e-4e34-8fe8-1bfb2b3b3f97")
+			(uuid "3e974631-a579-40b3-99ab-046febebf8f7")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -6456,31 +6400,31 @@
 			)
 		)
 		(pin "3"
-			(uuid "0b48688e-fdeb-4178-ba15-db7ffce74a05")
+			(uuid "f40471ff-7cd3-4249-9fbe-220fb729d4d2")
 		)
 		(pin "4"
-			(uuid "d9359da6-14f4-45e1-bff9-e635dd27ec40")
+			(uuid "79201659-369e-463d-b59f-6c4b4ab3f975")
 		)
 		(pin "9"
-			(uuid "c17251ae-a6f7-477b-8866-97d840d5b804")
+			(uuid "3b2c97b1-4f1d-4ba3-8d45-badb203cf590")
 		)
 		(pin "8"
-			(uuid "f4f5cefe-11f6-4e05-ae14-6af951fd6f69")
+			(uuid "8eac35d3-2054-4396-80b7-6acb9186a684")
 		)
 		(pin "7"
-			(uuid "0c8393bf-43b3-434c-bb65-d69ce0d04301")
+			(uuid "73f5a0c2-fd46-4ada-9540-2d5f845fbc25")
 		)
 		(pin "6"
-			(uuid "1acbacfd-7723-44e3-9c1c-d247f63f1ca2")
+			(uuid "875b5db9-c7f6-4768-b9da-5bdd5c0e95dc")
 		)
 		(pin "5"
-			(uuid "3305c668-3cdc-432f-8ac6-f15983345e0b")
+			(uuid "d9f0df56-e044-44c3-a307-ca5e85376ecf")
 		)
 		(pin "2"
-			(uuid "9b202756-d3bb-4318-b6f3-92c3847d1353")
+			(uuid "c65ee519-d6c4-4d09-8951-426a7691f75d")
 		)
 		(pin "1"
-			(uuid "c0b9dadb-7c88-438f-9cc5-36cbda3f1445")
+			(uuid "ab664300-903b-475c-8773-7c81cc4729b8")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -6547,7 +6491,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "14e68628-1cd0-45f0-82a5-38457fd42540")
+			(uuid "d287ffd0-9c13-4404-9355-f5d2c2ed9e78")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -6642,10 +6586,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "21217eb9-f489-4759-9467-3a0e14c244eb")
+			(uuid "450b8a0a-b2d6-424d-bb33-692375b79418")
 		)
 		(pin "1"
-			(uuid "fdcd9e6a-53ab-4aad-bcca-f4beb5106dca")
+			(uuid "abdb9580-a199-4f1e-8ba3-c544558ee499")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -6712,7 +6656,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ac4fab8-83e2-4820-a6bd-b322c87c7704")
+			(uuid "d33dfce0-5b52-4bb8-b196-fd785c38e232")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -6815,10 +6759,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ca3a047-2e3c-416e-9238-259823e892a7")
+			(uuid "c6f6f66b-e7ed-451e-9302-b9abac201ebc")
 		)
 		(pin "2"
-			(uuid "ead8927b-3c77-4066-8764-c543f2826531")
+			(uuid "3f03b18e-8944-400c-b633-3d98df6a55b9")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -6921,10 +6865,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab0323f3-ac31-4a6f-a249-b38439dd8cef")
+			(uuid "60e3b013-3266-4f34-89ef-4cd84801f279")
 		)
 		(pin "2"
-			(uuid "6c3e5d08-f036-4a16-8f94-a35ee67432e0")
+			(uuid "e4356ac7-6e9a-45e6-94d2-c4597d694dcb")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -6991,7 +6935,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "283a8cbb-6654-49f5-84e3-3b8918a47474")
+			(uuid "b65643c2-7400-43e4-8459-9124b6e4f410")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -7058,7 +7002,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b74cc231-5227-4540-9afd-71971537fb74")
+			(uuid "4ee2ea09-c557-499d-a92c-651434ddeefc")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -7123,7 +7067,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "09f72ea4-66f2-4935-972a-bface77f2615")
+			(uuid "8be89ba2-221c-4b18-a2fd-0178d9a0ea69")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -7144,7 +7088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d69b7522-a347-4dac-b856-14ba404b8bb1")
-		(property "Reference" "R806"
+		(property "Reference" "R6"
 			(at 101.6 80.0099 90)
 			(effects
 				(font
@@ -7226,18 +7170,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9dfe733-f206-47e9-9d78-bcc3568f4886")
+			(uuid "b8fdc0ac-b625-47b4-a8d7-7ade70a046cd")
 		)
 		(pin "2"
-			(uuid "f134ef24-0b5d-477f-8e83-c63517864000")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
-					(reference "R806")
-					(unit 1)
-				)
-			)
+			(uuid "f4caf67e-cdf2-4156-9a03-6d1fb6c82cf7")
 		)
 	)
 	(symbol
@@ -7383,31 +7319,31 @@
 			)
 		)
 		(pin "3"
-			(uuid "9df33d4b-4b4a-48e9-8826-aa4418089034")
+			(uuid "320fd21a-d950-42af-89f1-cbd86d03a82a")
 		)
 		(pin "4"
-			(uuid "789070fa-61b6-49ac-b11c-060e7e48eff5")
+			(uuid "716a5055-b0c3-41f6-bd6e-cf51e2229f1b")
 		)
 		(pin "9"
-			(uuid "fcb39c6c-a6af-47e1-afe4-0336088f92f4")
+			(uuid "e661abcf-7054-40c2-83c9-b3704d58a9f8")
 		)
 		(pin "8"
-			(uuid "bc6e2a6b-f500-4551-a570-759f46471c02")
+			(uuid "6016b0b3-c50f-4c42-a158-f4d148860b00")
 		)
 		(pin "7"
-			(uuid "ba6f9b8a-a952-4655-98a9-619ee1d0d42e")
+			(uuid "f5c07df4-53de-4cb8-b87d-9588c242a50a")
 		)
 		(pin "6"
-			(uuid "ab7486f3-467f-4244-a719-9bcd5fd6d9ff")
+			(uuid "6384e0a9-e181-40e4-8269-228573960ffa")
 		)
 		(pin "5"
-			(uuid "520bc710-9408-4c8c-b2fd-db8693364b69")
+			(uuid "e8ae7142-b3e6-40bc-b50d-fafe6df9955a")
 		)
 		(pin "2"
-			(uuid "682e9074-9274-44e7-8fcf-229ddfc6f5bb")
+			(uuid "eabcc357-bb6a-4142-9713-02cc75eebdbe")
 		)
 		(pin "1"
-			(uuid "ed7103ad-932c-432e-93b0-cac96a9edcb9")
+			(uuid "eda93eab-71df-4810-908e-d133fc25a862")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -7473,7 +7409,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d02c9b14-c9f7-487c-b699-9ba9315f75c5")
+			(uuid "1110ea08-d591-4219-8675-7e207d92de57")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -7540,7 +7476,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a164b3d5-9af9-4844-bfaf-76e7fc08b342")
+			(uuid "fc2cf06e-6828-4ca4-b564-5af3685c1ad1")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -7607,7 +7543,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8333f854-5de8-4e34-896f-459530d00b44")
+			(uuid "90f58256-23fc-488c-ac05-09224c7c3400")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -7702,10 +7638,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d34c71af-ee98-4eb3-96fb-bc95fc428e61")
+			(uuid "34155404-3fed-4897-a6c6-3cf061cc3b78")
 		)
 		(pin "1"
-			(uuid "0818500d-08e5-4617-8a6d-0e2eac3f2789")
+			(uuid "4e72955c-e8ec-4c69-8e60-a06b45524641")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -7800,10 +7736,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "62256f5f-65ef-4ad0-95de-027a43647bf5")
+			(uuid "8cd1dfe5-31d1-415c-be5e-36fe9e8fc2c0")
 		)
 		(pin "1"
-			(uuid "f6925381-d32a-4829-8137-e74091619575")
+			(uuid "6ddeb08f-2ac7-455d-becf-bb058db394e9")
 		)
 		(instances
 			(project "HarmoniCore_0V1"
@@ -7870,7 +7806,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "48460def-5740-4bdd-98ad-e82e585eb9a6")
+			(uuid "0f0b5539-e4a7-4324-b611-c86d70fcc887")
 		)
 		(instances
 			(project "HarmoniCore_0V1"

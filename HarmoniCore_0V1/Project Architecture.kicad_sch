@@ -320,6 +320,48 @@
 		(uuid "f890bb63-7be7-434c-9d54-8102b0d37829")
 	)
 	(sheet
+		(at 203.2 213.36)
+		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "050cf94a-fa1b-478c-9dcb-adb120579c78")
+		(property "Sheetname" "PE_Analog"
+			(at 203.2 212.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerElectronicsAnalog.kicad_sch"
+			(at 203.2 236.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 203.2 182.88)
 		(size 35.56 22.86)
 		(exclude_from_sim no)
