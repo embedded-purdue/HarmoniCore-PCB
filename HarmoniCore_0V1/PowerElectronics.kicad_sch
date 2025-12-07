@@ -1274,7 +1274,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Passives:C_0402"
+			(property "Footprint" "passives:C_0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1940,7 +1940,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "INDC2520X120N"
+			(property "Footprint" "passives:INDC2520X120N"
 				(at 16.51 -96.19 0)
 				(effects
 					(font
@@ -3851,7 +3851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04e9fb2a-b470-45e2-8988-a77b02fd8eba")
-		(property "Reference" "R5"
+		(property "Reference" "R805"
 			(at 101.6 46.9899 90)
 			(effects
 				(font
@@ -3938,6 +3938,14 @@
 		(pin "2"
 			(uuid "4f5d205a-adc8-4370-a30d-dffaa8596184")
 		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
+					(reference "R805")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "passives:68kR_0603")
@@ -3949,7 +3957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c902911-1406-467e-b4d2-2bcf8810d431")
-		(property "Reference" "R4"
+		(property "Reference" "R804"
 			(at 101.6 36.8299 90)
 			(effects
 				(font
@@ -4035,6 +4043,14 @@
 		)
 		(pin "2"
 			(uuid "d7a26480-f069-4848-9f40-db20d6d06721")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
+					(reference "R804")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4181,7 +4197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26d3185d-2bcb-46f3-ad29-318db2f696bc")
-		(property "Reference" "C8"
+		(property "Reference" "C806"
 			(at 113.03 124.5869 90)
 			(effects
 				(font
@@ -4199,7 +4215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Passives:C_0402"
+		(property "Footprint" "passives:C_0402"
 			(at 110.49 128.27 0)
 			(effects
 				(font
@@ -4268,6 +4284,14 @@
 		(pin "1"
 			(uuid "6033f1c2-5f14-4a84-b862-e0bb3e0eb3da")
 		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
+					(reference "C806")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "passives:SRP2512A-2R2M")
@@ -4295,7 +4319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INDC2520X120N"
+		(property "Footprint" "passives:INDC2520X120N"
 			(at 92.71 126.67 0)
 			(effects
 				(font
@@ -4466,7 +4490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2eb84eda-e8fa-4636-ace1-a3e6a25d5160")
-		(property "Reference" "C6"
+		(property "Reference" "C804"
 			(at 113.03 34.4169 90)
 			(effects
 				(font
@@ -4484,7 +4508,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Passives:C_0402"
+		(property "Footprint" "passives:C_0402"
 			(at 110.49 38.1 0)
 			(effects
 				(font
@@ -4553,6 +4577,14 @@
 		(pin "1"
 			(uuid "926fd8b2-5c5f-4ab8-8868-39e0c3bd2b63")
 		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
+					(reference "C804")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "passives:22pF_0402")
@@ -4564,7 +4596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3330d172-fe2e-405d-be3b-a849e8c0d68a")
-		(property "Reference" "C7"
+		(property "Reference" "C805"
 			(at 113.03 80.1369 90)
 			(effects
 				(font
@@ -4582,7 +4614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Passives:C_0402"
+		(property "Footprint" "passives:C_0402"
 			(at 110.49 83.82 0)
 			(effects
 				(font
@@ -4651,6 +4683,14 @@
 		(pin "2"
 			(uuid "89db5bc8-271b-44e8-91a1-65c48bad4632")
 		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
+					(reference "C805")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "passives:SRP2512A-2R2M")
@@ -4678,7 +4718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INDC2520X120N"
+		(property "Footprint" "passives:INDC2520X120N"
 			(at 92.71 216.84 0)
 			(effects
 				(font
@@ -4865,7 +4905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INDC2520X120N"
+		(property "Footprint" "passives:INDC2520X120N"
 			(at 92.71 172.39 0)
 			(effects
 				(font
@@ -5165,7 +5205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47ce18d5-d7cd-4a85-b588-029343985d0c")
-		(property "Reference" "R8"
+		(property "Reference" "R808"
 			(at 101.6 126.9999 90)
 			(effects
 				(font
@@ -5251,6 +5291,14 @@
 		)
 		(pin "2"
 			(uuid "a6c2253b-aef9-4726-a762-9dbb9d040340")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
+					(reference "R808")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5631,7 +5679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69753a32-642d-40e1-920b-ed2cc3a0ea75")
-		(property "Reference" "R1"
+		(property "Reference" "R801"
 			(at 31.75 40.6399 90)
 			(effects
 				(font
@@ -5717,6 +5765,14 @@
 		)
 		(pin "2"
 			(uuid "52daa507-9032-43bb-85e4-285146fc9f5b")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
+					(reference "R801")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7088,7 +7144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d69b7522-a347-4dac-b856-14ba404b8bb1")
-		(property "Reference" "R6"
+		(property "Reference" "R806"
 			(at 101.6 80.0099 90)
 			(effects
 				(font
@@ -7174,6 +7230,14 @@
 		)
 		(pin "2"
 			(uuid "f4caf67e-cdf2-4156-9a03-6d1fb6c82cf7")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
+					(reference "R806")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol

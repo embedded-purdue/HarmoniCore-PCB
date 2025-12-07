@@ -2131,7 +2131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Passives:C_0402"
+		(property "Footprint" "passives:C_0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4327,7 +4327,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "INDC2520X120N"
+		(property "Footprint" "passives:INDC2520X120N"
 			(at 16.51 -96.19 0)
 			(effects
 				(font
