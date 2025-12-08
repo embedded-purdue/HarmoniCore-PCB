@@ -5697,7 +5697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Passives:R_0603"
+		(property "Footprint" "passives:R_0603"
 			(at 29.21 39.37 0)
 			(effects
 				(font
@@ -7665,7 +7665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 10V X5R 0805 -- 22 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"
+		(property "Description" "22u / 10V"
 			(at 31.75 26.67 0)
 			(effects
 				(font
@@ -7674,7 +7674,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "490-12374-2-ND - Tape & Reel (TR) 490-12374-1-ND - Cut Tape (CT) 490-12374-6-ND - Digi-Reel®"
+		(property "DigiKey Part Number" "490-12374-2-ND"
 			(at 31.75 26.67 0)
 			(effects
 				(font
