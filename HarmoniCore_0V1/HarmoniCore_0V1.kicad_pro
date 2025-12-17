@@ -492,7 +492,10 @@
       "passives"
     ],
     "pinned_symbol_libs": [
-      "ICs"
+      "ICs",
+      "passives",
+      "User_Input",
+      "Power"
     ]
   },
   "meta": {
