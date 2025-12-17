@@ -446,6 +446,48 @@
 		)
 	)
 	(sheet
+		(at 266.065 114.935)
+		(size 33.02 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65b7cb26-9f51-480f-bdb7-f186c65ba647")
+		(property "Sheetname" "Timing"
+			(at 266.065 114.2234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Timing.kicad_sch"
+			(at 266.065 137.1096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 200.152 43.18)
 		(size 40.132 23.114)
 		(exclude_from_sim no)

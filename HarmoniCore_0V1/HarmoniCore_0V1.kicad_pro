@@ -704,6 +704,10 @@
     [
       "050cf94a-fa1b-478c-9dcb-adb120579c78",
       "PE_Analog"
+    ],
+    [
+      "65b7cb26-9f51-480f-bdb7-f186c65ba647",
+      "Timing"
     ]
   ],
   "text_variables": {
