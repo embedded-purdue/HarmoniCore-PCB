@@ -926,7 +926,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "Passives:R_0603"
+			(property "Footprint" "passives:R_0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1100,7 +1100,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "Passives:R_0603"
+			(property "Footprint" "passives:R_0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1596,7 +1596,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "Passives:R_0603"
+			(property "Footprint" "passives:R_0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1770,7 +1770,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "Passives:R_0603"
+			(property "Footprint" "passives:R_0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3869,7 +3869,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Passives:R_0603"
+		(property "Footprint" "passives:R_0603"
 			(at 99.06 50.8 0)
 			(effects
 				(font
@@ -3975,7 +3975,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Passives:R_0603"
+		(property "Footprint" "passives:R_0603"
 			(at 99.06 40.64 0)
 			(effects
 				(font
@@ -5223,7 +5223,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Passives:R_0603"
+		(property "Footprint" "passives:R_0603"
 			(at 99.06 130.81 0)
 			(effects
 				(font
@@ -5591,7 +5591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Passives:R_0603"
+		(property "Footprint" "passives:R_0603"
 			(at 99.06 135.89 0)
 			(effects
 				(font
@@ -5697,7 +5697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Passives:R_0603"
+		(property "Footprint" "passives:R_0603"
 			(at 29.21 39.37 0)
 			(effects
 				(font
@@ -5937,7 +5937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Passives:R_0603"
+		(property "Footprint" "passives:R_0603"
 			(at 29.21 129.54 0)
 			(effects
 				(font
@@ -6751,7 +6751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Passives:R_0603"
+		(property "Footprint" "passives:R_0603"
 			(at 99.06 91.44 0)
 			(effects
 				(font
@@ -6857,7 +6857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Passives:R_0603"
+		(property "Footprint" "passives:R_0603"
 			(at 29.21 85.09 0)
 			(effects
 				(font
@@ -7162,7 +7162,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Passives:R_0603"
+		(property "Footprint" "passives:R_0603"
 			(at 99.06 83.82 0)
 			(effects
 				(font

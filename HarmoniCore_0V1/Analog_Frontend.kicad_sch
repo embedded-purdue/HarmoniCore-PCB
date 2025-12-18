@@ -2285,7 +2285,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Passives:C_0603"
+			(property "Footprint" "passives:C_0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2432,7 +2432,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "passives:34.8kR_0603"
+		(symbol "passives:34k8R_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2452,7 +2452,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "34.8K"
+			(property "Value" "34K8"
 				(at 1.27 -1.778 0)
 				(effects
 					(font
@@ -2461,7 +2461,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "Passives:R_0603"
+			(property "Footprint" "passives:R_0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2542,7 +2542,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "34.8kR_0603_1_1"
+			(symbol "34k8R_0603_1_1"
 				(polyline
 					(pts
 						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
@@ -2606,7 +2606,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "passives:9.76kR_0603"
+		(symbol "passives:9k76R_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2626,7 +2626,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "9.76K"
+			(property "Value" "9K76"
 				(at 1.27 -1.778 0)
 				(effects
 					(font
@@ -2635,7 +2635,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "Passives:R_0603"
+			(property "Footprint" "passives:R_0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2716,7 +2716,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "9.76kR_0603_1_1"
+			(symbol "9k76R_0603_1_1"
 				(polyline
 					(pts
 						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
@@ -8223,111 +8223,6 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:9.76kR_0603")
-		(at 168.91 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "58c735dd-badb-430a-addc-527401c8dce1")
-		(property "Reference" "R602"
-			(at 161.798 127.762 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "9.76K"
-			(at 161.798 130.302 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Passives:R_0603"
-			(at 168.91 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "9.76kohm 1/10W"
-			(at 168.91 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 168.91 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT9K76/1760968"
-			(at 174.244 128.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 168.91 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "RMCF0603FT9K76"
-			(at 168.91 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2511056d-55bd-4952-8838-ec6e20c677c5")
-		)
-		(pin "1"
-			(uuid "e0edb3be-821e-4541-a7c1-f485780ffd86")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
-					(reference "R602")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power:Earth")
 		(at 223.52 149.86 0)
 		(unit 1)
@@ -9689,6 +9584,112 @@
 		)
 	)
 	(symbol
+		(lib_id "passives:9k76R_0603")
+		(at 168.91 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "955e5798-fd04-4875-b547-62083c0a6a85")
+		(property "Reference" "R602"
+			(at 171.45 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "9K76"
+			(at 171.45 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9.76kohm 1/10W"
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT9K76/1760968"
+			(at 163.576 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RMCF0603FT9K76"
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d7038b9-a0da-4a7f-a90a-4743803fc8a2")
+		)
+		(pin "2"
+			(uuid "c374e2f6-eb01-46ad-a312-d95b781e010c")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "R602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power:Earth")
 		(at 210.82 149.86 0)
 		(unit 1)
@@ -10444,6 +10445,112 @@
 		)
 	)
 	(symbol
+		(lib_id "passives:34k8R_0603")
+		(at 168.91 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdb3fa53-e132-453a-9ac5-3365e2480fa3")
+		(property "Reference" "R601"
+			(at 171.45 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "34K8"
+			(at 171.45 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "34.8kohm 1/10W"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT34K8/1760730"
+			(at 163.576 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RMCF0603FT34K8"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad8da901-fa7c-438b-bd9b-b2f47a146dda")
+		)
+		(pin "1"
+			(uuid "545cc347-eb02-465e-ad6f-034e74dfb2b8")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "R601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ICs:TLV320DAC3120IRHBT")
 		(at 200.66 96.52 0)
 		(unit 1)
@@ -10738,7 +10845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Passives:C_0603"
+		(property "Footprint" "passives:C_0603"
 			(at 236.0043 59.773 0)
 			(effects
 				(font
@@ -11048,7 +11155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Passives:C_0603"
+		(property "Footprint" "passives:C_0603"
 			(at 223.52 64.77 0)
 			(effects
 				(font
@@ -11293,111 +11400,6 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "C612")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "passives:34.8kR_0603")
-		(at 168.91 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dec762bd-4943-42b4-95f1-9265fc467784")
-		(property "Reference" "R601"
-			(at 161.29 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "34.8K"
-			(at 161.29 109.728 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Passives:R_0603"
-			(at 168.91 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "34.8kohm 1/10W"
-			(at 168.91 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 168.91 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT34K8/1760730"
-			(at 163.576 110.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 168.91 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "RMCF0603FT34K8"
-			(at 168.91 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3942ee68-0b2c-49df-9eb1-e6b41e64cbf2")
-		)
-		(pin "1"
-			(uuid "2a3c64ff-4f0b-42eb-b762-63a09aaea663")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
-					(reference "R601")
 					(unit 1)
 				)
 			)
