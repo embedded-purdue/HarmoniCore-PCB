@@ -1728,7 +1728,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "passives:0.1uF_0603"
+		(symbol "passives:0u1F_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1748,7 +1748,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "0.1u"
+			(property "Value" "0u1"
 				(at 1.016 -3.556 0)
 				(effects
 					(font
@@ -1838,7 +1838,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "0.1uF_0603_0_1"
+			(symbol "0u1F_0603_0_1"
 				(arc
 					(start 1.778 1.524)
 					(mid 2.1666 0)
@@ -1864,7 +1864,7 @@
 					)
 				)
 			)
-			(symbol "0.1uF_0603_1_1"
+			(symbol "0u1F_0603_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -7204,7 +7204,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:0.1uF_0603")
+		(lib_id "passives:0u1F_0603")
 		(at 123.19 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7221,7 +7221,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0u1"
 			(at 122.936 112.522 90)
 			(effects
 				(font
@@ -7813,7 +7813,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:0.1uF_0603")
+		(lib_id "passives:0u1F_0603")
 		(at 238.76 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7830,7 +7830,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0u1"
 			(at 238.252 48.768 90)
 			(effects
 				(font
@@ -7984,7 +7984,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:0.1uF_0603")
+		(lib_id "passives:0u1F_0603")
 		(at 201.93 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8001,7 +8001,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0u1"
 			(at 201.422 80.518 90)
 			(effects
 				(font
@@ -8462,7 +8462,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:0.1uF_0603")
+		(lib_id "passives:0u1F_0603")
 		(at 276.86 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8479,7 +8479,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0u1"
 			(at 276.352 67.818 90)
 			(effects
 				(font
@@ -8806,7 +8806,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:0.1uF_0603")
+		(lib_id "passives:0u1F_0603")
 		(at 214.63 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8823,7 +8823,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0u1"
 			(at 214.122 60.198 90)
 			(effects
 				(font
@@ -9957,7 +9957,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:0.1uF_0603")
+		(lib_id "passives:0u1F_0603")
 		(at 91.44 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9974,7 +9974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0u1"
 			(at 90.932 86.868 90)
 			(effects
 				(font
@@ -10062,7 +10062,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:0.1uF_0603")
+		(lib_id "passives:0u1F_0603")
 		(at 73.66 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10079,7 +10079,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0u1"
 			(at 73.152 84.328 90)
 			(effects
 				(font
@@ -10340,7 +10340,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:0.1uF_0603")
+		(lib_id "passives:0u1F_0603")
 		(at 255.27 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10357,7 +10357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0u1"
 			(at 254.762 48.768 90)
 			(effects
 				(font
@@ -11301,7 +11301,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:0.1uF_0603")
+		(lib_id "passives:0u1F_0603")
 		(at 227.33 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11318,7 +11318,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0u1"
 			(at 231.394 60.198 90)
 			(effects
 				(font
