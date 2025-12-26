@@ -2504,7 +2504,7 @@
 			)
 			(symbol "XC7A25T-CSG325_5_1"
 				(rectangle
-					(start -31.75 34.29)
+					(start 14.224 34.29)
 					(end 31.75 -40.64)
 					(stroke
 						(width 0.254)

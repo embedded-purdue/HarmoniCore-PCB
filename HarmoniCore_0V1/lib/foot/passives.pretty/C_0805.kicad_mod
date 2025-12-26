@@ -169,4 +169,15 @@
 		(uuid "0fa5cd0d-2a7f-410a-b01b-bac53547374b")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/step/C_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
