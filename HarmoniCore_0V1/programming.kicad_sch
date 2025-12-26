@@ -1252,7 +1252,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 27.94 -25.4 0)
+				(at 25.4 -24.765 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1260,7 +1260,7 @@
 				)
 			)
 			(property "Value" "S25FL128SAGMFI000"
-				(at 27.94 -27.94 0)
+				(at 25.4 -27.305 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1352,7 +1352,7 @@
 			)
 			(symbol "S25FL128SAGMFI000_0_1"
 				(pin bidirectional line
-					(at 20.32 1.905 0)
+					(at 17.78 -0.635 0)
 					(length 7.62)
 					(name "SI/IO0"
 						(effects
@@ -1370,7 +1370,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -1.27 0)
+					(at 17.78 -3.175 0)
 					(length 7.62)
 					(name "SO/IO1"
 						(effects
@@ -1388,7 +1388,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -4.445 0)
+					(at 17.78 -5.715 0)
 					(length 7.62)
 					(name "WP#/IO2"
 						(effects
@@ -1406,7 +1406,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -7.62 0)
+					(at 17.78 -8.255 0)
 					(length 7.62)
 					(name "HOLD#/IO3"
 						(effects
@@ -1424,7 +1424,7 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -10.795 0)
+					(at 17.78 -10.795 0)
 					(length 7.62)
 					(name "SCK"
 						(effects
@@ -1442,7 +1442,7 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -13.335 0)
+					(at 17.78 -13.335 0)
 					(length 7.62)
 					(name "CS#"
 						(effects
@@ -1460,7 +1460,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 60.96 -1.27 180)
+					(at 58.42 -3.175 180)
 					(length 7.62)
 					(name "VIO/RFU"
 						(effects
@@ -1478,7 +1478,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 60.96 -8.89 180)
+					(at 58.42 -10.795 180)
 					(length 7.62)
 					(name "DNU"
 						(effects
@@ -1498,8 +1498,8 @@
 			)
 			(symbol "S25FL128SAGMFI000_1_1"
 				(rectangle
-					(start 28.194 5.08)
-					(end 53.34 -16.51)
+					(start 25.4 5.588)
+					(end 50.8 -16.764)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1509,7 +1509,7 @@
 					)
 				)
 				(pin power_in line
-					(at 40.64 10.16 270)
+					(at 38.1 10.795 270)
 					(length 5.08)
 					(name "VCC"
 						(effects
@@ -1527,7 +1527,7 @@
 					)
 				)
 				(pin power_out line
-					(at 40.64 -21.59 90)
+					(at 38.1 -21.717 90)
 					(length 5.08)
 					(name "VSS"
 						(effects
@@ -1545,7 +1545,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 60.96 3.81 180)
+					(at 58.42 1.905 180)
 					(length 7.62)
 					(name "DNU"
 						(effects
@@ -1563,7 +1563,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 60.96 1.27 180)
+					(at 58.42 -0.635 180)
 					(length 7.62)
 					(name "RESET#/RFU"
 						(effects
@@ -1581,7 +1581,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 60.96 -3.81 180)
+					(at 58.42 -5.715 180)
 					(length 7.62)
 					(name "NC"
 						(effects
@@ -1599,7 +1599,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 60.96 -6.35 180)
+					(at 58.42 -8.255 180)
 					(length 7.62)
 					(name "DNU"
 						(effects
@@ -1617,7 +1617,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 60.96 -11.43 180)
+					(at 58.42 -13.335 180)
 					(length 7.62)
 					(name "RFU"
 						(effects
@@ -1635,7 +1635,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 60.96 -13.97 180)
+					(at 58.42 -15.875 180)
 					(length 7.62)
 					(name "DNU"
 						(effects
@@ -8874,6 +8874,180 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "passives:100R_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.096 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "100"
+				(at 1.27 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "passives:R_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100ohm 1/16W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-07100RL/726697"
+				(at 1.524 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "RC0603JR-07100RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "100R_0603_1_1"
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.921 1.016) (xy 3.302 0) (xy 3.683 -1.016) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "passives:10kR_0603"
 			(pin_numbers
 				(hide yes)
@@ -9214,6 +9388,180 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "passives:1k8R_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.096 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "1k8"
+				(at 1.27 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "passives:R_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.8k Ohm 1/10W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-071K8L/726695"
+				(at 1.524 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "RC0603JR-071K8L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1k8R_0603_1_1"
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.921 1.016) (xy 3.302 0) (xy 3.683 -1.016) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9748,6 +10096,180 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "passives:4k7R_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.096 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "4k7"
+				(at 1.27 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "passives:R_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.7k Ohm 1/10W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-074K7L/726785"
+				(at 1.524 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "RC0603JR-074K7L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "4k7R_0603_1_1"
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.921 1.016) (xy 3.302 0) (xy 3.683 -1.016) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "passives:FB600R_0603"
 			(pin_numbers
 				(hide yes)
@@ -9962,7 +10484,7 @@
 	)
 	(rectangle
 		(start 22.225 114.3)
-		(end 90.805 150.495)
+		(end 50.546 150.495)
 		(stroke
 			(width 1)
 			(type default)
@@ -10095,7 +10617,7 @@
 	)
 	(text_box "GLOBAL NETS"
 		(exclude_from_sim no)
-		(at 17.78 142.24 0)
+		(at -2.286 143.764 0)
 		(size 76.2 7.62)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -10142,6 +10664,12 @@
 		(uuid "2c30fc3c-e4fa-4a13-8dba-af9183b19117")
 	)
 	(junction
+		(at 93.98 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d44a964-5f41-4502-a494-c8b4cd893490")
+	)
+	(junction
 		(at 205.74 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10178,10 +10706,22 @@
 		(uuid "394c2acc-a37b-42dd-bd56-3a66ea78325a")
 	)
 	(junction
+		(at 86.36 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "408570ca-a04e-4c4b-b733-77a499c9e63f")
+	)
+	(junction
 		(at 200.66 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "428f62ad-a95d-4ef8-9d2a-05159c15807c")
+	)
+	(junction
+		(at 93.98 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4761e06c-9844-49cf-b733-4ca04106ad50")
 	)
 	(junction
 		(at 208.28 34.29)
@@ -10322,6 +10862,12 @@
 		(uuid "d4a70a83-a360-4558-9bc2-8a34cbe81c97")
 	)
 	(junction
+		(at 101.6 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9e9d310-ff27-4bbb-bca4-1ff9fe2fb3b7")
+	)
+	(junction
 		(at 82.55 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10351,29 +10897,39 @@
 		(color 0 0 0 0)
 		(uuid "f0e6e54a-1710-4a6c-9485-5c507bd39d43")
 	)
+	(junction
+		(at 101.6 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7c15dd1-b713-419c-9c89-ffb31148bbb5")
+	)
 	(no_connect
 		(at 232.41 90.17)
 		(uuid "1c1a7948-eae3-4e11-9917-758600fb04b3")
+	)
+	(no_connect
+		(at 152.4 130.81)
+		(uuid "2e638461-3240-402e-856b-457df8c344d7")
 	)
 	(no_connect
 		(at 232.41 109.22)
 		(uuid "2eca514a-0aaa-48f0-af07-8dc4680a2280")
 	)
 	(no_connect
-		(at 152.4 125.73)
-		(uuid "2fcc684b-29d6-4919-9dcc-96e60e2f19ed")
-	)
-	(no_connect
 		(at 275.59 71.12)
 		(uuid "3b373e66-c115-439a-8526-7c7b8586c9f8")
 	)
 	(no_connect
-		(at 152.4 135.89)
-		(uuid "4e9f9f91-0245-496f-964a-df373b3b2bf4")
+		(at 152.4 125.73)
+		(uuid "45047734-9121-4bf3-943f-3d6f22262254")
 	)
 	(no_connect
 		(at 232.41 119.38)
 		(uuid "54737ddf-185e-469f-97d0-56d658299290")
+	)
+	(no_connect
+		(at 152.4 138.43)
+		(uuid "5a6dfcf0-6ae4-4d2d-9a6b-53069e525319")
 	)
 	(no_connect
 		(at 92.71 76.2)
@@ -10384,6 +10940,10 @@
 		(uuid "745f2a6e-ba41-49f8-9638-ea3bb17f958b")
 	)
 	(no_connect
+		(at 152.4 123.19)
+		(uuid "76d67bda-7c23-47c8-b2ca-eb186839a16f")
+	)
+	(no_connect
 		(at 232.41 106.68)
 		(uuid "7bde6142-a0ff-4f06-bf81-a460a1cc4dc2")
 	)
@@ -10392,16 +10952,8 @@
 		(uuid "8c5234ce-a87a-4811-8293-1be20c566a23")
 	)
 	(no_connect
-		(at 152.4 120.65)
-		(uuid "93725ccd-c630-4f9e-a86f-5a248348993d")
-	)
-	(no_connect
 		(at 232.41 104.14)
 		(uuid "9438841b-7ae3-4dc0-b0e1-7a03b82ecd34")
-	)
-	(no_connect
-		(at 152.4 138.43)
-		(uuid "a256f87a-ee3b-40b9-8ab7-44ee8dc06d10")
 	)
 	(no_connect
 		(at 232.41 101.6)
@@ -10416,16 +10968,8 @@
 		(uuid "be3da74b-7509-47c9-9f91-536d0a473612")
 	)
 	(no_connect
-		(at 152.4 128.27)
-		(uuid "c0277ff8-b75e-44dc-bf9c-edb42f399da1")
-	)
-	(no_connect
-		(at 152.4 123.19)
-		(uuid "c44af6b6-27b5-43c6-ae72-9ca2a7b2dd29")
-	)
-	(no_connect
-		(at 152.4 130.81)
-		(uuid "ca9eeb11-09c2-4e2a-a9e5-ccbdad983c3c")
+		(at 152.4 135.89)
+		(uuid "c57a5407-5496-4cfb-9536-ed1481f475cd")
 	)
 	(no_connect
 		(at 232.41 92.71)
@@ -10436,12 +10980,20 @@
 		(uuid "d09abf58-43e9-4322-931f-a9f83e40cca5")
 	)
 	(no_connect
-		(at 152.4 133.35)
-		(uuid "d5d88ecf-64f6-4728-a34f-b902e8d2bae0")
+		(at 152.4 128.27)
+		(uuid "d2f5aa84-c84c-4788-8bad-d87d15882025")
 	)
 	(no_connect
 		(at 232.41 121.92)
 		(uuid "db55a404-ca5c-4e70-81c3-0ec5e1e30c7b")
+	)
+	(no_connect
+		(at 152.4 133.35)
+		(uuid "eaed5aa7-c3dd-41e9-81c5-327199637448")
+	)
+	(no_connect
+		(at 152.4 140.97)
+		(uuid "f2656243-4433-4767-a24a-75630d3cf810")
 	)
 	(no_connect
 		(at 275.59 68.58)
@@ -10474,6 +11026,16 @@
 			(type default)
 		)
 		(uuid "02bb266d-e4a4-43be-af63-d0103a69a091")
+	)
+	(wire
+		(pts
+			(xy 95.25 135.89) (xy 111.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04084ed5-c3f6-4b91-94d1-251d7f9a2209")
 	)
 	(wire
 		(pts
@@ -10537,13 +11099,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 109.22) (xy 132.08 114.3)
+			(xy 31.75 129.54) (xy 36.83 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a4dc3d3-c59b-4c34-91ca-fb7e2a527a94")
+		(uuid "090dcd29-5907-4216-80fc-76fae12dcb4e")
 	)
 	(wire
 		(pts
@@ -10617,6 +11179,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 130.81) (xy 111.76 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176fe67e-5c27-4197-b14c-f9b93cb0cf3c")
+	)
+	(wire
+		(pts
 			(xy 240.03 48.26) (xy 245.11 48.26)
 		)
 		(stroke
@@ -10637,6 +11209,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 119.38) (xy 101.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7b3183-f8f0-4cc2-ae7b-392d625bdaec")
+	)
+	(wire
+		(pts
 			(xy 190.5 134.62) (xy 193.04 134.62)
 		)
 		(stroke
@@ -10644,6 +11226,16 @@
 			(type default)
 		)
 		(uuid "1f92590d-55f3-4923-8aad-06af4b35fbf3")
+	)
+	(wire
+		(pts
+			(xy 93.98 124.46) (xy 93.98 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207c335a-4d86-4350-a718-3e3eca789922")
 	)
 	(wire
 		(pts
@@ -10657,6 +11249,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 138.43) (xy 101.6 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2437e054-e059-49cf-b25f-c77d3b3862cf")
+	)
+	(wire
+		(pts
 			(xy 157.48 63.5) (xy 157.48 74.93)
 		)
 		(stroke
@@ -10667,6 +11269,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 128.27) (xy 106.68 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac44baf-dd44-48ab-ab75-a115a0cfc31d")
+	)
+	(wire
+		(pts
 			(xy 146.05 49.53) (xy 154.94 49.53)
 		)
 		(stroke
@@ -10674,6 +11286,16 @@
 			(type default)
 		)
 		(uuid "2e23cd51-edcc-45dc-9e0c-5aae64399eed")
+	)
+	(wire
+		(pts
+			(xy 80.01 130.81) (xy 81.28 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fcf3083-1bd1-44ab-a352-58e32bf35c69")
 	)
 	(wire
 		(pts
@@ -10707,6 +11329,36 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 125.73) (xy 106.68 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e76bef-6ae6-4781-99b8-d3737bd614bd")
+	)
+	(wire
+		(pts
+			(xy 31.75 142.24) (xy 36.83 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c4b3a21-1cd5-4060-aceb-fb3a0bd2c205")
+	)
+	(wire
+		(pts
+			(xy 101.6 124.46) (xy 101.6 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2f65c1-ab52-4100-b31a-b6869b874e8d")
+	)
+	(wire
+		(pts
 			(xy 240.03 68.58) (xy 240.03 66.04)
 		)
 		(stroke
@@ -10734,6 +11386,16 @@
 			(type default)
 		)
 		(uuid "3d8b1fe3-8438-4f65-9266-8c021eb8bcc5")
+	)
+	(wire
+		(pts
+			(xy 31.75 139.7) (xy 36.83 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2e7ddd-2059-4f7a-b45e-fc457a9586df")
 	)
 	(wire
 		(pts
@@ -10784,6 +11446,16 @@
 			(type default)
 		)
 		(uuid "45ce4f8b-0910-483d-bbd6-96ce19891b30")
+	)
+	(wire
+		(pts
+			(xy 93.98 133.35) (xy 111.76 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "466c28f8-8e85-421c-bd9b-45aa2ad0c596")
 	)
 	(wire
 		(pts
@@ -10847,6 +11519,26 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 137.16) (xy 36.83 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abeae46-47eb-440e-ac61-31a72bf2b859")
+	)
+	(wire
+		(pts
+			(xy 86.36 124.46) (xy 86.36 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2de6ec-0dbf-4a60-bb55-90eac8cf0ac3")
+	)
+	(wire
+		(pts
 			(xy 165.1 86.36) (xy 171.45 86.36)
 		)
 		(stroke
@@ -10887,7 +11579,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 135.89) (xy 55.88 135.89)
+			(xy 31.75 119.38) (xy 38.1 119.38)
 		)
 		(stroke
 			(width 0)
@@ -10944,6 +11636,16 @@
 			(type default)
 		)
 		(uuid "6d8f969f-23dc-4019-80f5-fc03e7d59a5c")
+	)
+	(wire
+		(pts
+			(xy 101.6 138.43) (xy 111.76 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "713b0141-c643-4794-8597-f0d7eba65efe")
 	)
 	(wire
 		(pts
@@ -11117,13 +11819,33 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 142.24) (xy 54.61 142.24)
+			(xy 86.36 133.35) (xy 93.98 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9a3c40-14ac-4796-a4de-24c4499ceab0")
+	)
+	(wire
+		(pts
+			(xy 31.75 125.73) (xy 36.83 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9ce722e0-7558-4c1b-8385-0f9890eaa629")
+	)
+	(wire
+		(pts
+			(xy 132.08 146.812) (xy 132.08 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e21ae60-f134-4c4d-bbf1-48b09df313f9")
 	)
 	(wire
 		(pts
@@ -11137,6 +11859,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 119.38) (xy 93.98 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1702b9d-2a5f-4f09-8c43-4db61d38c086")
+	)
+	(wire
+		(pts
 			(xy 101.6 71.12) (xy 101.6 72.39)
 		)
 		(stroke
@@ -11144,6 +11876,16 @@
 			(type default)
 		)
 		(uuid "a27cc0b7-0197-4d50-97d9-0ebd14f3f165")
+	)
+	(wire
+		(pts
+			(xy 31.75 134.62) (xy 36.83 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36f0c33-7fb4-47c3-9ec1-1d791bea18dd")
 	)
 	(wire
 		(pts
@@ -11307,6 +12049,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 133.35) (xy 81.28 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53bd5c7-5ecb-405b-aa4d-c6fdb82ff3b3")
+	)
+	(wire
+		(pts
 			(xy 101.6 72.39) (xy 101.6 73.66)
 		)
 		(stroke
@@ -11358,7 +12110,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 133.35) (xy 55.88 133.35)
+			(xy 31.75 116.84) (xy 38.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -11408,6 +12160,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 63.5) (xy 96.52 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dffe5888-bc9f-4f7c-bba7-c603e2897228")
+	)
+	(wire
+		(pts
 			(xy 213.36 134.62) (xy 217.17 134.62)
 		)
 		(stroke
@@ -11438,6 +12200,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 109.22) (xy 132.08 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6fca6ec-5d6d-4dc2-9d77-55631b423f7a")
+	)
+	(wire
+		(pts
 			(xy 278.13 67.31) (xy 278.13 66.04)
 		)
 		(stroke
@@ -11445,6 +12217,16 @@
 			(type default)
 		)
 		(uuid "e89dce19-616e-4c07-8e8c-791b4b5de975")
+	)
+	(wire
+		(pts
+			(xy 101.6 118.11) (xy 101.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99d4dbd-ada0-4bf8-802b-af0dccf5bcce")
 	)
 	(wire
 		(pts
@@ -11485,6 +12267,16 @@
 			(type default)
 		)
 		(uuid "f1efe21b-a728-46d9-aa04-1e71585bbd4a")
+	)
+	(wire
+		(pts
+			(xy 31.75 132.08) (xy 36.83 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60e7a6d-945d-43cc-a358-79419facf557")
 	)
 	(wire
 		(pts
@@ -11536,6 +12328,16 @@
 		)
 		(uuid "fe42555c-55f1-4cf2-adf8-103c33f77bf4")
 	)
+	(label "QSPI_CS"
+		(at 95.25 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "034ab084-9cba-4d33-bdf6-907aa8adb505")
+	)
 	(label "TDO"
 		(at 238.76 82.55 0)
 		(effects
@@ -11547,7 +12349,7 @@
 		(uuid "06b461b7-48a2-4040-b265-a413ba202c11")
 	)
 	(label "D_p"
-		(at 49.53 135.89 180)
+		(at 31.75 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11575,6 +12377,16 @@
 			(justify left bottom)
 		)
 		(uuid "2c47d857-745c-4dbc-824b-8658b0030cc1")
+	)
+	(label "QSPI_CS"
+		(at 31.75 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3758986c-60d4-40a7-8ce5-c1cb51cbf462")
 	)
 	(label "M0"
 		(at 96.52 66.04 0)
@@ -11606,6 +12418,16 @@
 		)
 		(uuid "46c21d46-d371-4ed0-a451-ca094a6bd685")
 	)
+	(label "QSPI_DO1"
+		(at 31.75 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52032782-7e36-4f48-8e1a-8e7eca8545b7")
+	)
 	(label "D_m"
 		(at 165.1 86.36 0)
 		(effects
@@ -11616,8 +12438,18 @@
 		)
 		(uuid "55cf36a9-1161-4930-abc6-5983f6a4c889")
 	)
+	(label "QSPI_CLK"
+		(at 96.52 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64dda0b1-e748-48df-9ec1-a908b2268667")
+	)
 	(label "D_m"
-		(at 49.53 133.35 180)
+		(at 31.75 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11647,7 +12479,7 @@
 		(uuid "6ef964ba-ff12-4183-b48b-8240d096c7e7")
 	)
 	(label "12M_FTDI"
-		(at 49.53 142.24 180)
+		(at 31.75 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11655,6 +12487,36 @@
 			(justify right bottom)
 		)
 		(uuid "71a0f600-850a-4151-94bd-2c2cce6f1cab")
+	)
+	(label "QSPI_DO3"
+		(at 31.75 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88e4583d-a633-41cb-87ee-b04fcf4209a6")
+	)
+	(label "QSPI_DO1"
+		(at 80.01 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d12fbcd-af8d-4911-835e-6240ba41d073")
+	)
+	(label "QSPI_CLK"
+		(at 31.75 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9027ee5e-dc3c-4770-8d98-2b683618a4ce")
 	)
 	(label "TMS"
 		(at 238.76 85.09 0)
@@ -11686,6 +12548,56 @@
 		)
 		(uuid "98f3cb32-d34b-4f19-b1f6-7513d3ece6c4")
 	)
+	(label "QSPI_DO0"
+		(at 31.75 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3263b25-603b-4acc-bec7-0fa0350de1ef")
+	)
+	(label "QSPI_DO2"
+		(at 31.75 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b43820d6-4dcf-478f-a157-fef73328cc18")
+	)
+	(label "QSPI_DO3"
+		(at 80.01 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cbb28c99-37a1-4a5f-8a04-61059b48debc")
+	)
+	(label "QSPI_DO2"
+		(at 80.01 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd9213b2-9571-463f-9c4c-6ff38500ede6")
+	)
+	(label "QSPI_DO0"
+		(at 80.01 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d31a10c9-fa4d-4c88-aae8-280bcf69d6c6")
+	)
 	(label "TMS"
 		(at 96.52 58.42 0)
 		(effects
@@ -11695,6 +12607,16 @@
 			(justify left bottom)
 		)
 		(uuid "e0c06b46-c8e7-4024-87ca-41c367f6192b")
+	)
+	(label "QSPI_CLK"
+		(at 95.25 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e12b6b59-733e-4bb6-9cf9-f0547636da86")
 	)
 	(label "12M_FTDI"
 		(at 170.18 109.22 180)
@@ -11706,9 +12628,31 @@
 		)
 		(uuid "eaafa5ae-e943-40de-9cb9-9377b5266586")
 	)
+	(global_label "QSPI_DO1"
+		(shape input)
+		(at 36.83 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0caaa216-bfa2-4bcf-a5b5-87b1a57a1eed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.1192 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "12M_FTDI"
 		(shape input)
-		(at 54.61 142.24 0)
+		(at 36.83 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11718,7 +12662,7 @@
 		)
 		(uuid "10d82255-58a4-4b1f-b23a-066dea58d16f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.8992 142.24 0)
+			(at 48.1192 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11730,7 +12674,7 @@
 	)
 	(global_label "D_p"
 		(shape input)
-		(at 55.88 135.89 0)
+		(at 38.1 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11740,7 +12684,105 @@
 		)
 		(uuid "32412501-aaca-4b7b-852d-5f44e0d4ebf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.2518 135.89 0)
+			(at 44.4718 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_CS"
+		(shape input)
+		(at 36.83 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6507e260-3648-4daa-a932-10d6d705abed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.0534 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" ""
+			(at 36.83 144.4308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_DO2"
+		(shape input)
+		(at 36.83 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8654530e-2fc0-4fe2-bdc1-97dde2f783c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.1192 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_DO3"
+		(shape input)
+		(at 36.83 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ababa6d-f584-421e-9e85-7736d807a87b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.1192 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_DO0"
+		(shape input)
+		(at 36.83 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c277d2c8-1f43-4e1f-889e-49fe20214b47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.1192 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11752,7 +12794,7 @@
 	)
 	(global_label "D_m"
 		(shape input)
-		(at 55.88 133.35 0)
+		(at 38.1 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11762,7 +12804,29 @@
 		)
 		(uuid "cf7fd6d8-4a53-41bb-8f9a-9406c19a5edd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.7961 133.35 0)
+			(at 45.0161 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_CLK"
+		(shape input)
+		(at 36.83 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa3fb290-506b-4e74-b4a4-6971bdc7f23f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.1192 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14324,6 +15388,111 @@
 		)
 	)
 	(symbol
+		(lib_id "passives:1k8R_0603")
+		(at 93.98 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a1c1e85-f709-44e7-84cc-54b8f5a0b30c")
+		(property "Reference" "R715"
+			(at 87.884 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k8"
+			(at 87.884 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.8k Ohm 1/10W"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-071K8L/726695"
+			(at 88.646 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0603JR-071K8L"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f73d0a8-1e18-4363-b58f-e976f31aa963")
+		)
+		(pin "2"
+			(uuid "c0a02d87-8644-4760-8c82-393e6f414c2d")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
+					(reference "R715")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power:Earth")
 		(at 91.44 38.1 0)
 		(unit 1)
@@ -14385,6 +15554,109 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
 					(reference "#PWR0729")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:100R_0603")
+		(at 106.68 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53e1c013-5b42-48e5-90e5-f66c99bd2ab1")
+		(property "Reference" "R710"
+			(at 109.474 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 109.474 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 106.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100ohm 1/16W"
+			(at 106.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 106.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-07100RL/726697"
+			(at 108.204 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 106.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0603JR-07100RL"
+			(at 106.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5e3e9bf-ff3b-4394-9554-46a964b2c981")
+		)
+		(pin "1"
+			(uuid "01889693-2dbb-4923-85c2-f5e79b855669")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
+					(reference "R710")
 					(unit 1)
 				)
 			)
@@ -15045,156 +16317,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ICs:S25FL128SAGMFI000")
-		(at 91.44 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "679936cf-affe-465e-a38d-e4906c1470b9")
-		(property "Reference" "U703"
-			(at 135.1613 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S25FL128SAGMFI000"
-			(at 135.1613 116.84 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ICs:SO3016_INF-L"
-			(at 91.44 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-S25FL128SS25FL256S_128_Mb_(16_MB)256_Mb_(32_MB)_3.0V_SPI_Flash_Memory-DataSheet-v20_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ecfb6a64a17"
-			(at 91.44 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 91.44 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/infineon-technologies/S25FL128SAGMFI000/3761544"
-			(at 91.44 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Infineon Technologies"
-			(at 91.44 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "S25FL128SAGMFI000"
-			(at 91.44 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "a4fe679e-267d-4374-9b1e-47ecfcdaa20f")
-		)
-		(pin "2"
-			(uuid "fff29aa8-b9f3-49ec-9fc0-72f2c81f0403")
-		)
-		(pin "5"
-			(uuid "f9bb3b3f-0f11-4db2-a6a2-dac0cb79f784")
-		)
-		(pin "10"
-			(uuid "c3dd6a06-8c5c-443f-a986-6da2d8a26c9b")
-		)
-		(pin "3"
-			(uuid "4fee1f8b-d7d3-40c1-bac7-bae3f8bf932f")
-		)
-		(pin "7"
-			(uuid "1e0671d8-c25c-4990-beba-967dd5b02f08")
-		)
-		(pin "12"
-			(uuid "71b9d035-af03-4526-bfd6-b19163b6fe40")
-		)
-		(pin "4"
-			(uuid "a1042c19-b443-46b8-b6f0-ed6ef75c7b36")
-		)
-		(pin "6"
-			(uuid "51ca5a5f-29c7-4168-8aaf-1bf6830b8b3c")
-		)
-		(pin "15"
-			(uuid "7960a55f-ff12-442c-bd5e-ca698a60f740")
-		)
-		(pin "9"
-			(uuid "d021b378-f7e3-4c38-9ada-a7c7b6b47c29")
-		)
-		(pin "1"
-			(uuid "73f95909-928e-4786-89c0-c6fdfab68832")
-		)
-		(pin "16"
-			(uuid "816ec981-5ea5-4147-9ce0-0ab70c9486e3")
-		)
-		(pin "14"
-			(uuid "7fda0cbb-5a6f-41fb-9c9e-e4327d7246ac")
-		)
-		(pin "11"
-			(uuid "f160923e-bd17-4941-a753-a3c3bd51d6ab")
-		)
-		(pin "13"
-			(uuid "b4fc8ac7-c1a5-4cf1-8c63-3595772485cc")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
-					(reference "U703")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power:Earth")
 		(at 157.48 87.63 0)
 		(unit 1)
@@ -15473,7 +16595,7 @@
 	)
 	(symbol
 		(lib_id "Power:Earth")
-		(at 132.08 146.05 0)
+		(at 132.08 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15482,7 +16604,7 @@
 		(fields_autoplaced yes)
 		(uuid "757e0aa4-9f9e-47ca-9822-e0d678e38c8e")
 		(property "Reference" "#PWR0734"
-			(at 132.08 152.4 0)
+			(at 132.08 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15491,7 +16613,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 132.08 149.86 0)
+			(at 132.08 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15500,7 +16622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 146.05 0)
+			(at 132.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15509,7 +16631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 146.05 0)
+			(at 132.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15518,7 +16640,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 132.08 146.05 0)
+			(at 132.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15916,6 +17038,71 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
 					(reference "C704")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:+3V3D")
+		(at 101.6 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e54d3ba-3b77-4843-981c-079a1b2d8019")
+		(property "Reference" "#PWR0737"
+			(at 101.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3D"
+			(at 101.854 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3D\""
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "defeac2c-bda2-4de3-8bbc-045a09113766")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
+					(reference "#PWR0737")
 					(unit 1)
 				)
 			)
@@ -16685,6 +17872,109 @@
 		)
 	)
 	(symbol
+		(lib_id "passives:100R_0603")
+		(at 81.28 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a52fffcd-0747-41d2-9fed-476e0d806cd2")
+		(property "Reference" "R712"
+			(at 83.312 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 83.312 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 81.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100ohm 1/16W"
+			(at 81.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 81.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-07100RL/726697"
+			(at 82.804 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 81.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0603JR-07100RL"
+			(at 81.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ae4e5a3-1c92-4f08-a997-cd87fc0803de")
+		)
+		(pin "1"
+			(uuid "3f4321d9-2f29-4c86-99ba-fcf0b4b478ae")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
+					(reference "R712")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power:+3V3D")
 		(at 96.52 86.36 0)
 		(unit 1)
@@ -16744,6 +18034,111 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
 					(reference "#PWR0733")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:1k8R_0603")
+		(at 86.36 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b612d488-d546-4049-9a88-11812b339cef")
+		(property "Reference" "R714"
+			(at 80.264 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k8"
+			(at 80.264 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.8k Ohm 1/10W"
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-071K8L/726695"
+			(at 81.026 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0603JR-071K8L"
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fcc8f5b-563d-4640-b819-3fc0172ee15f")
+		)
+		(pin "2"
+			(uuid "76e5d27c-6cda-4462-ad1a-77e47202a312")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
+					(reference "R714")
 					(unit 1)
 				)
 			)
@@ -17154,6 +18549,112 @@
 		)
 	)
 	(symbol
+		(lib_id "passives:4k7R_0603")
+		(at 101.6 124.46 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3d6b5f7-37aa-4570-8345-074299e3acb4")
+		(property "Reference" "R716"
+			(at 99.06 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 99.06 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7k Ohm 1/10W"
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-074K7L/726785"
+			(at 106.934 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0603JR-074K7L"
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b68267b-dbb5-4f98-bc4b-b1c1db4a4f47")
+		)
+		(pin "1"
+			(uuid "74f18f7d-375d-46cc-bc25-ddd717d9da35")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
+					(reference "R716")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power:Earth")
 		(at 109.22 91.44 0)
 		(unit 1)
@@ -17520,6 +19021,156 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
 					(reference "C711")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICs:S25FL128SAGMFI000")
+		(at 93.98 125.095 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d89e118f-ed2b-420e-89ca-6fc4f9cbda1c")
+		(property "Reference" "U703"
+			(at 134.5263 112.395 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S25FL128SAGMFI000"
+			(at 134.5263 116.205 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ICs:SO3016_INF-L"
+			(at 93.98 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-S25FL128SS25FL256S_128_Mb_(16_MB)256_Mb_(32_MB)_3.0V_SPI_Flash_Memory-DataSheet-v20_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ecfb6a64a17"
+			(at 93.98 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 93.98 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/infineon-technologies/S25FL128SAGMFI000/3761544"
+			(at 93.98 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 93.98 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "S25FL128SAGMFI000"
+			(at 93.98 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "7f5db51c-af16-48bc-9d20-abfdd2320067")
+		)
+		(pin "10"
+			(uuid "6817925d-3abe-453e-93b6-02d4e27564e5")
+		)
+		(pin "5"
+			(uuid "c6bcc5a2-acf0-48de-8106-4cdd3a89e921")
+		)
+		(pin "2"
+			(uuid "36cd2526-efe1-4cd2-a957-015894a65a3d")
+		)
+		(pin "3"
+			(uuid "b3c59fc9-5dee-4e3d-a0f2-7d5de2eeff63")
+		)
+		(pin "1"
+			(uuid "a6933d91-2054-4726-b04c-2a1aec3c4b3f")
+		)
+		(pin "8"
+			(uuid "3ed27544-85cb-4ef8-8dd4-c3eaf20417ad")
+		)
+		(pin "13"
+			(uuid "4c1e31f1-8ea2-4487-bd2c-f40a4f7f1325")
+		)
+		(pin "4"
+			(uuid "82802d68-629b-4380-a667-3c8faf4f7a9e")
+		)
+		(pin "6"
+			(uuid "e96897c5-83a4-41cf-9c13-02d6761f743e")
+		)
+		(pin "15"
+			(uuid "84ef9deb-4f3a-4b76-a9f5-49745229edd0")
+		)
+		(pin "14"
+			(uuid "55367f3e-d576-48f9-8d79-eeee8c61341b")
+		)
+		(pin "16"
+			(uuid "37ca2795-4f56-4950-81c9-894e58dcf8c4")
+		)
+		(pin "9"
+			(uuid "25aecdb0-f839-4b40-b0cb-5da1b8f63cdb")
+		)
+		(pin "11"
+			(uuid "4ce000ea-b783-438f-bc29-93925ed579d7")
+		)
+		(pin "12"
+			(uuid "683540e2-6283-4d72-8f33-e89213f5119f")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
+					(reference "U703")
 					(unit 1)
 				)
 			)
@@ -18423,6 +20074,109 @@
 		)
 	)
 	(symbol
+		(lib_id "passives:100R_0603")
+		(at 106.68 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f203e54a-bd71-4bfa-ba75-8255f2d9d1c1")
+		(property "Reference" "R711"
+			(at 109.474 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 109.474 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 106.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100ohm 1/16W"
+			(at 106.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 106.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-07100RL/726697"
+			(at 108.204 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 106.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0603JR-07100RL"
+			(at 106.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a172feb6-6299-4565-9a6c-2843f8848ef7")
+		)
+		(pin "1"
+			(uuid "98009e58-acd4-4844-9bca-2559da159948")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
+					(reference "R711")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power:+3V3_FTDI")
 		(at 255.27 48.26 0)
 		(unit 1)
@@ -18786,6 +20540,109 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
 					(reference "#PWR0713")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:100R_0603")
+		(at 81.28 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe368abe-1330-4c7a-8c03-4136a6378231")
+		(property "Reference" "R713"
+			(at 83.312 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 83.312 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 81.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100ohm 1/16W"
+			(at 81.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 81.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-07100RL/726697"
+			(at 82.804 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 81.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0603JR-07100RL"
+			(at 81.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "72a6fb5e-2a14-4baa-a624-e320dab590ac")
+		)
+		(pin "1"
+			(uuid "7010f164-5218-4196-ad1c-3d509c63c576")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
+					(reference "R713")
 					(unit 1)
 				)
 			)

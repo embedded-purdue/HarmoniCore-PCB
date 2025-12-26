@@ -6360,6 +6360,180 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "passives:50R_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.096 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "49.9"
+				(at 4.445 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "passives:R_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "49.9 Ohm 1/10W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0749R9L/727264"
+				(at 1.524 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "RC0603FR-0749R9L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "50R_0603_1_1"
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.921 1.016) (xy 3.302 0) (xy 3.683 -1.016) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 15.875 157.48)
@@ -6396,7 +6570,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 171.45) (xy 43.18 171.45)
+			(xy 25.4 162.56) (xy 30.48 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6413,6 +6587,16 @@
 			(type default)
 		)
 		(uuid "343c86f5-6f5c-4aa6-9b2e-70dc835d4c3c")
+	)
+	(wire
+		(pts
+			(xy 25.4 167.64) (xy 30.48 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42613f29-105b-4405-9200-0ad33a70aafc")
 	)
 	(wire
 		(pts
@@ -6456,6 +6640,36 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 170.18) (xy 30.48 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832e2037-ed37-4121-99a9-b29964be95b3")
+	)
+	(wire
+		(pts
+			(xy 25.4 180.34) (xy 30.48 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0ceda8-f0af-4466-9ea1-4f0e75ac0244")
+	)
+	(wire
+		(pts
+			(xy 25.4 172.72) (xy 30.48 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60da3ab-788b-490f-87e4-2e12b17e7105")
+	)
+	(wire
+		(pts
 			(xy 43.18 78.74) (xy 52.07 78.74)
 		)
 		(stroke
@@ -6474,6 +6688,36 @@
 		)
 		(uuid "e7c2f045-2b43-42ad-acc3-f8be5e1b134e")
 	)
+	(wire
+		(pts
+			(xy 25.4 177.8) (xy 30.48 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49bcc79-1af9-40a7-8ffb-dcc6b6499d3f")
+	)
+	(wire
+		(pts
+			(xy 25.4 175.26) (xy 30.48 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdcc4b65-9936-4dfa-99b0-6422b45d0317")
+	)
+	(label "QSPI_DO2"
+		(at 25.4 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09f2229d-cfc0-4091-821e-870b287548ba")
+	)
 	(label "QSPI_DO1"
 		(at 43.18 25.4 0)
 		(effects
@@ -6483,6 +6727,16 @@
 			(justify left bottom)
 		)
 		(uuid "1838123d-99e6-4a15-92b5-48388519ba7c")
+	)
+	(label "QSPI_DO3"
+		(at 25.4 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18ca70d5-a4dc-46cc-a598-3b284ad8beb1")
 	)
 	(label "QSPI_CLK"
 		(at 38.1 35.56 0)
@@ -6494,8 +6748,18 @@
 		)
 		(uuid "3fe8125a-fa42-47b7-b648-843de0557c4e")
 	)
+	(label "QSPI_CLK"
+		(at 25.4 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "487760b2-0ad9-4b3b-b67d-b4055b10556a")
+	)
 	(label "156M_A7"
-		(at 38.1 171.45 180)
+		(at 25.4 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6503,6 +6767,26 @@
 			(justify right bottom)
 		)
 		(uuid "5847eac2-6012-46f8-b0c5-98db81eff7f4")
+	)
+	(label "QSPI_DO1"
+		(at 25.4 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "598e556a-f29d-4aba-a282-53ab7ed5e7eb")
+	)
+	(label "QSPI_CS"
+		(at 25.4 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6bde8b88-7874-4d71-9129-8c59ce3e48f2")
 	)
 	(label "QSPI_DO2"
 		(at 43.18 27.94 0)
@@ -6535,6 +6819,16 @@
 		(uuid "cacb7340-e2fe-49e3-b566-1ef13cdfe1fb")
 	)
 	(label "QSPI_DO0"
+		(at 25.4 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7190054-3446-4ec2-ab39-446e5ecba4a6")
+	)
+	(label "QSPI_DO0"
 		(at 43.18 22.86 0)
 		(effects
 			(font
@@ -6554,9 +6848,31 @@
 		)
 		(uuid "f8fc5644-d790-4fd1-ba6c-d6ec1f88be41")
 	)
+	(global_label "QSPI_DO2"
+		(shape input)
+		(at 30.48 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1583a9e4-ad87-4f69-ac54-d6d6f3f39496")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7692 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "156M_A7"
 		(shape input)
-		(at 43.18 171.45 0)
+		(at 30.48 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6566,7 +6882,127 @@
 		)
 		(uuid "508521c1-c696-483d-a416-1e6e8924bf5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.4034 171.45 0)
+			(at 40.7034 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_CLK"
+		(shape input)
+		(at 30.48 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "616bb145-6a94-4dad-82fc-1d3d961a659e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7692 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_DO1"
+		(shape input)
+		(at 30.48 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "680235e6-5a40-43ab-a666-2c7e909fbf5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7692 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_DO3"
+		(shape input)
+		(at 30.48 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d8bda98-60d8-4820-b27d-b31cd8dfe15a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7692 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_CS"
+		(shape input)
+		(at 30.48 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6494627-bf7a-4f8b-8033-9d0123bf7a87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.7034 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" ""
+			(at 30.48 182.5308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_DO0"
+		(shape input)
+		(at 30.48 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb8ee615-e11e-4252-8a01-c4596f01d823")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7692 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,111 +9155,6 @@
 	)
 	(symbol
 		(lib_id "passives:22R_0603")
-		(at 46.99 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ba121a8-e31d-4003-8497-4bb56b5ffbe9")
-		(property "Reference" "R502"
-			(at 50.546 37.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22"
-			(at 50.546 40.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "passives:R_0603"
-			(at 46.99 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "22 ohm, 1/3 W"
-			(at 46.99 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 46.99 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-0722RL/726743?msockid=1e380b8d9e676a601f5f1d329fd76bcc"
-			(at 48.514 30.226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 46.99 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "RC0603JR-0722RL"
-			(at 46.99 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7826bf1-81fb-4e55-9529-05012cd7597a")
-		)
-		(pin "2"
-			(uuid "bbd7ccc2-b577-4fc6-8ac1-ea9fdb8e1f7b")
-		)
-		(instances
-			(project "HarmoniCore_0V1"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a4f0bdbc-b007-4d98-b53f-91e97b1989ac"
-					(reference "R502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "passives:22R_0603")
 		(at 35.56 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10060,6 +10391,109 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a4f0bdbc-b007-4d98-b53f-91e97b1989ac"
 					(reference "#PWR0501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:50R_0603")
+		(at 46.99 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ee562b4-9617-4510-a2e7-d3079adc2026")
+		(property "Reference" "R502"
+			(at 45.466 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "49.9"
+			(at 45.466 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "49.9 Ohm 1/10W"
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0749R9L/727264"
+			(at 48.514 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0603FR-0749R9L"
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cd28c73-d6d1-4146-8e04-463251a58fac")
+		)
+		(pin "2"
+			(uuid "749e0354-af58-4cb8-b9b2-c0525587f813")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a4f0bdbc-b007-4d98-b53f-91e97b1989ac"
+					(reference "R502")
 					(unit 1)
 				)
 			)
