@@ -2198,7 +2198,7 @@
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
-		(at 177.8 13.97 0)
+		(at 98.552 12.7 0)
 		(size 105.41 12.7)
 		(margins 4.4999 4.4999 4.4999 4.4999)
 		(stroke
@@ -2267,7 +2267,7 @@
 	)
 	(text_box "DESIGN NOTE:\nFor each rail (5 V → 1.0/1.8/3.3 V) using L = 2.2 µH and f_SW = 1 MHz, the inductor ripple current is approximately 0.36-0.52 A. With a maximum load of 0.51-1 A, the peak inductor current stays below 1.3 A, which is well under the SRP2512A-2R2M's 3 A saturation rating and 2.27 A RMS current rating. DC losses are at most ~100 mW at 1 A (DCR ≤ 98 mΩ), so the chosen inductor comfortably meets the electrical and thermal requirements."
 		(exclude_from_sim no)
-		(at 153.67 16.51 0)
+		(at 153.416 32.766 0)
 		(size 31.75 34.29)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke

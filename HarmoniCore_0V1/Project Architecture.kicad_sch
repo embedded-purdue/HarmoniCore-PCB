@@ -488,6 +488,49 @@
 		)
 	)
 	(sheet
+		(at 266.192 148.336)
+		(size 33.02 20.574)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1dfb567-88aa-4fc3-b53e-af9bfc3832a8")
+		(property "Sheetname" "User_Input"
+			(at 266.192 147.6244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "User_Input.kicad_sch"
+			(at 266.192 169.4946 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 200.152 43.18)
 		(size 40.132 23.114)
 		(exclude_from_sim no)
