@@ -10521,31 +10521,6 @@
 		)
 		(uuid fc0b7b66-7239-48f7-9799-21be66bb90ea)
 	)
-	(text_box "TODO:\nAdd a selector for power from DC barrel or from USB"
-		(exclude_from_sim no)
-		(at 175.26 24.13 0)
-		(size 26.67 11.43)
-		(margins 1.4525 1.4525 1.4525 1.4525)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(thickness 0.4)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "0fa0d99a-4c58-4cf4-8ef8-a91404d55784")
-	)
 	(text_box "LAYOUT NOTE:\nblablabla"
 		(exclude_from_sim no)
 		(at 16.51 179.07 0)
@@ -10906,12 +10881,6 @@
 		(uuid "a4fa330a-e3f1-49d8-99c2-f219810097b4")
 	)
 	(junction
-		(at 107.95 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9657dec-3d88-4792-9605-665930da06c1")
-	)
-	(junction
 		(at 212.09 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10958,6 +10927,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e568d5b0-4603-4e4e-bb81-deb38d8506f8")
+	)
+	(junction
+		(at 106.68 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eafaa5ef-ba18-42b1-9ee6-6d66ebff62d2")
 	)
 	(junction
 		(at 64.77 80.01)
@@ -11473,7 +11448,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 44.45) (xy 107.95 44.45)
+			(xy 106.68 44.45) (xy 116.84 44.45)
 		)
 		(stroke
 			(width 0)
@@ -12165,16 +12140,6 @@
 			(type default)
 		)
 		(uuid "b8f28680-1534-4eb6-b584-95964293fe10")
-	)
-	(wire
-		(pts
-			(xy 107.95 44.45) (xy 116.84 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba855749-0f3e-4443-a12a-0d0ed5421e0d")
 	)
 	(wire
 		(pts
@@ -14821,72 +14786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power:VBUS")
-		(at 106.68 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a42bc02-4934-4395-a473-a4fbf9520d9e")
-		(property "Reference" "#PWR0709"
-			(at 106.68 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 106.68 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ada554b-bbf0-40df-abfe-8d60fda39ad3")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
-					(reference "#PWR0709")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power:Earth")
 		(at 116.84 49.53 0)
 		(unit 1)
@@ -15147,6 +15046,72 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
 					(reference "#PWR0723")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:VBUS")
+		(at 106.68 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33c0dab6-57f0-49f2-9e09-6f87236510e9")
+		(property "Reference" "#PWR0717"
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 106.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8fcbf43-7b0e-475d-814a-fa76d774de5d")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
+					(reference "#PWR0717")
 					(unit 1)
 				)
 			)
@@ -17784,72 +17749,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power:VBUS")
-		(at 107.95 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96cf9b33-dd79-493d-a795-02ab10a85673")
-		(property "Reference" "#PWR0717"
-			(at 107.95 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 107.95 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 107.95 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0ee7292-a391-4449-8fd2-ee078c0ad2df")
-		)
-		(instances
-			(project "HarmoniCore_0V1"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
-					(reference "#PWR0717")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "passives:0u1F_0603")
 		(at 106.68 49.53 90)
 		(unit 1)
@@ -19316,6 +19215,72 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
 					(reference "C711")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:VBUS")
+		(at 106.68 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6f4bcca-fd98-4829-b88f-16a31c971bf8")
+		(property "Reference" "#PWR0709"
+			(at 106.68 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90cd0323-747a-4007-95d1-245af71e88a8")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
+					(reference "#PWR0709")
 					(unit 1)
 				)
 			)
