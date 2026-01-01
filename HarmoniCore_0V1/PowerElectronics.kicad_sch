@@ -646,7 +646,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power:+5VA"
+		(symbol "Power:+5VD"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -667,7 +667,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5VA"
+			(property "Value" "+5VD"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -711,7 +711,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5VA_0_1"
+			(symbol "+5VD_0_1"
 				(polyline
 					(pts
 						(xy -1.27 2.54) (xy 1.27 2.54)
@@ -737,7 +737,7 @@
 					)
 				)
 			)
-			(symbol "+5VA_1_1"
+			(symbol "+5VD_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2506,7 +2506,7 @@
 		(at 22.86 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee9f8413-ca09-408c-a6f6-f9430f5b8def")
+		(uuid "fe73ac36-37fe-414f-82b0-b786080ffaf4")
 	)
 	(no_connect
 		(at 76.2 137.16)
@@ -6657,6 +6657,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Power:+5VD")
+		(at 22.86 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a60ce0d5-8e55-4b84-b9cd-5e83264eab9f")
+		(property "Reference" "#PWR0801"
+			(at 22.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 22.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 22.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc720788-bc75-44dd-9efc-071c675d93fb")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
+					(reference "#PWR0801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power:Earth")
 		(at 99.06 96.52 0)
 		(unit 1)
@@ -7064,71 +7130,6 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
 					(reference "#PWR0806")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power:+5VA")
-		(at 22.86 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d32df29c-03fb-4f9b-83b8-15c2cc57cecc")
-		(property "Reference" "#PWR0801"
-			(at 22.86 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VA"
-			(at 22.86 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 22.86 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8be89ba2-221c-4b18-a2fd-0178d9a0ea69")
-		)
-		(instances
-			(project "HarmoniCore_0V1"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0db1585d-6420-4db0-a495-665c76333017"
-					(reference "#PWR0801")
 					(unit 1)
 				)
 			)
