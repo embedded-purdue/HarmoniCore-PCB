@@ -4441,8 +4441,8 @@
 		(uuid bae06245-7a21-41d8-aa83-f8c235196977)
 	)
 	(rectangle
-		(start 155.702 93.218)
-		(end 227.33 145.796)
+		(start 82.55 93.218)
+		(end 150.876 145.796)
 		(stroke
 			(width 1)
 			(type solid)
@@ -4611,8 +4611,8 @@
 	)
 	(text_box "JTAG"
 		(exclude_from_sim no)
-		(at 171.958 137.668 0)
-		(size 46.736 7.62)
+		(at 83.058 137.668 0)
+		(size 67.31 7.62)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
 			(width -0.0001)
