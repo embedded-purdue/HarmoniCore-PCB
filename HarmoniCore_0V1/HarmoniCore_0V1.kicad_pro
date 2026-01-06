@@ -552,6 +552,30 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Project Architecture/Analog_Frontend/MICBIAS": [
+        "ANALOG"
+      ],
+      "12M_FTDI": [
+        "CLK"
+      ],
+      "156M_A7": [
+        "CLK"
+      ],
+      "ADC_BCK": [
+        "SIG"
+      ],
+      "ADC_DATA": [
+        "SIG"
+      ],
+      "ADC_FSYNC": [
+        "SIG"
+      ],
+      "ADC_INPUT+": [
+        "ANALOG"
+      ],
+      "ADC_INPUT-": [
+        "ANALOG"
+      ],
       "B1": [
         "SIG"
       ],
@@ -559,6 +583,39 @@
         "SIG"
       ],
       "B3": [
+        "SIG"
+      ],
+      "DAC_BCLK": [
+        "SIG"
+      ],
+      "DAC_GPIO1": [
+        "SIG"
+      ],
+      "DAC_HPOUT": [
+        "ANALOG"
+      ],
+      "DAC_MCLK": [
+        "SIG"
+      ],
+      "DAC_SCL": [
+        "SIG"
+      ],
+      "DAC_SDA": [
+        "SIG"
+      ],
+      "DAC_SPKM": [
+        "ANALOG"
+      ],
+      "DAC_SPKP": [
+        "ANALOG"
+      ],
+      "DAC_SerialDIN": [
+        "SIG"
+      ],
+      "DAC_WCLK": [
+        "SIG"
+      ],
+      "DAC_nRST": [
         "SIG"
       ],
       "D_m": [

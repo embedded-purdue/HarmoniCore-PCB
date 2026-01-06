@@ -1575,6 +1575,51 @@
 			)
 		)
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 50.292 167.64) (xy 38.1 167.64) (xy 38.1 159.004) (xy 50.292 159.004)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 3de84261-80b8-44c5-8235-e9e10890ec03)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 44.45 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7e5c1f9-cb9e-41fd-9e50-ba3849e88898")
+		(property "Netclass" "CLK"
+			(at 45.72 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -26.67 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Power:+3V3D")
 		(at 153.67 44.45 0)
