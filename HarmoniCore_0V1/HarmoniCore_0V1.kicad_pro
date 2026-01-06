@@ -526,27 +526,124 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 24
+      },
+      {
+        "line_style": 0,
+        "name": "SIG",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "B1": [
+        "SIG"
+      ],
+      "B2": [
+        "SIG"
+      ],
+      "B3": [
+        "SIG"
+      ],
+      "D_m": [
+        "USB"
+      ],
+      "D_p": [
+        "USB"
+      ],
+      "M0": [
+        "SIG"
+      ],
+      "M1": [
+        "SIG"
+      ],
+      "M2": [
+        "SIG"
+      ],
+      "QSPI_CLK": [
+        "SIG"
+      ],
+      "QSPI_CS": [
+        "SIG"
+      ],
+      "QSPI_DO0": [
+        "SIG"
+      ],
+      "QSPI_DO1": [
+        "SIG"
+      ],
+      "QSPI_DO2": [
+        "SIG"
+      ],
+      "QSPI_DO3": [
+        "SIG"
+      ],
+      "S1": [
+        "SIG"
+      ],
+      "S2": [
+        "SIG"
+      ],
+      "S3": [
+        "SIG"
+      ],
+      "S4": [
+        "SIG"
+      ],
+      "S5": [
+        "SIG"
+      ],
+      "S6": [
+        "SIG"
+      ],
+      "S7": [
+        "SIG"
+      ],
+      "S8": [
+        "SIG"
+      ],
+      "S9": [
+        "SIG"
+      ],
+      "TCK": [
+        "SIG"
+      ],
+      "TDI": [
+        "SIG"
+      ],
+      "TDO": [
+        "SIG"
+      ],
+      "TMS": [
+        "SIG"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "SIG",
+        "pattern": "SIG"
+      },
+      {
+        "netclass": "SIG",
+        "pattern": "USB"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -829,14 +926,6 @@
       "PE_Digital"
     ],
     [
-      "13eb0b07-00a1-4d61-8da3-582545eb29a8",
-      "Power - Sequencing"
-    ],
-    [
-      "e7c91631-be85-488a-af7a-f2a810f3fbfe",
-      "Revision History"
-    ],
-    [
       "050cf94a-fa1b-478c-9dcb-adb120579c78",
       "PE_Analog"
     ],
@@ -847,6 +936,14 @@
     [
       "a1dfb567-88aa-4fc3-b53e-af9bfc3832a8",
       "User_Input"
+    ],
+    [
+      "13eb0b07-00a1-4d61-8da3-582545eb29a8",
+      "Power - Sequencing"
+    ],
+    [
+      "e7c91631-be85-488a-af7a-f2a810f3fbfe",
+      "Revision History"
     ]
   ],
   "text_variables": {
