@@ -576,6 +576,12 @@
       "ADC_INPUT-": [
         "ANALOG"
       ],
+      "ADC_SysClock": [
+        "SIG"
+      ],
+      "ADC_nRST": [
+        "SIG"
+      ],
       "B1": [
         "SIG"
       ],
