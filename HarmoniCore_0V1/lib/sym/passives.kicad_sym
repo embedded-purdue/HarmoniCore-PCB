@@ -5572,7 +5572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_LTST-C170GKT_LTO"
+		(property "Footprint" "passives:LED_0805"
 			(at 0 0 0)
 			(effects
 				(font
