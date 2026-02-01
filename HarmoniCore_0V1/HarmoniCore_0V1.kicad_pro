@@ -495,7 +495,8 @@
       "ICs",
       "passives",
       "User_Input",
-      "Power"
+      "Power",
+      "Semiconductors"
     ]
   },
   "meta": {
