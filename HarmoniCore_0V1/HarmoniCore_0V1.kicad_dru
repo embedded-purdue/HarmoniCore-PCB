@@ -26,10 +26,7 @@
 
 # ----------------------------------- Via hole/diameter size (PICK ONE) --------------------------------
 
-(rule "Minimum Via Diameter and Hole Size"
-(constraint hole_size (min 0.25mm))
-(constraint via_diameter (min 0.55mm))
-(condition "A.Type == 'via'"))
+
 
 
 # ----------------------------------- Drill/hole size --------------------------------------------------
