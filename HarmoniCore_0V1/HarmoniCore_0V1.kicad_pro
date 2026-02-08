@@ -490,8 +490,7 @@
   "libraries": {
     "pinned_footprint_libs": [
       "ICs",
-      "passives",
-      "User_Input"
+      "passives"
     ],
     "pinned_symbol_libs": [
       "ICs",
