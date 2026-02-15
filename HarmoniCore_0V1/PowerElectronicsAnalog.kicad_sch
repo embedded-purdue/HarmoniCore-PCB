@@ -684,6 +684,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "5v in (needs to be filtered) (pi filter/ferrite beads)\n\n3.3v LDO\n\n(need to ask for current requirements)"
+		(exclude_from_sim no)
+		(at 80.518 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5536392a-712f-4b42-b2b8-a40a23724b46")
+	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 177.8 13.97 0)

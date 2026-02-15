@@ -489,7 +489,9 @@
   "libraries": {
     "pinned_footprint_libs": [
       "ICs",
-      "passives"
+      "passives",
+      "Semiconductors",
+      "User_Input"
     ],
     "pinned_symbol_libs": [
       "ICs",
