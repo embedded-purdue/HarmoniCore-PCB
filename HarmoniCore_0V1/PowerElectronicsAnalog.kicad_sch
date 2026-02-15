@@ -684,7 +684,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "5v in (needs to be filtered) (pi filter/ferrite beads)\n\n3.3v LDO\n\n(need to ask for current requirements)"
+	(text "5v in (needs to be filtered) (pi filter/ferrite beads)\nBest approach should be to use pi filter based on buck's frequency, and then use ferrite beads after that\n\n3.3v LDO (TPS767D301PWPR)\n\n(need to ask for current requirements)"
 		(exclude_from_sim no)
 		(at 80.518 111.76 0)
 		(effects
