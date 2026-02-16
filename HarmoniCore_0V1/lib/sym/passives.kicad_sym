@@ -4514,7 +4514,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "40.2 Ohms"
+		(property "Value" "40.2"
 			(at 1.27 -1.778 0)
 			(effects
 				(font
