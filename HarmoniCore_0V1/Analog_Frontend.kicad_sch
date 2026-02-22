@@ -3591,6 +3591,354 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "passives:1k8R_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.096 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "1k8"
+				(at 1.27 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "passives:R_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.8k Ohm 1/10W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-071K8L/726695"
+				(at 1.524 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "RC0603JR-071K8L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1k8R_0603_1_1"
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.921 1.016) (xy 3.302 0) (xy 3.683 -1.016) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "passives:1kR_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.096 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "1k"
+				(at 1.27 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "passives:R_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 1K OHM 1% 1/10W 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843"
+				(at 1.524 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "RC0603FR-071KL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1kR_0603_1_1"
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.921 1.016) (xy 3.302 0) (xy 3.683 -1.016) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "passives:1pF_0603"
 			(pin_numbers
 				(hide yes)
@@ -5102,6 +5450,180 @@
 				)
 			)
 			(symbol "47kR_0603_1_1"
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.921 1.016) (xy 3.302 0) (xy 3.683 -1.016) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "passives:750R_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.096 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "750"
+				(at 1.27 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "passives:R_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 750 OHM 1% 1/10W 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT750R/1761094"
+				(at 1.524 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Stackpole Electronics Inc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "RMCF0603FT750R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "750R_0603_1_1"
 				(polyline
 					(pts
 						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
@@ -6733,6 +7255,14 @@
 		(uuid "eae93210-2c25-409b-97ac-89968b85e96e")
 	)
 	(no_connect
+		(at 62.23 144.78)
+		(uuid "052bd7a5-eef8-4e79-9149-d4e2ef8f0110")
+	)
+	(no_connect
+		(at 66.04 125.73)
+		(uuid "05c049f8-e65d-4be7-bd18-0517c6883a52")
+	)
+	(no_connect
 		(at 54.61 69.85)
 		(uuid "164c8c83-f3ed-494f-a0e6-fa97b2b68149")
 	)
@@ -6747,6 +7277,30 @@
 	(no_connect
 		(at 38.1 162.56)
 		(uuid "6e4fd169-852c-4ad2-9e05-378448a23b6e")
+	)
+	(no_connect
+		(at 57.15 144.78)
+		(uuid "7cb22dfa-7bf2-41ee-a338-7b8f6b86e6f8")
+	)
+	(no_connect
+		(at 60.96 125.73)
+		(uuid "7fc13b11-fb6a-4b3b-a2c2-541256039b33")
+	)
+	(no_connect
+		(at 52.07 125.73)
+		(uuid "8226c05c-582f-418a-86bf-ecb677c62a9b")
+	)
+	(no_connect
+		(at 52.07 144.78)
+		(uuid "90bdc3a2-979f-4947-b43f-47d3c0ead9aa")
+	)
+	(no_connect
+		(at 67.31 144.78)
+		(uuid "bd149e4e-556f-46f8-9685-eacc283ed2e7")
+	)
+	(no_connect
+		(at 57.15 125.73)
+		(uuid "f78d96ec-09f0-4128-91b5-c7244c39cd1d")
 	)
 	(wire
 		(pts
@@ -14451,6 +15005,110 @@
 		)
 	)
 	(symbol
+		(lib_id "passives:1k8R_0603")
+		(at 62.23 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c2ad8e7-96e6-47b9-b38a-7d6ef8962426")
+		(property "Reference" "R8"
+			(at 64.77 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k8"
+			(at 64.77 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.8k Ohm 1/10W"
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-071K8L/726695"
+			(at 63.754 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0603JR-071K8L"
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6edeb57e-d08d-4f8a-96a6-92d3b2e40b74")
+		)
+		(pin "1"
+			(uuid "bb566d3c-e2a4-4e06-b6c1-bbe9eced7d79")
+		)
+		(instances
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power:+3V3A")
 		(at 219.71 83.82 0)
 		(unit 1)
@@ -14517,6 +15175,110 @@
 			(project "Analog_Frontend"
 				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:1kR_0603")
+		(at 52.07 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "802f695e-525f-4cf4-9acf-e1a8ee6e378b")
+		(property "Reference" "R9"
+			(at 54.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 54.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843"
+			(at 53.594 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0603FR-071KL"
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a0106be-5f46-4ec0-b654-5d47ebc85b20")
+		)
+		(pin "2"
+			(uuid "b6e30ea1-ff7c-4839-9f53-64277922604d")
+		)
+		(instances
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -15393,6 +16155,110 @@
 			(project "Analog_Frontend"
 				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:750R_0603")
+		(at 60.96 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa2d56ea-5cd1-483f-bffa-d23e5145ea89")
+		(property "Reference" "R10"
+			(at 63.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "750"
+			(at 63.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 750 OHM 1% 1/10W 0603"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT750R/1761094"
+			(at 62.484 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RMCF0603FT750R"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0cddcbe5-f72e-49cf-87da-e672f8e232c0")
+		)
+		(pin "1"
+			(uuid "c863c8f0-b886-4919-92f6-5bcecd7d50ed")
+		)
+		(instances
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -18852,6 +19718,110 @@
 			(project "Analog_Frontend"
 				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:2k49R_0603")
+		(at 52.07 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f742abbe-47d6-4342-b0a7-9c093023ca18")
+		(property "Reference" "R6"
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.49k"
+			(at 54.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 52.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 2.49KOHM 0.1% 1/10W 0603"
+			(at 52.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 52.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/susumu/RG1608P-2491-B-T5/1240530"
+			(at 52.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 52.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RG1608P-2491-B-T5"
+			(at 52.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2849f7c8-e80d-4eb5-affe-5b989764fa48")
+		)
+		(pin "1"
+			(uuid "7512c5b8-c5e9-4ecf-9f8a-bc78725c5fac")
+		)
+		(instances
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "R6")
 					(unit 1)
 				)
 			)
