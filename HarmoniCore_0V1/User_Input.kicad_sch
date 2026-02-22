@@ -10387,8 +10387,7 @@
 	)
 	(symbol
 		(lib_id "Semiconductors:AO3401A")
-		(at 43.18 104.14 270)
-		(mirror x)
+		(at 43.18 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10412,7 +10411,7 @@
 			)
 		)
 		(property "Footprint" "ICs:SOT-23-3L_AOS-L"
-			(at 41.275 99.06 0)
+			(at 45.085 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10423,7 +10422,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 39.37 99.06 0)
+			(at 46.99 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10487,7 +10486,7 @@
 			(uuid "50d18ba2-6b5a-43bd-a8e6-061a583ed1b0")
 		)
 		(instances
-			(project ""
+			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a1dfb567-88aa-4fc3-b53e-af9bfc3832a8"
 					(reference "Q1301")
 					(unit 1)
