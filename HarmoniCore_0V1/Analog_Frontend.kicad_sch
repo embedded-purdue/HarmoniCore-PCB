@@ -6499,12 +6499,6 @@
 		(uuid "0c5e3012-8c7c-47c6-a5c1-fcdf23573f9f")
 	)
 	(junction
-		(at 101.6 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c93ef6f-fb5f-457e-8429-01a1988c9429")
-	)
-	(junction
 		(at 111.76 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6521,12 +6515,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1af08e06-3e94-4166-8389-bd646e69168c")
-	)
-	(junction
-		(at 96.52 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23ffce98-6f9d-42c7-82e2-be1b202b0556")
 	)
 	(junction
 		(at 109.22 127)
@@ -6577,6 +6565,12 @@
 		(uuid "55ca9ed9-da30-446e-8e8a-b910477f4abc")
 	)
 	(junction
+		(at 120.65 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "575efde4-eff3-4a0f-b31a-e3357b9d4276")
+	)
+	(junction
 		(at 284.48 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6593,6 +6587,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "619199b1-5c86-4890-8bb8-aadb29b1f068")
+	)
+	(junction
+		(at 294.64 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "624afa3b-139c-45fc-99ab-557efa081513")
 	)
 	(junction
 		(at 63.5 160.02)
@@ -6625,12 +6625,6 @@
 		(uuid "7e985b2e-2d42-4975-952a-798efbefd84e")
 	)
 	(junction
-		(at 119.38 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "882974df-05cb-46a0-bef9-33695b95a094")
-	)
-	(junction
 		(at 128.27 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6653,6 +6647,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "941cf965-a697-4693-a9de-6f4da215f6d7")
+	)
+	(junction
+		(at 101.6 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ae62db7-6142-42e8-bb4e-4fe4a339cf44")
 	)
 	(junction
 		(at 260.35 45.72)
@@ -6726,6 +6726,12 @@
 		(color 0 0 0 0)
 		(uuid "eae93210-2c25-409b-97ac-89968b85e96e")
 	)
+	(junction
+		(at 96.52 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe674590-e4f8-40aa-a71e-ea36da25d537")
+	)
 	(no_connect
 		(at 54.61 69.85)
 		(uuid "164c8c83-f3ed-494f-a0e6-fa97b2b68149")
@@ -6735,20 +6741,12 @@
 		(uuid "22c7b3fa-e3e6-4511-ac17-00ad3174fac0")
 	)
 	(no_connect
-		(at 289.56 213.36)
-		(uuid "2b64f42e-293c-4654-9521-35ad14213832")
-	)
-	(no_connect
 		(at 325.12 209.55)
 		(uuid "5db3c1a7-7f89-4cbd-8c0b-9c385432d30c")
 	)
 	(no_connect
 		(at 38.1 162.56)
 		(uuid "6e4fd169-852c-4ad2-9e05-378448a23b6e")
-	)
-	(no_connect
-		(at 289.56 209.55)
-		(uuid "e8c8212b-03d7-4cea-9d57-6f7f2101c7cb")
 	)
 	(wire
 		(pts
@@ -6762,7 +6760,17 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 209.55) (xy 289.56 209.55)
+			(xy 101.6 143.51) (xy 101.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0185d2d0-7ea5-4a83-8034-c7e50485a1f3")
+	)
+	(wire
+		(pts
+			(xy 280.67 209.55) (xy 294.64 209.55)
 		)
 		(stroke
 			(width 0)
@@ -6914,6 +6922,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 213.36) (xy 294.64 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1458c97a-5dae-4e23-a7b6-a8f43e2190ec")
+	)
+	(wire
+		(pts
 			(xy 243.84 45.72) (xy 243.84 44.45)
 		)
 		(stroke
@@ -6951,6 +6969,16 @@
 			(type default)
 		)
 		(uuid "1a3dfadd-59fa-4ee4-a180-2d87380b12b2")
+	)
+	(wire
+		(pts
+			(xy 74.93 142.24) (xy 74.93 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d647ed8-7024-4010-b010-d26dde1115bd")
 	)
 	(wire
 		(pts
@@ -7534,7 +7562,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 143.51) (xy 119.38 156.21)
+			(xy 120.65 143.51) (xy 120.65 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7564,7 +7592,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 213.36) (xy 289.56 213.36)
+			(xy 280.67 213.36) (xy 294.64 213.36)
 		)
 		(stroke
 			(width 0)
@@ -7796,7 +7824,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 149.86) (xy 99.06 153.67)
+			(xy 99.06 149.86) (xy 99.06 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7823,6 +7851,16 @@
 			(type default)
 		)
 		(uuid "8f8d1258-0539-4d58-8aba-4a0b7c9b593d")
+	)
+	(wire
+		(pts
+			(xy 120.65 156.21) (xy 120.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9034c2d2-0c96-4ca5-baa6-34fd0a1e82cf")
 	)
 	(wire
 		(pts
@@ -7856,7 +7894,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 143.51) (xy 113.03 143.51)
+			(xy 120.65 143.51) (xy 113.03 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7977,7 +8015,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 156.21) (xy 119.38 156.21)
+			(xy 121.92 156.21) (xy 120.65 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8034,6 +8072,16 @@
 			(type default)
 		)
 		(uuid "a90de4f6-e655-459c-9bc2-a3a097f124bf")
+	)
+	(wire
+		(pts
+			(xy 74.93 142.24) (xy 78.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e09b1a-4833-4f0b-b1eb-cdb16dda4396")
 	)
 	(polyline
 		(pts
@@ -8168,26 +8216,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 143.51) (xy 101.6 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb2f7db2-4eb3-45c5-a817-8f73d09242b5")
-	)
-	(wire
-		(pts
-			(xy 74.93 140.97) (xy 78.74 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bde51f50-efa6-4dc3-b8a3-a92c960aca5e")
-	)
-	(wire
-		(pts
 			(xy 212.09 77.47) (xy 212.09 80.01)
 		)
 		(stroke
@@ -8269,7 +8297,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 153.67) (xy 101.6 153.67)
+			(xy 99.06 154.94) (xy 101.6 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8339,7 +8367,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 160.02) (xy 101.6 160.02)
+			(xy 74.93 160.02) (xy 102.87 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8530,16 +8558,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 140.97) (xy 74.93 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea5c3584-21fa-4847-b1a2-4ae9bb350aa2")
-	)
-	(wire
-		(pts
 			(xy 128.27 149.86) (xy 128.27 156.21)
 		)
 		(stroke
@@ -8547,6 +8565,16 @@
 			(type default)
 		)
 		(uuid "eba516d3-41db-40b3-8d5b-76a2fa8f0135")
+	)
+	(wire
+		(pts
+			(xy 102.87 154.94) (xy 101.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec72dae7-0ee9-429c-a0fa-75ea06f41398")
 	)
 	(wire
 		(pts
@@ -11320,7 +11348,7 @@
 	)
 	(symbol
 		(lib_id "Power:+5VA")
-		(at 86.36 130.81 0)
+		(at 87.63 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11328,7 +11356,7 @@
 		(dnp no)
 		(uuid "2540d9b7-548b-4736-bab3-1136351b9993")
 		(property "Reference" "#PWR0643"
-			(at 86.36 134.62 0)
+			(at 87.63 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11337,7 +11365,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 86.106 127.508 0)
+			(at 87.376 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11345,7 +11373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 130.81 0)
+			(at 87.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11354,7 +11382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 130.81 0)
+			(at 87.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11363,7 +11391,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 86.36 130.81 0)
+			(at 87.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11934,6 +11962,133 @@
 		)
 	)
 	(symbol
+		(lib_name "OPA2134UA_2K5_1")
+		(lib_id "ICs:OPA2134UA_2K5")
+		(at 87.63 139.7 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30653cc1-4316-4ff2-88ae-e0ce6a22e44c")
+		(property "Reference" "U603"
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "OPA2134UA/2K5"
+			(at 122.936 131.064 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICs:OPA2134UA_2K5"
+			(at 149.86 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/opa2134"
+			(at 149.86 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 87.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 87.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA2134UA-2K5/1649193"
+			(at 87.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "OPA2134UA/2K5"
+			(at 87.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b950ee64-0ac8-472f-a208-ac44a9ef7b2c")
+		)
+		(pin "8"
+			(uuid "dccbcb82-f79c-41d5-ba92-0ee85d4bb35e")
+		)
+		(pin "4"
+			(uuid "d0bbcbc7-a40e-4d97-ae50-b901cc17c5a6")
+		)
+		(pin "6"
+			(uuid "2357cc34-54f5-4339-a53f-dd126e3eb727")
+		)
+		(pin "1"
+			(uuid "f27d8e9d-d115-4012-8f43-342b84281e01")
+		)
+		(pin "5"
+			(uuid "6025ff80-4604-4b0d-bba2-75ebbb872062")
+		)
+		(pin "2"
+			(uuid "98902b13-9b27-496f-95be-4607c7dc6ab6")
+		)
+		(pin "7"
+			(uuid "b260358d-168a-4269-8b35-621393ce5790")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "U603")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power:+5VA")
 		(at 74.93 25.4 0)
 		(unit 1)
@@ -12214,7 +12369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SJ1-42534-SMT-TR:CUI_SJ1-42534-SMT-TR"
+		(property "Footprint" "User_Input:CUI_SJ1-42534-SMT-TR"
 			(at 25.4 152.4 0)
 			(effects
 				(font
@@ -12597,7 +12752,7 @@
 	)
 	(symbol
 		(lib_id "Power:Earth")
-		(at 86.36 144.78 0)
+		(at 87.63 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12606,7 +12761,7 @@
 		(fields_autoplaced yes)
 		(uuid "55bc3fb2-ab76-40b1-be88-e07ac0658512")
 		(property "Reference" "#PWR0644"
-			(at 86.36 151.13 0)
+			(at 87.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12615,7 +12770,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 86.36 148.59 0)
+			(at 87.63 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12624,7 +12779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 144.78 0)
+			(at 87.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12633,7 +12788,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 144.78 0)
+			(at 87.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12642,7 +12797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 86.36 144.78 0)
+			(at 87.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12809,6 +12964,73 @@
 			(project "Analog_Frontend"
 				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:Earth")
+		(at 294.64 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5be892da-aab8-4cc2-ae4f-b58f7e634e2a")
+		(property "Reference" "#PWR0101"
+			(at 294.64 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 294.64 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 294.64 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bce882a0-8730-4a0d-84be-cc95378cee52")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -13392,132 +13614,6 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ICs:OPA2134UA_2K5")
-		(at 86.36 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "634cf3a3-5229-498f-9104-adb5e1547746")
-		(property "Reference" "U603"
-			(at 118.11 127 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "OPA2134UA/2K5"
-			(at 121.666 129.794 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ICs:OPA2134UA_2K5"
-			(at 148.59 168.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/opa2134"
-			(at 148.59 168.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TI"
-			(at 86.36 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 86.36 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA2134UA-2K5/1649193"
-			(at 86.36 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "OPA2134UA/2K5"
-			(at 86.36 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b950ee64-0ac8-472f-a208-ac44a9ef7b2b")
-		)
-		(pin "8"
-			(uuid "46fb5874-214b-443d-8de8-b111db799b1d")
-		)
-		(pin "4"
-			(uuid "25989606-e034-47d9-8410-0577f9c60577")
-		)
-		(pin "6"
-			(uuid "fb3da666-eff2-4d92-b017-a0e6e854b01f")
-		)
-		(pin "1"
-			(uuid "f27d8e9d-d115-4012-8f43-342b84281e00")
-		)
-		(pin "5"
-			(uuid "eb7d66b5-2b54-4a23-bbaa-f5766b2b37f9")
-		)
-		(pin "2"
-			(uuid "98902b13-9b27-496f-95be-4607c7dc6ab5")
-		)
-		(pin "7"
-			(uuid "7e8b3fc7-08bd-4a01-ab36-ae3141da2773")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
-					(reference "U603")
 					(unit 1)
 				)
 			)
@@ -15082,133 +15178,6 @@
 				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
 					(reference "#PWR?")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "OPA2134UA_2K5_1")
-		(lib_id "ICs:OPA2134UA_2K5")
-		(at 110.49 157.48 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4ca7bb1-521c-43e3-8d0b-73560f19cf0a")
-		(property "Reference" "U603"
-			(at 142.24 146.05 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "OPA2134UA/2K5"
-			(at 145.796 148.844 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ICs:OPA2134UA_2K5"
-			(at 172.72 187.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/opa2134"
-			(at 172.72 187.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TI"
-			(at 110.49 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 110.49 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA2134UA-2K5/1649193"
-			(at 110.49 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "OPA2134UA/2K5"
-			(at 110.49 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b950ee64-0ac8-472f-a208-ac44a9ef7b2c")
-		)
-		(pin "8"
-			(uuid "46fb5874-214b-443d-8de8-b111db799b1e")
-		)
-		(pin "4"
-			(uuid "25989606-e034-47d9-8410-0577f9c60578")
-		)
-		(pin "6"
-			(uuid "fb3da666-eff2-4d92-b017-a0e6e854b020")
-		)
-		(pin "1"
-			(uuid "f27d8e9d-d115-4012-8f43-342b84281e01")
-		)
-		(pin "5"
-			(uuid "eb7d66b5-2b54-4a23-bbaa-f5766b2b37fa")
-		)
-		(pin "2"
-			(uuid "98902b13-9b27-496f-95be-4607c7dc6ab6")
-		)
-		(pin "7"
-			(uuid "7e8b3fc7-08bd-4a01-ab36-ae3141da2774")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
-					(reference "U603")
-					(unit 2)
 				)
 			)
 		)
@@ -17496,6 +17465,132 @@
 			(project "Analog_Frontend"
 				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICs:OPA2134UA_2K5")
+		(at 110.49 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc234260-39b4-4054-bea4-685f679010c7")
+		(property "Reference" "U603"
+			(at 142.24 146.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "OPA2134UA/2K5"
+			(at 145.796 148.844 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICs:OPA2134UA_2K5"
+			(at 172.72 187.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/opa2134"
+			(at 172.72 187.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 110.49 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 110.49 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA2134UA-2K5/1649193"
+			(at 110.49 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "OPA2134UA/2K5"
+			(at 110.49 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1eb410e6-fa68-4800-8668-d6e84de68d80")
+		)
+		(pin "8"
+			(uuid "5a08b96d-8e99-45df-ad0d-c1c9b08de5ce")
+		)
+		(pin "4"
+			(uuid "ca6856a5-5f49-4bc9-97e8-1603acf7bd9b")
+		)
+		(pin "6"
+			(uuid "fb3da666-eff2-4d92-b017-a0e6e854b01f")
+		)
+		(pin "1"
+			(uuid "d783a708-5879-498b-b4a8-a198057af64d")
+		)
+		(pin "5"
+			(uuid "eb7d66b5-2b54-4a23-bbaa-f5766b2b37f9")
+		)
+		(pin "2"
+			(uuid "dc301cfc-df18-4a78-b121-f2423ec18ad5")
+		)
+		(pin "7"
+			(uuid "7e8b3fc7-08bd-4a01-ab36-ae3141da2773")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "U603")
 					(unit 1)
 				)
 			)
