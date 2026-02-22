@@ -2056,7 +2056,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SJ1-42534-SMT-TR:CUI_SJ1-42534-SMT-TR"
+		(property "Footprint" "User_Input:CUI_SJ1-42534-SMT-TR"
 			(at 0 0 0)
 			(effects
 				(font
