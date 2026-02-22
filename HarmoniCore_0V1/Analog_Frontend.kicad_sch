@@ -3547,6 +3547,180 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "passives:0R_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.096 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "0"
+				(at 1.27 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "passives:R_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675"
+				(at 1.524 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "RC0603JR-070RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0R_0603_1_1"
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.921 1.016) (xy 3.302 0) (xy 3.683 -1.016) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "passives:0u1F_0603"
 			(pin_numbers
 				(hide yes)
@@ -7981,6 +8155,12 @@
 		(uuid "67be9971-35fc-43de-8e31-7a1f347ba3b3")
 	)
 	(junction
+		(at 267.97 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "731ffb12-e011-4456-bafc-7c2256e44d06")
+	)
+	(junction
 		(at 99.06 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8273,6 +8453,16 @@
 			(type default)
 		)
 		(uuid "0c835b50-bf2e-4ea5-bd75-901ae0549da5")
+	)
+	(wire
+		(pts
+			(xy 260.35 170.18) (xy 260.35 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee1f0c8-e89b-405b-b111-b8f6f46a3e2e")
 	)
 	(wire
 		(pts
@@ -8756,6 +8946,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 170.18) (xy 260.35 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f03a34-57f6-49e2-9c26-c02948e8ad23")
+	)
+	(wire
+		(pts
 			(xy 87.63 121.92) (xy 87.63 123.19)
 		)
 		(stroke
@@ -9006,6 +9206,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 170.18) (xy 267.97 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7346f039-3084-49be-8876-7104c9c3a081")
+	)
+	(wire
+		(pts
 			(xy 41.91 147.32) (xy 38.1 147.32)
 		)
 		(stroke
@@ -9074,6 +9284,16 @@
 			(type default)
 		)
 		(uuid "79ec4300-ae80-4770-a592-4602b5afd252")
+	)
+	(wire
+		(pts
+			(xy 267.97 170.18) (xy 267.97 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab7d378-7333-4606-ae4d-de233059c520")
 	)
 	(wire
 		(pts
@@ -9365,6 +9585,16 @@
 			(type default)
 		)
 		(uuid "96a68b7f-0712-4d6b-9eb8-bc5452b3289d")
+	)
+	(wire
+		(pts
+			(xy 260.35 177.8) (xy 260.35 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba76fac-3d2d-4cde-b497-dfb5cb4fa858")
 	)
 	(wire
 		(pts
@@ -10934,6 +11164,16 @@
 			(justify right bottom)
 		)
 		(uuid "50e0900b-0b52-49dd-8cf5-92e53ca68e3a")
+	)
+	(label "SPKM"
+		(at 260.35 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "583a8625-4e0c-423d-ab57-e985edd6dcd7")
 	)
 	(label "ADC_SysClock"
 		(at 54.61 67.31 180)
@@ -13724,6 +13964,112 @@
 			(project "Analog_Frontend"
 				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:0R_0603")
+		(at 267.97 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "45b46b3f-f2b9-4530-91e9-ca7c2970f3e5")
+		(property "Reference" "R11"
+			(at 270.51 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 270.51 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 267.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
+			(at 267.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 267.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675"
+			(at 262.636 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 267.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0603JR-070RL"
+			(at 267.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37fbda86-8b5a-4c5b-95dc-ab166d841d83")
+		)
+		(pin "2"
+			(uuid "ff71ed32-f3e3-452e-9ac2-7ea18b1fb6b2")
+		)
+		(instances
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -18097,6 +18443,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Power:Earth")
+		(at 267.97 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6ca53c7-b323-48a9-a579-7720877009ae")
+		(property "Reference" "#PWR011"
+			(at 267.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 267.97 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 267.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "955eb821-9137-4043-92dc-f39445a3d06a")
+		)
+		(instances
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "passives:1uF_0603")
 		(at 179.07 132.08 90)
 		(unit 1)
@@ -19548,6 +19961,112 @@
 			(project "Analog_Frontend"
 				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:0R_0603")
+		(at 260.35 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc04a22c-0165-44cb-85c8-381613d4b6e5")
+		(property "Reference" "R12"
+			(at 262.89 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 262.89 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 260.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
+			(at 260.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 260.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675"
+			(at 255.016 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 260.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0603JR-070RL"
+			(at 260.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7abea8b3-8c97-4066-9e89-6e0d01e2f2bb")
+		)
+		(pin "2"
+			(uuid "098dbed2-cfce-4001-8f9b-277527d30ea0")
+		)
+		(instances
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "R12")
 					(unit 1)
 				)
 			)
