@@ -410,4 +410,15 @@
 		(uuid "d014deb6-5933-4425-a31f-7a432102be91")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/step/pot25k.stp"
+		(offset
+			(xyz 5 -3.5 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
 )
