@@ -191,8 +191,8 @@
       ],
       "track_widths": [
         0.0,
-        0.1,
         0.15,
+        0.156464,
         0.2,
         0.25,
         0.3,
@@ -521,7 +521,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.156464,
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 6
@@ -538,7 +538,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(0, 0, 0)",
-        "track_width": 0.2,
+        "track_width": 0.156464,
         "via_diameter": 0.26,
         "via_drill": 0.15,
         "wire_width": 24

@@ -10,6 +10,290 @@
 		(company "ESAP")
 	)
 	(lib_symbols
+		(symbol "ICs:OPA2134UA_2K5"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 31.75 11.43 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "OPA2134UA/2K5"
+				(at 35.306 8.636 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "ICs:OPA2134UA_2K5"
+				(at 62.23 -30.226 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/opa2134"
+				(at 62.23 -30.226 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA2134UA-2K5/1649193"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "OPA2134UA/2K5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "OPA2134UA/2K5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D8 D8-M D8-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OPA2134UA_2K5_0_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA2134UA_2K5_1_1"
+				(polyline
+					(pts
+						(xy -5.08 8.382) (xy -5.08 -8.382) (xy 7.62 0) (xy -5.08 8.382)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "INA+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "INA-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA2134UA_2K5_2_1"
+				(polyline
+					(pts
+						(xy -6.096 9.017) (xy -6.096 -7.747) (xy 6.604 0.635) (xy -6.096 9.017)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -8.255 3.175 0)
+					(length 2.54)
+					(name "INB+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.255 -2.54 0)
+					(length 2.54)
+					(name "INB-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0.635 180)
+					(length 2.54)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ICs:PCM4201PWR"
 			(pin_names
 				(offset 0.254)
@@ -1138,6 +1422,290 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "OPA2134UA_2K5_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 31.75 11.43 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "OPA2134UA/2K5"
+				(at 35.306 8.636 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "ICs:OPA2134UA_2K5"
+				(at 62.23 -30.226 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/opa2134"
+				(at 62.23 -30.226 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA2134UA-2K5/1649193"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "OPA2134UA/2K5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "OPA2134UA/2K5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D8 D8-M D8-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OPA2134UA_2K5_1_0_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA2134UA_2K5_1_1_1"
+				(polyline
+					(pts
+						(xy -5.08 8.382) (xy -5.08 -8.382) (xy 7.62 0) (xy -5.08 8.382)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "INA+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "INA-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA2134UA_2K5_1_2_1"
+				(polyline
+					(pts
+						(xy -6.35 9.652) (xy -6.096 -8.636) (xy 6.35 1.27) (xy -6.35 9.652)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "INB+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "INB-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power:+1V8D"
 			(power)
 			(pin_numbers
@@ -1728,6 +2296,423 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "User_Input:SJ1-42534-SMT-TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SJ1-42534-SMT-TR"
+				(at -7.62 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SJ1-42534-SMT-TR:CUI_SJ1-42534-SMT-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PART_REV" "1.06"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.7 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "CUI Devices"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PN" "SJ1-42534-SMT-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SJ1-42534-SMT-TR/659908"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SJ1-42534-SMT-TR_0_0"
+				(rectangle
+					(start -7.62 -12.7)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 0.889) (xy -5.08 0.889)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -4.826) (xy -5.715 0.889)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 0.889)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0.889) (xy -4.445 0.889)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0.889) (xy -4.445 -4.826)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -4.826) (xy -5.715 -4.826)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 1.27) (xy -3.683 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 2.54) (xy -2.413 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 -1.27) (xy -1.143 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0) (xy 0.127 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -6.35) (xy 0.127 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.667 -7.62) (xy 1.397 -6.35)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy -1.143 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 1.397 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 2.667 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "passives:0u1F_0603"
 			(pin_numbers
 				(hide yes)
@@ -1904,6 +2889,532 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "passives:100pF_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.651 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100p"
+				(at 1.016 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passives:C_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 100PF 50V C0G/NP0 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at -0.127 -0.127 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H101JA01D/586921"
+				(at 0 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at -0.127 -0.127 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "GRM1885C1H101JA01D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "100pF_0603_0_1"
+				(arc
+					(start 1.778 1.524)
+					(mid 2.1666 0)
+					(end 1.778 -1.524)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 1.524) (xy 3.048 -1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "100pF_0603_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "passives:100uF_1210"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.651 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100u"
+				(at 1.016 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passives:C_1210"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J107ME20-01.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100uF / 6.3V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at -0.127 -0.127 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/grm32er60j107me20l/702653"
+				(at 0 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "GRM"
+				(at -0.127 -0.127 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "GRM32ER60J107ME20L"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "100uF_1210_0_1"
+				(arc
+					(start 1.778 1.524)
+					(mid 2.1666 0)
+					(end 1.778 -1.524)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 1.524) (xy 3.048 -1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "100uF_1210_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "passives:10kR_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.096 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "10k"
+				(at 1.27 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "passives:R_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10kohm 1/16W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CPF0603F10KC1/2384568"
+				(at 1.524 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TE Connectivity Passive Product"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "CPF0603F10KC1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10kR_0603_1_1"
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.921 1.016) (xy 3.302 0) (xy 3.683 -1.016) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "passives:10uF_0603"
 			(pin_numbers
 				(hide yes)
@@ -2041,6 +3552,182 @@
 				)
 			)
 			(symbol "10uF_0603_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "passives:1pF_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.651 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1p"
+				(at 1.016 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passives:C_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1pF / 50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at -0.127 -0.127 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/yageo/CC0603BRNPO9BN1R0/5883417"
+				(at 0 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at -0.127 -0.127 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "CC0603BRNPO9BN1R0"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1pF_0603_0_1"
+				(arc
+					(start 1.778 1.524)
+					(mid 2.1666 0)
+					(end 1.778 -1.524)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 1.524) (xy 3.048 -1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1pF_0603_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -2256,6 +3943,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "passives:22nF_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.651 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22n"
+				(at 1.016 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "passives:C_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0.022UF 50V X7R 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at -0.127 -0.127 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C223K5RACTU/416043"
+				(at 0 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "KEMET"
+				(at -0.127 -0.127 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "C0603C223K5RACTU"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "22nF_0603_0_1"
+				(arc
+					(start 1.778 1.524)
+					(mid 2.1666 0)
+					(end 1.778 -1.524)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 1.524) (xy 3.048 -1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "22nF_0603_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "passives:22uF_0603"
 			(pin_numbers
 				(hide yes)
@@ -2432,6 +4295,354 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "passives:2k49R_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.096 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "2.49k"
+				(at 1.27 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "passives:R_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 2.49KOHM 0.1% 1/10W 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/susumu/RG1608P-2491-B-T5/1240530"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Susumu"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "RG1608P-2491-B-T5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2k49R_0603_1_1"
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.921 1.016) (xy 3.302 0) (xy 3.683 -1.016) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "passives:2kR_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.096 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "2k"
+				(at 1.27 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "passives:R_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10kohm 1/16W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-072KP/4935312?msockid=1e380b8d9e676a601f5f1d329fd76bcc"
+				(at 1.524 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "RC0603FR-072KP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2kR_0603_1_1"
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.921 1.016) (xy 3.302 0) (xy 3.683 -1.016) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "passives:34k8R_0603"
 			(pin_numbers
 				(hide yes)
@@ -2543,6 +4754,354 @@
 				)
 			)
 			(symbol "34k8R_0603_1_1"
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.921 1.016) (xy 3.302 0) (xy 3.683 -1.016) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "passives:40R2_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.096 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "40.2"
+				(at 1.27 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "passives:R_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 40.2 OHM 1% 1/10W 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3EKF40R2V/196342"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Panasonic Electronic Components"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "ERJ-3EKF40R2V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "40R2_0603_1_1"
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.921 1.016) (xy 3.302 0) (xy 3.683 -1.016) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "passives:47kR_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.096 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "47k"
+				(at 1.27 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "passives:R_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 47K OHM 1% 1/10W 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0747KL/727253"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "RC0603FR-0747KL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "47kR_0603_1_1"
 				(polyline
 					(pts
 						(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
@@ -3116,8 +5675,8 @@
 		)
 	)
 	(rectangle
-		(start 56.134 122.936)
-		(end 59.944 126.238)
+		(start 52.324 68.326)
+		(end 56.134 71.628)
 		(stroke
 			(width 0)
 			(type dot)
@@ -3155,8 +5714,8 @@
 		(uuid 174b5eb6-0bdb-4c5d-b82c-8701ba718f69)
 	)
 	(rectangle
-		(start 54.61 130.556)
-		(end 58.42 133.858)
+		(start 50.8 75.946)
+		(end 54.61 79.248)
 		(stroke
 			(width 0)
 			(type dot)
@@ -3166,6 +5725,19 @@
 			(type none)
 		)
 		(uuid 20bc975f-5421-4731-bbf9-29925bc4505b)
+	)
+	(rectangle
+		(start 15.24 116.84)
+		(end 151.13 194.31)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 49efa10c-32c9-4cf0-8f20-7cb22182b730)
 	)
 	(rectangle
 		(start 42.672 240.792)
@@ -3220,8 +5792,8 @@
 		(uuid 675c7cf6-42e4-469d-92fb-36f117f694c9)
 	)
 	(rectangle
-		(start 54.356 125.222)
-		(end 58.166 128.524)
+		(start 50.546 70.612)
+		(end 54.356 73.914)
 		(stroke
 			(width 0)
 			(type dot)
@@ -3233,8 +5805,8 @@
 		(uuid 7bf9b40a-ff15-4d54-b43a-a9fd7459128c)
 	)
 	(rectangle
-		(start 15.24 33.02)
-		(end 151.13 194.31)
+		(start 15.24 16.51)
+		(end 151.13 113.03)
 		(stroke
 			(width 1)
 			(type default)
@@ -3309,7 +5881,7 @@
 	)
 	(text_box "DESIGN NOTE:\nZ = Normal speed (48kHz), high perf mode. VCC (1) = low pow mode."
 		(exclude_from_sim no)
-		(at 20.32 130.81 0)
+		(at 16.51 76.2 0)
 		(size 21.59 11.43)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
@@ -3355,7 +5927,7 @@
 	)
 	(text_box "ADC (input)"
 		(exclude_from_sim no)
-		(at 43.18 182.88 0)
+		(at 45.72 102.87 0)
 		(size 76.2 7.62)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -3426,7 +5998,7 @@
 	)
 	(text_box "Global nets for ADC\n"
 		(exclude_from_sim no)
-		(at 66.548 230.378 0)
+		(at 43.18 231.14 0)
 		(size 76.2 7.62)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -3570,7 +6142,7 @@
 	)
 	(text_box "LAYOUT NOTE:\nPlace decoupling caps close to IC and to respective pins\n"
 		(exclude_from_sim no)
-		(at 120.396 93.472 0)
+		(at 116.586 38.862 0)
 		(size 26.67 11.43)
 		(margins 1.4525 1.4525 1.4525 1.4525)
 		(stroke
@@ -3619,7 +6191,7 @@
 	)
 	(text_box "DESIGN NOTE:\nMaster mode for serial port. VCC = slave"
 		(exclude_from_sim no)
-		(at 20.066 143.764 0)
+		(at 16.256 89.154 0)
 		(size 21.59 11.43)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
@@ -3663,6 +6235,54 @@
 		)
 		(uuid "c54d2a68-beec-42e9-bb7f-5ed2cb9ad3f3")
 	)
+	(text_box "LAYOUT NOTE:\nPlace decoupling caps close to IC and to respective pins.\nAlso pls check the caps here before final design."
+		(exclude_from_sim no)
+		(at 124.46 101.6 0)
+		(size 26.67 15.24)
+		(margins 1.4525 1.4525 1.4525 1.4525)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "c9a8f64e-4139-4867-b9ec-1afacd7c25f6")
+	)
+	(text_box "DESIGN NOTE:\nSee LTSpice for the rational behind this madness"
+		(exclude_from_sim no)
+		(at 16.51 118.11 0)
+		(size 25.4 8.89)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d5327ef5-fbc1-4b77-adaa-35ad38bf714d")
+	)
 	(text_box "Inputs from FPGA"
 		(exclude_from_sim no)
 		(at 16.51 199.898 0)
@@ -3689,7 +6309,7 @@
 	)
 	(text_box "DESIGN NOTE:\nDisable high pass (active = enable disable)"
 		(exclude_from_sim no)
-		(at 45.974 143.002 0)
+		(at 42.164 88.392 0)
 		(size 21.59 11.43)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
@@ -3709,6 +6329,30 @@
 			(justify left top)
 		)
 		(uuid "dfad8ed4-148e-4d9d-8468-786324eb7e83")
+	)
+	(text_box "ADC Preamp (preinput)"
+		(exclude_from_sim no)
+		(at 46.99 184.15 0)
+		(size 76.2 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "e1c213a6-24f9-4694-bc1d-0e7a8ad2c926")
 	)
 	(text_box "Other Outputs"
 		(exclude_from_sim no)
@@ -3831,6 +6475,12 @@
 		(uuid "f9e61076-596c-460d-97a4-c3ec6882067e")
 	)
 	(junction
+		(at 135.89 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00ba2ac2-65a4-4270-8935-ebaa92f2f954")
+	)
+	(junction
 		(at 207.01 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3843,10 +6493,34 @@
 		(uuid "0856f41e-ea95-42ba-a46a-0891c598027a")
 	)
 	(junction
-		(at 128.27 119.38)
+		(at 135.89 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c5e3012-8c7c-47c6-a5c1-fcdf23573f9f")
+	)
+	(junction
+		(at 111.76 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12ae26a3-3436-44d8-9621-6396d1da9f8e")
+	)
+	(junction
+		(at 124.46 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a42682f-2b63-424c-9d48-4aaab5a772f7")
+	)
+	(junction
+		(at 74.93 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1af08e06-3e94-4166-8389-bd646e69168c")
+	)
+	(junction
+		(at 109.22 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c00045a-4457-4e22-b46f-4d334ed58262")
 	)
 	(junction
 		(at 218.44 67.31)
@@ -3861,7 +6535,7 @@
 		(uuid "34a4fb79-64f5-4ff2-a081-63ee4e464257")
 	)
 	(junction
-		(at 123.19 114.3)
+		(at 119.38 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "482880e1-781b-44c3-9c0c-9149ef93d81b")
@@ -3879,7 +6553,7 @@
 		(uuid "4ed523dd-6a5f-4f56-b476-816765bd90c5")
 	)
 	(junction
-		(at 123.19 119.38)
+		(at 119.38 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "539a78de-9279-4da5-a436-4edd9be0b6ec")
@@ -3891,16 +6565,40 @@
 		(uuid "55ca9ed9-da30-446e-8e8a-b910477f4abc")
 	)
 	(junction
+		(at 120.65 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "575efde4-eff3-4a0f-b31a-e3357b9d4276")
+	)
+	(junction
 		(at 284.48 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bf8c178-74d1-4cfe-9b87-4630689d7449")
 	)
 	(junction
-		(at 96.52 83.82)
+		(at 87.63 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d64afc0-4d1e-4806-b675-17184c41efb0")
+	)
+	(junction
+		(at 92.71 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "619199b1-5c86-4890-8bb8-aadb29b1f068")
+	)
+	(junction
+		(at 294.64 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "624afa3b-139c-45fc-99ab-557efa081513")
+	)
+	(junction
+		(at 63.5 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6357bb23-f455-4120-874a-98bf01eb8f73")
 	)
 	(junction
 		(at 284.48 124.46)
@@ -3909,13 +6607,37 @@
 		(uuid "64daa176-4921-4191-9970-80175be0acef")
 	)
 	(junction
-		(at 78.74 91.44)
+		(at 82.55 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "677c52ba-c0d5-4bfb-b104-1fe03f6da6f9")
+	)
+	(junction
+		(at 74.93 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67be9971-35fc-43de-8e31-7a1f347ba3b3")
+	)
+	(junction
+		(at 99.06 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e985b2e-2d42-4975-952a-798efbefd84e")
+	)
+	(junction
+		(at 128.27 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aac5698-909b-46ee-9d73-e394511efd7b")
+	)
+	(junction
+		(at 74.93 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c4081c3-7b40-467a-ab08-014afb4e79e7")
 	)
 	(junction
-		(at 96.52 93.98)
+		(at 92.71 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90546fbf-00dc-45aa-871e-9492000141f3")
@@ -3927,10 +6649,22 @@
 		(uuid "941cf965-a697-4693-a9de-6f4da215f6d7")
 	)
 	(junction
+		(at 101.6 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ae62db7-6142-42e8-bb4e-4fe4a339cf44")
+	)
+	(junction
 		(at 260.35 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2629317-6c2d-4d7e-8899-eba33bdacce6")
+	)
+	(junction
+		(at 49.53 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acb30098-c746-491b-b194-cfee4b1dab10")
 	)
 	(junction
 		(at 230.9243 57.15)
@@ -3945,7 +6679,13 @@
 		(uuid "b1dd7906-0ed6-4a3b-9f22-9ea8353d8a20")
 	)
 	(junction
-		(at 78.74 81.28)
+		(at 128.27 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b83985f1-3529-4059-8684-de01db976330")
+	)
+	(junction
+		(at 74.93 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf5978ef-8147-47c1-b9c7-526e77d67415")
@@ -3963,6 +6703,18 @@
 		(uuid "d34cbb56-2355-4c35-9200-9b25a33126e7")
 	)
 	(junction
+		(at 38.1 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8486b59-00b9-4bde-b770-d9dad369a718")
+	)
+	(junction
+		(at 55.88 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d92ce0a3-c488-4dd1-a2bc-3a31d8efc7ae")
+	)
+	(junction
 		(at 179.07 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3974,31 +6726,67 @@
 		(color 0 0 0 0)
 		(uuid "eae93210-2c25-409b-97ac-89968b85e96e")
 	)
+	(junction
+		(at 96.52 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe674590-e4f8-40aa-a71e-ea36da25d537")
+	)
 	(no_connect
-		(at 58.42 124.46)
+		(at 54.61 69.85)
 		(uuid "164c8c83-f3ed-494f-a0e6-fa97b2b68149")
 	)
 	(no_connect
-		(at 289.56 213.36)
-		(uuid "2b64f42e-293c-4654-9521-35ad14213832")
+		(at 38.1 154.94)
+		(uuid "22c7b3fa-e3e6-4511-ac17-00ad3174fac0")
 	)
 	(no_connect
 		(at 325.12 209.55)
 		(uuid "5db3c1a7-7f89-4cbd-8c0b-9c385432d30c")
 	)
 	(no_connect
-		(at 289.56 209.55)
-		(uuid "e8c8212b-03d7-4cea-9d57-6f7f2101c7cb")
+		(at 38.1 162.56)
+		(uuid "6e4fd169-852c-4ad2-9e05-378448a23b6e")
 	)
 	(wire
 		(pts
-			(xy 280.67 209.55) (xy 289.56 209.55)
+			(xy 38.1 149.86) (xy 44.45 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00df0365-f70c-4a56-abcd-800c7b02e57f")
+	)
+	(wire
+		(pts
+			(xy 101.6 143.51) (xy 101.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0185d2d0-7ea5-4a83-8034-c7e50485a1f3")
+	)
+	(wire
+		(pts
+			(xy 280.67 209.55) (xy 294.64 209.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "024badc9-62ff-4a77-8767-5c1cb210637c")
+	)
+	(wire
+		(pts
+			(xy 107.95 143.51) (xy 101.6 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031a6403-4ccc-48eb-8ce3-deeaa7a9569f")
 	)
 	(polyline
 		(pts
@@ -4013,6 +6801,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 133.35) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06df7859-3f7a-41d3-a37a-4c0efdffd471")
+	)
+	(wire
+		(pts
 			(xy 276.86 74.93) (xy 281.94 74.93)
 		)
 		(stroke
@@ -4020,6 +6818,16 @@
 			(type default)
 		)
 		(uuid "06fd1758-0789-4b2a-9a5b-f48f0c1b2ba1")
+	)
+	(wire
+		(pts
+			(xy 57.15 135.89) (xy 74.93 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a26c1ab-5b5b-45bb-99be-b293eb6813b8")
 	)
 	(wire
 		(pts
@@ -4054,6 +6862,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 160.02) (xy 55.88 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c835b50-bf2e-4ea5-bd75-901ae0549da5")
+	)
+	(wire
+		(pts
 			(xy 255.27 45.72) (xy 255.27 48.26)
 		)
 		(stroke
@@ -4074,7 +6892,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 88.9) (xy 83.82 91.44)
+			(xy 80.01 34.29) (xy 80.01 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4104,6 +6922,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 213.36) (xy 294.64 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1458c97a-5dae-4e23-a7b6-a8f43e2190ec")
+	)
+	(wire
+		(pts
 			(xy 243.84 45.72) (xy 243.84 44.45)
 		)
 		(stroke
@@ -4114,13 +6942,43 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 119.38) (xy 129.54 119.38)
+			(xy 109.22 128.27) (xy 109.22 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1881ff6c-5715-4ff3-9e30-7296b5c2cd6b")
+	)
+	(wire
+		(pts
+			(xy 124.46 64.77) (xy 125.73 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1a0565b5-2d9b-4416-aa3c-5b67145941df")
+	)
+	(wire
+		(pts
+			(xy 99.06 138.43) (xy 128.27 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3dfadd-59fa-4ee4-a180-2d87380b12b2")
+	)
+	(wire
+		(pts
+			(xy 74.93 142.24) (xy 74.93 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d647ed8-7024-4010-b010-d26dde1115bd")
 	)
 	(wire
 		(pts
@@ -4164,7 +7022,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 93.98) (xy 101.6 93.98)
+			(xy 55.88 162.56) (xy 55.88 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280ce954-e9f0-4c5e-b194-72b9c7e2a43c")
+	)
+	(wire
+		(pts
+			(xy 92.71 39.37) (xy 97.79 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4194,7 +7062,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 81.28) (xy 78.74 80.01)
+			(xy 74.93 26.67) (xy 74.93 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4234,7 +7102,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 115.57) (xy 120.65 114.3)
+			(xy 116.84 60.96) (xy 116.84 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4251,6 +7119,16 @@
 			(type default)
 		)
 		(uuid "2e265583-9b9c-47bd-ac71-f63652714314")
+	)
+	(wire
+		(pts
+			(xy 63.5 160.02) (xy 74.93 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e85515e-00a1-4313-b5fe-ab60ace59ed5")
 	)
 	(wire
 		(pts
@@ -4274,7 +7152,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 119.38) (xy 128.27 119.38)
+			(xy 119.38 64.77) (xy 124.46 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4294,7 +7172,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 93.98) (xy 96.52 93.98)
+			(xy 87.63 39.37) (xy 92.71 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4354,7 +7232,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 81.28) (xy 83.82 81.28)
+			(xy 74.93 26.67) (xy 80.01 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4364,7 +7242,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 118.11) (xy 120.65 118.11)
+			(xy 115.57 63.5) (xy 116.84 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4424,7 +7302,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 91.44) (xy 101.6 93.98)
+			(xy 97.79 36.83) (xy 97.79 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4454,6 +7332,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 121.92) (xy 87.63 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476f49cc-b304-4b33-80eb-28be13e2f717")
+	)
+	(wire
+		(pts
 			(xy 179.07 119.38) (xy 200.66 119.38)
 		)
 		(stroke
@@ -4474,7 +7362,27 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 88.9) (xy 73.66 91.44)
+			(xy 38.1 149.86) (xy 38.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1359fa-bb90-4115-adb2-cad74c650b0b")
+	)
+	(wire
+		(pts
+			(xy 87.63 121.92) (xy 96.52 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5ae27c-48df-4545-9388-893e1c88426d")
+	)
+	(wire
+		(pts
+			(xy 69.85 34.29) (xy 69.85 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4494,6 +7402,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 135.89) (xy 78.74 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea9853c-0501-4951-920b-a544d50db258")
+	)
+	(wire
+		(pts
 			(xy 245.11 209.55) (xy 254 209.55)
 		)
 		(stroke
@@ -4501,6 +7419,26 @@
 			(type default)
 		)
 		(uuid "507b681a-68f4-44b7-b36a-9a85531b9ce0")
+	)
+	(wire
+		(pts
+			(xy 128.27 138.43) (xy 135.89 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54426042-dfe6-4e15-82c7-aed5ad2cfa69")
+	)
+	(wire
+		(pts
+			(xy 109.22 134.62) (xy 111.76 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5662a3c9-1b05-4630-a85f-3bf65553c71d")
 	)
 	(wire
 		(pts
@@ -4524,7 +7462,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 119.38) (xy 129.54 121.92)
+			(xy 125.73 64.77) (xy 125.73 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4534,7 +7472,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 81.28) (xy 73.66 83.82)
+			(xy 69.85 26.67) (xy 69.85 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4554,6 +7492,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 160.02) (xy 49.53 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6143b1e0-2e83-41f6-ac33-443dd03f24bd")
+	)
+	(wire
+		(pts
 			(xy 223.52 64.77) (xy 223.52 67.31)
 		)
 		(stroke
@@ -4561,6 +7509,16 @@
 			(type default)
 		)
 		(uuid "649fb7e5-a09f-4b2b-b8c5-9a9fd52924f6")
+	)
+	(wire
+		(pts
+			(xy 52.07 135.89) (xy 49.53 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6580e7f1-cf3f-4ae6-b79a-cb690b49660a")
 	)
 	(wire
 		(pts
@@ -4594,6 +7552,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 121.92) (xy 74.93 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0fd845-41af-42cd-bd75-36e22edd04c6")
+	)
+	(wire
+		(pts
+			(xy 120.65 143.51) (xy 120.65 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719e7d51-238b-417f-8a04-ea15c96c6229")
+	)
+	(wire
+		(pts
 			(xy 238.76 45.72) (xy 243.84 45.72)
 		)
 		(stroke
@@ -4604,7 +7582,17 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 213.36) (xy 289.56 213.36)
+			(xy 41.91 147.32) (xy 38.1 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a2563d-4704-473c-96e4-45ac552b2006")
+	)
+	(wire
+		(pts
+			(xy 280.67 213.36) (xy 294.64 213.36)
 		)
 		(stroke
 			(width 0)
@@ -4622,9 +7610,19 @@
 		)
 		(uuid "77be4ef5-b172-4061-bbd1-4333fcd27bf4")
 	)
+	(wire
+		(pts
+			(xy 109.22 133.35) (xy 109.22 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77eea6b6-c9c7-449b-b219-c35b84c64608")
+	)
 	(polyline
 		(pts
-			(xy 57.15 133.858) (xy 48.006 142.494)
+			(xy 53.34 79.248) (xy 44.196 87.884)
 		)
 		(stroke
 			(width 0)
@@ -4655,7 +7653,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 83.82) (xy 101.6 83.82)
+			(xy 92.71 29.21) (xy 97.79 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4712,6 +7710,16 @@
 			(type default)
 		)
 		(uuid "875c14f0-3ae7-4a27-9efa-26d433eed22d")
+	)
+	(wire
+		(pts
+			(xy 87.63 120.65) (xy 87.63 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f140f8-7e3f-4adb-badb-66b1d615f1bc")
 	)
 	(wire
 		(pts
@@ -4775,7 +7783,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 91.44 86.36)
+			(xy 74.93 121.92) (xy 82.55 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0bc1bb-76f2-48a7-bf86-954f40aec127")
+	)
+	(wire
+		(pts
+			(xy 87.63 29.21) (xy 87.63 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4806,6 +7824,46 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 149.86) (xy 99.06 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb38e49-0e2f-4ed5-9a8c-86bd8049e83c")
+	)
+	(wire
+		(pts
+			(xy 82.55 120.65) (xy 82.55 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f645373-44e9-47c6-8068-d8b79b1dacfd")
+	)
+	(wire
+		(pts
+			(xy 49.53 158.75) (xy 49.53 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8d1258-0539-4d58-8aba-4a0b7c9b593d")
+	)
+	(wire
+		(pts
+			(xy 120.65 156.21) (xy 120.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9034c2d2-0c96-4ca5-baa6-34fd0a1e82cf")
+	)
+	(wire
+		(pts
 			(xy 238.76 77.47) (xy 257.81 77.47)
 		)
 		(stroke
@@ -4826,13 +7884,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 91.44) (xy 83.82 91.44)
+			(xy 74.93 36.83) (xy 80.01 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9445f91d-d1e1-45fc-93f6-0517a6211e05")
+	)
+	(wire
+		(pts
+			(xy 120.65 143.51) (xy 113.03 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9448c2d6-d571-41e0-97e2-0ac7cc62a017")
 	)
 	(wire
 		(pts
@@ -4886,6 +7954,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 128.27) (xy 114.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0c23c3-035b-4c22-98c2-8fe7ae3ab8f7")
+	)
+	(wire
+		(pts
 			(xy 226.06 78.74) (xy 227.33 78.74)
 		)
 		(stroke
@@ -4904,9 +7982,29 @@
 		)
 		(uuid "a07249f6-99e3-41fc-b038-6e5b03da635b")
 	)
+	(wire
+		(pts
+			(xy 114.3 127) (xy 109.22 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07af63b-5357-4e92-9995-c508bab2ebc2")
+	)
+	(wire
+		(pts
+			(xy 135.89 156.21) (xy 137.16 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2592a2a-bc34-41b2-b6a6-1edfc2176228")
+	)
 	(polyline
 		(pts
-			(xy 56.388 125.222) (xy 41.91 130.81)
+			(xy 52.578 70.612) (xy 38.1 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4917,7 +8015,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 81.28) (xy 83.82 83.82)
+			(xy 121.92 156.21) (xy 120.65 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47dfea3-7021-46a7-af39-71906309680f")
+	)
+	(wire
+		(pts
+			(xy 80.01 26.67) (xy 80.01 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4927,7 +8035,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 143.51) (xy 100.33 151.13)
+			(xy 96.52 88.9) (xy 96.52 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4965,6 +8073,16 @@
 		)
 		(uuid "a90de4f6-e655-459c-9bc2-a3a097f124bf")
 	)
+	(wire
+		(pts
+			(xy 74.93 142.24) (xy 78.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e09b1a-4833-4f0b-b1eb-cdb16dda4396")
+	)
 	(polyline
 		(pts
 			(xy 37.846 213.106) (xy 17.526 217.932)
@@ -4988,6 +8106,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 138.43) (xy 137.16 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9a514b-57fa-4e07-9a4b-1a48381aae52")
+	)
+	(wire
+		(pts
 			(xy 265.43 45.72) (xy 265.43 48.26)
 		)
 		(stroke
@@ -5005,6 +8133,16 @@
 			(type default)
 		)
 		(uuid "b11e663d-5078-4854-bd19-5e3c8902d7f8")
+	)
+	(wire
+		(pts
+			(xy 63.5 162.56) (xy 63.5 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2400fc3-1bbd-4efa-bccc-bee4b2dc7ba3")
 	)
 	(wire
 		(pts
@@ -5098,7 +8236,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 91.44) (xy 78.74 91.44)
+			(xy 69.85 36.83) (xy 74.93 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5108,7 +8246,7 @@
 	)
 	(polyline
 		(pts
-			(xy 54.61 127.508) (xy 41.91 144.78)
+			(xy 50.8 72.898) (xy 38.1 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5139,6 +8277,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 121.92) (xy 82.55 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c853283c-b60a-4cf2-943f-b5d8729a1663")
+	)
+	(wire
+		(pts
 			(xy 248.92 45.72) (xy 248.92 48.26)
 		)
 		(stroke
@@ -5146,6 +8294,26 @@
 			(type default)
 		)
 		(uuid "c856283d-790c-42ad-b779-361ecc2305ed")
+	)
+	(wire
+		(pts
+			(xy 99.06 154.94) (xy 101.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd846482-1693-4bcc-9347-c34be3086d74")
+	)
+	(wire
+		(pts
+			(xy 111.76 134.62) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9e7490-129c-4641-9bfa-2137b59fdf38")
 	)
 	(wire
 		(pts
@@ -5179,7 +8347,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 83.82) (xy 101.6 86.36)
+			(xy 97.79 29.21) (xy 97.79 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5189,13 +8357,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 118.11) (xy 120.65 119.38)
+			(xy 116.84 63.5) (xy 116.84 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d133052a-f723-4d69-aabb-ca0b0ecf1806")
+	)
+	(wire
+		(pts
+			(xy 74.93 160.02) (xy 102.87 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18fefbb-7c76-4723-938e-1df63bea4720")
 	)
 	(polyline
 		(pts
@@ -5210,7 +8388,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 83.82) (xy 96.52 82.55)
+			(xy 92.71 29.21) (xy 92.71 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5230,7 +8408,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 114.3) (xy 123.19 114.3)
+			(xy 116.84 59.69) (xy 119.38 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5250,6 +8428,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 135.89) (xy 44.45 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8db5ea4-ada7-4d1f-888d-277610b3350f")
+	)
+	(wire
+		(pts
 			(xy 276.86 119.38) (xy 284.48 119.38)
 		)
 		(stroke
@@ -5260,7 +8448,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 143.51) (xy 77.47 151.13)
+			(xy 73.66 88.9) (xy 73.66 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5290,7 +8478,27 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 115.57) (xy 120.65 115.57)
+			(xy 96.52 138.43) (xy 99.06 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa12469-7f57-4d40-80c2-3555794aaf5b")
+	)
+	(wire
+		(pts
+			(xy 99.06 138.43) (xy 99.06 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1416347-7827-4b00-bac3-7faac02536d3")
+	)
+	(wire
+		(pts
+			(xy 115.57 60.96) (xy 116.84 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5340,6 +8548,36 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 121.92) (xy 96.52 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ffb043-5c52-4311-9924-8bd50fac1327")
+	)
+	(wire
+		(pts
+			(xy 128.27 149.86) (xy 128.27 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba516d3-41db-40b3-8d5b-76a2fa8f0135")
+	)
+	(wire
+		(pts
+			(xy 102.87 154.94) (xy 101.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec72dae7-0ee9-429c-a0fa-75ea06f41398")
+	)
+	(wire
+		(pts
 			(xy 214.63 57.15) (xy 218.44 57.15)
 		)
 		(stroke
@@ -5350,7 +8588,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 81.28) (xy 78.74 81.28)
+			(xy 69.85 26.67) (xy 74.93 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5360,7 +8598,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 91.44) (xy 91.44 93.98)
+			(xy 87.63 36.83) (xy 87.63 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5390,7 +8628,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 114.3) (xy 128.27 114.3)
+			(xy 119.38 59.69) (xy 124.46 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5400,7 +8638,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 119.38) (xy 123.19 119.38)
+			(xy 127 156.21) (xy 128.27 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f5734c-0b42-483b-9efd-968f44cd170f")
+	)
+	(wire
+		(pts
+			(xy 116.84 64.77) (xy 119.38 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5418,6 +8666,26 @@
 		)
 		(uuid "f8623a61-0621-44ab-ac32-344be8e409ac")
 	)
+	(wire
+		(pts
+			(xy 55.88 160.02) (xy 63.5 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91d5a6b-e6c1-4503-9a3c-931fc1a841ef")
+	)
+	(wire
+		(pts
+			(xy 128.27 138.43) (xy 128.27 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9724027-7041-4a68-8c73-f4d02487384b")
+	)
 	(polyline
 		(pts
 			(xy 227.838 50.546) (xy 221.742 50.546)
@@ -5428,6 +8696,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "fa6134e0-7605-43d3-a4b6-4fa286bc459c")
+	)
+	(wire
+		(pts
+			(xy 128.27 156.21) (xy 135.89 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fafc421e-d68b-4cb4-8b33-9a598b673ffa")
 	)
 	(wire
 		(pts
@@ -5451,7 +8729,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 96.52 83.82)
+			(xy 87.63 29.21) (xy 92.71 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6054,7 +9332,7 @@
 		(uuid "01fae053-369b-4b0e-96da-c4481e65ef76")
 	)
 	(label "ADC_INPUT+"
-		(at 58.42 116.84 180)
+		(at 54.61 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6134,7 +9412,7 @@
 		(uuid "2be9fdd5-932a-4110-a145-c440d692a376")
 	)
 	(label "ADC_BCK"
-		(at 119.38 128.27 0)
+		(at 115.57 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6144,7 +9422,7 @@
 		(uuid "3b610029-45e5-42d4-9ec7-ddc19e1f7b02")
 	)
 	(label "ADC_INPUT-"
-		(at 58.42 119.38 180)
+		(at 54.61 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6174,7 +9452,7 @@
 		(uuid "50e0900b-0b52-49dd-8cf5-92e53ca68e3a")
 	)
 	(label "ADC_SysClock"
-		(at 58.42 121.92 180)
+		(at 54.61 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6283,6 +9561,16 @@
 		)
 		(uuid "8f5132af-098a-47a1-82e8-1c9bc8788fda")
 	)
+	(label "ADC_INPUT-"
+		(at 137.16 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99254fbb-c4d6-4589-9735-320d505207ed")
+	)
 	(label "MICBIAS"
 		(at 200.66 124.46 180)
 		(effects
@@ -6354,7 +9642,7 @@
 		(uuid "b5955ddb-0692-4ae1-b882-9d6fd96d5330")
 	)
 	(label "ADC_DATA"
-		(at 119.38 133.35 0)
+		(at 115.57 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6384,7 +9672,7 @@
 		(uuid "c94fb8f8-8cfb-42ce-97d3-ae6798843f8e")
 	)
 	(label "ADC_nRST"
-		(at 58.42 129.54 180)
+		(at 54.61 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6394,7 +9682,7 @@
 		(uuid "d60abacf-7814-499f-b343-902c71e3af57")
 	)
 	(label "ADC_FSYNC"
-		(at 119.38 130.81 0)
+		(at 115.57 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6432,6 +9720,16 @@
 			(justify right bottom)
 		)
 		(uuid "e3d9cfcb-8255-4414-b31f-aae7a7865e32")
+	)
+	(label "ADC_INPUT+"
+		(at 137.16 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eba11a88-ab5a-4b4c-9927-84a175182e25")
 	)
 	(label "AIN2"
 		(at 280.67 213.36 180)
@@ -7091,6 +10389,117 @@
 	)
 	(symbol
 		(lib_id "passives:10uF_0603")
+		(at 114.3 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01a734a8-e5f6-4500-a8c8-59d58f5b716c")
+		(property "Reference" "C628"
+			(at 119.38 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 117.348 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "passives:C_0603"
+			(at 114.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF / 10V"
+			(at 114.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 114.427 133.477 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61A106ME69D/5027560"
+			(at 104.775 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 114.427 133.477 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "GRM188R61A106ME69D"
+			(at 109.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ecee795-6b04-4d29-b9f4-b1a148d5d8f7")
+		)
+		(pin "2"
+			(uuid "e69ed4f8-68c9-4d21-ab33-ab788423368f")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "C628")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:10uF_0603")
 		(at 265.43 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7193,11 +10602,17 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Power:Earth")
-		(at 77.47 151.13 0)
+		(at 73.66 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7206,7 +10621,7 @@
 		(fields_autoplaced yes)
 		(uuid "02d7c1ac-a9dd-44ae-9826-1784f718169f")
 		(property "Reference" "#PWR0604"
-			(at 77.47 157.48 0)
+			(at 73.66 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +10630,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 77.47 154.94 0)
+			(at 73.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,7 +10639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 151.13 0)
+			(at 73.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +10648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 151.13 0)
+			(at 73.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +10657,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 77.47 151.13 0)
+			(at 73.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,6 +10672,124 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0604")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:10kR_0603")
+		(at 49.53 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "072ca516-d047-4f2f-acc4-9b42af051f16")
+		(property "Reference" "R603"
+			(at 52.07 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 52.07 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kohm 1/16W"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CPF0603F10KC1/2384568"
+			(at 44.196 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CPF0603F10KC1"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07b644d0-ec16-4a42-bb48-9cf3694661bf")
+		)
+		(pin "1"
+			(uuid "f70b9844-07da-4f89-a360-c5d241899f91")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "R603")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7326,11 +10859,17 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "passives:10uF_0603")
-		(at 101.6 91.44 90)
+		(at 97.79 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7338,7 +10877,7 @@
 		(dnp no)
 		(uuid "1289109c-0b6f-45da-bbcc-38a7eab31d81")
 		(property "Reference" "C604"
-			(at 104.14 91.44 90)
+			(at 100.33 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +10886,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 104.648 87.376 90)
+			(at 100.838 32.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +10895,7 @@
 			)
 		)
 		(property "Footprint" "passives:C_0603"
-			(at 101.6 91.44 0)
+			(at 97.79 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7365,7 +10904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 91.44 0)
+			(at 97.79 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7374,7 +10913,7 @@
 			)
 		)
 		(property "Description" "10uF / 10V"
-			(at 101.6 91.44 0)
+			(at 97.79 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,7 +10922,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 101.727 91.567 90)
+			(at 97.917 36.957 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,7 +10931,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61A106ME69D/5027560"
-			(at 92.075 91.44 0)
+			(at 88.265 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7401,7 +10940,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 101.727 91.567 90)
+			(at 97.917 36.957 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,7 +10949,7 @@
 			)
 		)
 		(property "PN" "GRM188R61A106ME69D"
-			(at 96.52 91.44 0)
+			(at 92.71 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7431,11 +10970,17 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "passives:0u1F_0603")
-		(at 123.19 119.38 90)
+		(at 119.38 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7443,7 +10988,7 @@
 		(dnp no)
 		(uuid "1419d55f-c8b5-42de-8075-409ff4918993")
 		(property "Reference" "C605"
-			(at 123.444 121.158 90)
+			(at 119.634 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,7 +10997,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 122.936 112.522 90)
+			(at 119.126 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7461,7 +11006,7 @@
 			)
 		)
 		(property "Footprint" "passives:C_0603"
-			(at 123.19 119.38 0)
+			(at 119.38 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7470,7 +11015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 119.38 0)
+			(at 119.38 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,7 +11024,7 @@
 			)
 		)
 		(property "Description" "0.1uF / 50V"
-			(at 123.19 119.38 0)
+			(at 119.38 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,7 +11033,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 123.317 119.507 90)
+			(at 119.507 64.897 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +11042,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71H104KA12D/2783803"
-			(at 113.665 119.38 0)
+			(at 109.855 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,7 +11051,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 123.317 119.507 90)
+			(at 119.507 64.897 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,7 +11060,7 @@
 			)
 		)
 		(property "PN" "GCJ188R71H104KA12D"
-			(at 118.11 119.38 0)
+			(at 114.3 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,11 +11081,17 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Power:Earth")
-		(at 129.54 121.92 0)
+		(at 125.73 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7549,7 +11100,7 @@
 		(fields_autoplaced yes)
 		(uuid "15d4827b-8362-4e8c-a7c3-4a746b57d96f")
 		(property "Reference" "#PWR0611"
-			(at 129.54 128.27 0)
+			(at 125.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7558,7 +11109,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 129.54 125.73 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +11118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 121.92 0)
+			(at 125.73 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +11127,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 121.92 0)
+			(at 125.73 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7585,7 +11136,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 129.54 121.92 0)
+			(at 125.73 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,6 +11151,124 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0611")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:100pF_0603")
+		(at 135.89 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19395ed0-2739-4fa0-877d-2b540da6b6eb")
+		(property "Reference" "C627"
+			(at 138.43 157.607 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100p"
+			(at 138.43 160.147 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passives:C_0603"
+			(at 135.89 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100PF 50V C0G/NP0 0603"
+			(at 135.89 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 136.017 161.417 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H101JA01D/586921"
+			(at 126.365 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 136.017 161.417 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "GRM1885C1H101JA01D"
+			(at 130.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "564a4739-8dac-4afd-b4be-bb1142e2e1a4")
+		)
+		(pin "1"
+			(uuid "b171670c-07b9-4589-bf4e-d005bb7b8545")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "C627")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7669,20 +11338,25 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Power:+5VA")
-		(at 77.47 105.41 0)
+		(at 87.63 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2670711f-9599-4f6b-89df-584080e232ba")
-		(property "Reference" "#PWR0603"
-			(at 77.47 109.22 0)
+		(uuid "2540d9b7-548b-4736-bab3-1136351b9993")
+		(property "Reference" "#PWR0643"
+			(at 87.63 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7691,7 +11365,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 77.47 100.33 0)
+			(at 87.376 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +11373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 105.41 0)
+			(at 87.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +11382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 105.41 0)
+			(at 87.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7717,7 +11391,79 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 77.47 105.41 0)
+			(at 87.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ce47b79-652b-4b82-8e61-d2c0a862a45b")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "#PWR0643")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:+5VA")
+		(at 73.66 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2670711f-9599-4f6b-89df-584080e232ba")
+		(property "Reference" "#PWR0603"
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 73.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 73.66 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7735,11 +11481,120 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:2k49R_0603")
+		(at 113.03 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28ddd64d-9b7a-4d48-9239-4fa66d734ea3")
+		(property "Reference" "R608"
+			(at 114.808 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.49k"
+			(at 114.808 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 113.03 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 2.49KOHM 0.1% 1/10W 0603"
+			(at 113.03 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 113.03 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/susumu/RG1608P-2491-B-T5/1240530"
+			(at 113.03 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 113.03 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RG1608P-2491-B-T5"
+			(at 113.03 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06c5f141-1f1e-47cf-a0be-7628f62e5972")
+		)
+		(pin "1"
+			(uuid "5a68cf06-37e1-4b35-b6b5-24aa341294ea")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "R608")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Power:+3V3D")
-		(at 58.42 132.08 90)
+		(at 54.61 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7748,7 +11603,7 @@
 		(fields_autoplaced yes)
 		(uuid "28e39bb8-44c3-4cb1-86a0-6af16c7310d6")
 		(property "Reference" "#PWR0602"
-			(at 62.23 132.08 0)
+			(at 58.42 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7757,7 +11612,7 @@
 			)
 		)
 		(property "Value" "+3V3D"
-			(at 54.61 132.0799 90)
+			(at 50.8 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7766,7 +11621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 132.08 0)
+			(at 54.61 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,7 +11630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 132.08 0)
+			(at 54.61 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7784,7 +11639,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3D\""
-			(at 58.42 132.08 0)
+			(at 54.61 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7799,6 +11654,123 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0602")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:47kR_0603")
+		(at 82.55 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ca4c5e0-8af4-4ce5-9029-9d24875af26d")
+		(property "Reference" "R607"
+			(at 90.17 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 89.662 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 47K OHM 1% 1/10W 0603"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0747KL/727253"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0603FR-0747KL"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3cb7599-4a05-4c88-bffd-2b6f2042f2db")
+		)
+		(pin "2"
+			(uuid "10a09a1c-7448-4663-82e2-d76ff122125a")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "R607")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7908,11 +11880,217 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:Earth")
+		(at 135.89 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fe68905-6f8f-470d-a3c9-626d6675159e")
+		(property "Reference" "#PWR0648"
+			(at 135.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 135.89 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 135.89 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe07066a-3234-4a47-8765-d05d1978bd7a")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "#PWR0648")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "OPA2134UA_2K5_1")
+		(lib_id "ICs:OPA2134UA_2K5")
+		(at 87.63 139.7 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30653cc1-4316-4ff2-88ae-e0ce6a22e44c")
+		(property "Reference" "U603"
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "OPA2134UA/2K5"
+			(at 122.936 131.064 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICs:OPA2134UA_2K5"
+			(at 149.86 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/opa2134"
+			(at 149.86 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 87.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 87.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA2134UA-2K5/1649193"
+			(at 87.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "OPA2134UA/2K5"
+			(at 87.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b950ee64-0ac8-472f-a208-ac44a9ef7b2c")
+		)
+		(pin "8"
+			(uuid "dccbcb82-f79c-41d5-ba92-0ee85d4bb35e")
+		)
+		(pin "4"
+			(uuid "d0bbcbc7-a40e-4d97-ae50-b901cc17c5a6")
+		)
+		(pin "6"
+			(uuid "2357cc34-54f5-4339-a53f-dd126e3eb727")
+		)
+		(pin "1"
+			(uuid "f27d8e9d-d115-4012-8f43-342b84281e01")
+		)
+		(pin "5"
+			(uuid "6025ff80-4604-4b0d-bba2-75ebbb872062")
+		)
+		(pin "2"
+			(uuid "98902b13-9b27-496f-95be-4607c7dc6ab6")
+		)
+		(pin "7"
+			(uuid "b260358d-168a-4269-8b35-621393ce5790")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "U603")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Power:+5VA")
-		(at 78.74 80.01 0)
+		(at 74.93 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7921,7 +12099,7 @@
 		(fields_autoplaced yes)
 		(uuid "3906d03f-b684-4222-95c8-648029073465")
 		(property "Reference" "#PWR0605"
-			(at 78.74 83.82 0)
+			(at 74.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7930,7 +12108,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 78.74 74.93 0)
+			(at 74.93 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,7 +12116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 80.01 0)
+			(at 74.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7947,7 +12125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 80.01 0)
+			(at 74.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7956,7 +12134,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 78.74 80.01 0)
+			(at 74.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7971,6 +12149,12 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0605")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8037,6 +12221,12 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0629")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8145,6 +12335,163 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Input:SJ1-42534-SMT-TR")
+		(at 25.4 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "476f1e3d-a5fd-4fc7-b738-374ff444cd4a")
+		(property "Reference" "J601"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SJ1-42534-SMT-TR"
+			(at 25.4 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Input:CUI_SJ1-42534-SMT-TR"
+			(at 25.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 25.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_REV" "1.06"
+			(at 25.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.7 mm"
+			(at 25.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 25.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PN" "SJ1-42534-SMT-TR"
+			(at 25.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 25.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SJ1-42534-SMT-TR/659908"
+			(at 25.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4_1"
+			(uuid "fab3611a-f36d-4d4d-8ff9-8c13b550d153")
+		)
+		(pin "2"
+			(uuid "389bd5b8-a82a-4679-a896-d683a94359ff")
+		)
+		(pin "1"
+			(uuid "1a953b3a-03ca-4ebb-8af5-457a2b6687e4")
+		)
+		(pin "3"
+			(uuid "db9a0230-d876-4460-b93f-47658611cc9e")
+		)
+		(pin "4_2"
+			(uuid "6d19e488-3793-4154-8ccd-3f2a071e09ec")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "J601")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8208,6 +12555,12 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0635")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8316,6 +12669,12 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8383,20 +12742,26 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Power:Earth")
-		(at 78.74 91.44 0)
+		(at 87.63 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5774973e-d895-404c-bb63-2b3ae913e05c")
-		(property "Reference" "#PWR0606"
-			(at 78.74 97.79 0)
+		(uuid "55bc3fb2-ab76-40b1-be88-e07ac0658512")
+		(property "Reference" "#PWR0644"
+			(at 87.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8405,7 +12770,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 78.74 95.25 0)
+			(at 87.63 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8414,7 +12779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 91.44 0)
+			(at 87.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,7 +12788,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 91.44 0)
+			(at 87.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8432,7 +12797,80 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 78.74 91.44 0)
+			(at 87.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f318084a-f3b5-4a01-9fa8-a39bf8484358")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "#PWR0644")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:Earth")
+		(at 74.93 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5774973e-d895-404c-bb63-2b3ae913e05c")
+		(property "Reference" "#PWR0606"
+			(at 74.93 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 74.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,6 +12885,12 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0606")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8517,6 +12961,79 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:Earth")
+		(at 294.64 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5be892da-aab8-4cc2-ae4f-b58f7e634e2a")
+		(property "Reference" "#PWR0101"
+			(at 294.64 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 294.64 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 294.64 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bce882a0-8730-4a0d-84be-cc95378cee52")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8584,46 +13101,42 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "passives:10uF_0603")
-		(at 83.82 88.9 90)
+		(lib_id "passives:2kR_0603")
+		(at 52.07 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5eb687a7-808d-45e5-aed3-029fe39a1ffd")
-		(property "Reference" "C602"
-			(at 86.36 88.9 90)
+		(fields_autoplaced yes)
+		(uuid "5e8c5549-bb0d-466d-ba55-cf4e2416ee85")
+		(property "Reference" "R605"
+			(at 54.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 86.868 84.836 90)
+		(property "Value" "2k"
+			(at 54.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0603"
-			(at 83.82 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 88.9 0)
+		(property "Footprint" "passives:R_0603"
+			(at 52.07 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,8 +13144,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF / 10V"
-			(at 83.82 88.9 0)
+		(property "Datasheet" "~"
+			(at 52.07 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kohm 1/16W"
+			(at 52.07 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8641,7 +13163,118 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 83.947 89.027 90)
+			(at 52.07 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-072KP/4935312?msockid=1e380b8d9e676a601f5f1d329fd76bcc"
+			(at 53.594 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 52.07 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0603FR-072KP"
+			(at 52.07 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8572c56b-d26c-41cc-9cd3-dd3b6e1c1f75")
+		)
+		(pin "2"
+			(uuid "4c35e3d2-81ed-4d1b-8f7d-bac975ec89d2")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "R605")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:10uF_0603")
+		(at 80.01 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5eb687a7-808d-45e5-aed3-029fe39a1ffd")
+		(property "Reference" "C602"
+			(at 82.55 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 83.058 30.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "passives:C_0603"
+			(at 80.01 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF / 10V"
+			(at 80.01 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 80.137 34.417 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +13283,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61A106ME69D/5027560"
-			(at 74.295 88.9 0)
+			(at 70.485 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +13292,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 83.947 89.027 90)
+			(at 80.137 34.417 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +13301,7 @@
 			)
 		)
 		(property "PN" "GRM188R61A106ME69D"
-			(at 78.74 88.9 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8686,6 +13319,12 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "C602")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -8794,6 +13433,12 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8857,6 +13502,118 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0636")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:100pF_0603")
+		(at 135.89 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "604a37d8-6ccf-46b8-9aa9-db29e00d7084")
+		(property "Reference" "C9"
+			(at 138.43 139.8269 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100p"
+			(at 138.43 142.3669 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passives:C_0603"
+			(at 135.89 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100PF 50V C0G/NP0 0603"
+			(at 135.89 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 136.017 143.637 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H101JA01D/586921"
+			(at 126.365 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 136.017 143.637 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "GRM1885C1H101JA01D"
+			(at 130.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bf98620-88f9-43e1-9aef-35ac56a3b8fd")
+		)
+		(pin "2"
+			(uuid "d38bfd76-44d4-4f6f-89ef-24932110f7f4")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8927,11 +13684,17 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "passives:10uF_0603")
-		(at 128.27 119.38 90)
+		(at 124.46 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8940,7 +13703,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bb37bda-621e-4aba-ae8f-30f3c926d35f")
 		(property "Reference" "C606"
-			(at 130.81 115.6969 90)
+			(at 127 61.0869 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8949,7 +13712,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 130.81 118.2369 90)
+			(at 127 63.6269 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8958,7 +13721,7 @@
 			)
 		)
 		(property "Footprint" "passives:C_0603"
-			(at 128.27 119.38 0)
+			(at 124.46 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8967,7 +13730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 119.38 0)
+			(at 124.46 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8976,7 +13739,7 @@
 			)
 		)
 		(property "Description" "10uF / 10V"
-			(at 128.27 119.38 0)
+			(at 124.46 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8985,7 +13748,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 128.397 119.507 90)
+			(at 124.587 64.897 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8994,7 +13757,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61A106ME69D/5027560"
-			(at 118.745 119.38 0)
+			(at 114.935 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9003,7 +13766,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 128.397 119.507 90)
+			(at 124.587 64.897 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,7 +13775,7 @@
 			)
 		)
 		(property "PN" "GRM188R61A106ME69D"
-			(at 123.19 119.38 0)
+			(at 119.38 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9030,6 +13793,12 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "C606")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -9138,6 +13907,12 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9200,6 +13975,84 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0617")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:+5VA")
+		(at 49.53 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7563a243-ea19-4fbd-83a8-f519412d0da2")
+		(property "Reference" "#PWR0638"
+			(at 49.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 49.53 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 49.53 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0d88de4-cb52-494a-a55b-a2f3ffc1a473")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "#PWR0638")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9270,6 +14123,12 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9332,6 +14191,85 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0624")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:Earth")
+		(at 63.5 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78c5b7af-1f21-4f97-a8fd-242a768f4717")
+		(property "Reference" "#PWR0642"
+			(at 63.5 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 63.5 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 63.5 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b2e6ea2-8f9c-4927-9ce9-e0b38ad5140b")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "#PWR0642")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9440,6 +14378,12 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9503,6 +14447,12 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0619")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9573,6 +14523,12 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9636,6 +14592,12 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0612")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9703,6 +14665,12 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0626")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9808,6 +14776,77 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "C609")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:+5VA")
+		(at 110.49 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94c450cb-c1d2-467c-9708-ebef47f97a2a")
+		(property "Reference" "#PWR0649"
+			(at 110.49 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 110.236 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 110.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19f6da18-6f42-4791-9fd0-d6c1f43ad8fa")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "#PWR0649")
 					(unit 1)
 				)
 			)
@@ -9917,6 +14956,12 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9984,11 +15029,17 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Power:+3V3D")
-		(at 100.33 105.41 0)
+		(at 96.52 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9997,7 +15048,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d317d4d-3c67-4e1a-a92b-284757f08d57")
 		(property "Reference" "#PWR0609"
-			(at 100.33 109.22 0)
+			(at 96.52 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10006,7 +15057,7 @@
 			)
 		)
 		(property "Value" "+3V3D"
-			(at 100.33 100.33 0)
+			(at 96.52 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10014,7 +15065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 105.41 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10023,7 +15074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 105.41 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10032,7 +15083,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3D\""
-			(at 100.33 105.41 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10047,6 +15098,12 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0609")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10117,6 +15174,12 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10184,37 +15247,26 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "passives:0u1F_0603")
-		(at 91.44 91.44 90)
+		(lib_id "Power:Earth")
+		(at 135.89 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ae7e1b93-08ff-4f20-a599-ce95c100dabc")
-		(property "Reference" "C603"
-			(at 91.186 91.186 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 90.932 86.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "passives:C_0603"
-			(at 91.44 91.44 0)
+		(fields_autoplaced yes)
+		(uuid "a730b0e5-39ea-4920-a7ea-4ec47b6e7e4c")
+		(property "Reference" "#PWR0645"
+			(at 135.89 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10222,8 +15274,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 91.44 91.44 0)
+		(property "Value" "Earth"
+			(at 135.89 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10231,8 +15283,90 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1uF / 50V"
-			(at 91.44 91.44 0)
+		(property "Footprint" ""
+			(at 135.89 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 135.89 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "758d56b2-b5eb-40dd-89e5-06354755fedc")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "#PWR0645")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:40R2_0603")
+		(at 127 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa5df3d9-f368-4899-8c6d-8afede60163b")
+		(property "Reference" "R609"
+			(at 124.206 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40.2"
+			(at 124.206 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 40.2 OHM 1% 1/10W 0603"
+			(at 127 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10241,7 +15375,191 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 91.567 91.567 90)
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3EKF40R2V/196342"
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ERJ-3EKF40R2V"
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9fa5cce6-b9a9-4052-9dd0-4784bbb48b54")
+		)
+		(pin "1"
+			(uuid "1f2f7f08-4966-49df-82b1-57ca4f904f96")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "R609")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:Earth")
+		(at 49.53 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aabb8c46-67d0-47c8-85e8-2713013d3f8b")
+		(property "Reference" "#PWR0639"
+			(at 49.53 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 49.53 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7046efe9-7015-42f4-9569-cc3988d2fe8e")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "#PWR0639")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:0u1F_0603")
+		(at 87.63 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae7e1b93-08ff-4f20-a599-ce95c100dabc")
+		(property "Reference" "C603"
+			(at 87.376 36.576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0u1"
+			(at 87.122 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "passives:C_0603"
+			(at 87.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1uF / 50V"
+			(at 87.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 87.757 36.957 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10250,7 +15568,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71H104KA12D/2783803"
-			(at 81.915 91.44 0)
+			(at 78.105 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10259,7 +15577,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 91.567 91.567 90)
+			(at 87.757 36.957 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10268,7 +15586,7 @@
 			)
 		)
 		(property "PN" "GCJ188R71H104KA12D"
-			(at 86.36 91.44 0)
+			(at 82.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10289,37 +15607,43 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "passives:0u1F_0603")
-		(at 73.66 88.9 90)
+		(lib_id "passives:10uF_0603")
+		(at 55.88 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b4845a1b-a2ce-485e-96f8-929cae1d445b")
-		(property "Reference" "C601"
-			(at 73.406 88.646 90)
+		(uuid "af07e4f4-06a5-44dd-81d9-d2f70eb1bae5")
+		(property "Reference" "C621"
+			(at 57.658 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "0u1"
-			(at 73.152 84.328 90)
+		(property "Value" "10u"
+			(at 57.658 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "passives:C_0603"
-			(at 73.66 88.9 0)
+			(at 55.88 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10328,7 +15652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 88.9 0)
+			(at 55.88 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,8 +15660,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1uF / 50V"
-			(at 73.66 88.9 0)
+		(property "Description" "10uF / 10V"
+			(at 55.88 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10346,7 +15670,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 73.787 89.027 90)
+			(at 56.007 167.767 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10354,8 +15678,8 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71H104KA12D/2783803"
-			(at 64.135 88.9 0)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61A106ME69D/5027560"
+			(at 46.355 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10364,7 +15688,118 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 73.787 89.027 90)
+			(at 56.007 167.767 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "GRM188R61A106ME69D"
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14dc472b-5fcc-4afb-9bd2-a4091fb30718")
+		)
+		(pin "2"
+			(uuid "7e4d7473-9c0e-4543-a8e3-963820ff8709")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "C621")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:0u1F_0603")
+		(at 69.85 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4845a1b-a2ce-485e-96f8-929cae1d445b")
+		(property "Reference" "C601"
+			(at 69.596 34.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0u1"
+			(at 69.342 29.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "passives:C_0603"
+			(at 69.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1uF / 50V"
+			(at 69.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 69.977 34.417 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71H104KA12D/2783803"
+			(at 60.325 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 69.977 34.417 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10373,7 +15808,7 @@
 			)
 		)
 		(property "PN" "GCJ188R71H104KA12D"
-			(at 68.58 88.9 0)
+			(at 64.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10394,38 +15829,41 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Power:Earth")
-		(at 58.42 127 270)
+		(lib_id "passives:2k49R_0603")
+		(at 99.06 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b494b85e-ddd2-439e-a474-e6e30032330f")
-		(property "Reference" "#PWR0601"
-			(at 52.07 127 0)
+		(uuid "b4883319-6cb8-401d-81f4-93326957ea1c")
+		(property "Reference" "R606"
+			(at 94.996 148.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "Earth"
-			(at 54.61 127 0)
+		(property "Value" "2.49k"
+			(at 94.996 145.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.42 127 0)
+		(property "Footprint" "passives:R_0603"
+			(at 99.06 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10434,7 +15872,119 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 127 0)
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 2.49KOHM 0.1% 1/10W 0603"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/susumu/RG1608P-2491-B-T5/1240530"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RG1608P-2491-B-T5"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82bb0d6c-49b6-4907-8cd8-ac31e3859725")
+		)
+		(pin "2"
+			(uuid "4afc3b67-1d75-4799-ae8e-5492a228a5c1")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "R606")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:Earth")
+		(at 54.61 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b494b85e-ddd2-439e-a474-e6e30032330f")
+		(property "Reference" "#PWR0601"
+			(at 48.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 50.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10443,7 +15993,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 58.42 127 0)
+			(at 54.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,6 +16008,12 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0601")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10567,6 +16123,85 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:Earth")
+		(at 111.76 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b918b1cc-f9dd-4c10-9073-483ab13669da")
+		(property "Reference" "#PWR0647"
+			(at 111.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 111.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "792417b8-97d1-4363-ae61-39b87997d75f")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "#PWR0647")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10669,6 +16304,12 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "C616")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -10775,6 +16416,79 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "R601")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:Earth")
+		(at 110.49 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be26651b-2430-454d-b477-8afe585a6e4f")
+		(property "Reference" "#PWR0650"
+			(at 110.49 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 110.49 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 110.49 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a12a8e51-024a-462d-9f9c-f86868403d83")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "#PWR0650")
 					(unit 1)
 				)
 			)
@@ -10979,6 +16693,124 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:10uF_0603")
+		(at 63.5 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2586f4f-4211-4899-8a46-155cd4bbfe86")
+		(property "Reference" "C622"
+			(at 66.04 163.9569 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 66.04 166.4969 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passives:C_0603"
+			(at 63.5 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF / 10V"
+			(at 63.5 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 63.627 167.767 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61A106ME69D/5027560"
+			(at 53.975 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 63.627 167.767 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "GRM188R61A106ME69D"
+			(at 58.42 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "335e7565-e703-4b7b-84b7-020af1a49f29")
+		)
+		(pin "2"
+			(uuid "d4cc841c-4563-479c-941d-eb7e8a8a95f5")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "C622")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11043,6 +16875,12 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0630")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11151,6 +16989,12 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11213,6 +17057,12 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0622")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11356,6 +17206,12 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "P?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11461,11 +17317,89 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:+5VA")
+		(at 109.22 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9e52306-2c1c-4231-889b-3423f9d60ce9")
+		(property "Reference" "#PWR0646"
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c358b878-8228-4cb4-8144-d636711cd3fd")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "#PWR0646")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Power:Earth")
-		(at 96.52 93.98 0)
+		(at 92.71 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11474,7 +17408,7 @@
 		(fields_autoplaced yes)
 		(uuid "caa92f10-7002-42c7-994b-69ce26a2bc52")
 		(property "Reference" "#PWR0608"
-			(at 96.52 100.33 0)
+			(at 92.71 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11483,7 +17417,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 96.52 97.79 0)
+			(at 92.71 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11492,7 +17426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 93.98 0)
+			(at 92.71 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11501,7 +17435,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 93.98 0)
+			(at 92.71 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11510,7 +17444,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 96.52 93.98 0)
+			(at 92.71 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11525,6 +17459,138 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0608")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICs:OPA2134UA_2K5")
+		(at 110.49 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc234260-39b4-4054-bea4-685f679010c7")
+		(property "Reference" "U603"
+			(at 142.24 146.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "OPA2134UA/2K5"
+			(at 145.796 148.844 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ICs:OPA2134UA_2K5"
+			(at 172.72 187.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/opa2134"
+			(at 172.72 187.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 110.49 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 110.49 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/OPA2134UA-2K5/1649193"
+			(at 110.49 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "OPA2134UA/2K5"
+			(at 110.49 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1eb410e6-fa68-4800-8668-d6e84de68d80")
+		)
+		(pin "8"
+			(uuid "5a08b96d-8e99-45df-ad0d-c1c9b08de5ce")
+		)
+		(pin "4"
+			(uuid "ca6856a5-5f49-4bc9-97e8-1603acf7bd9b")
+		)
+		(pin "6"
+			(uuid "fb3da666-eff2-4d92-b017-a0e6e854b01f")
+		)
+		(pin "1"
+			(uuid "d783a708-5879-498b-b4a8-a198057af64d")
+		)
+		(pin "5"
+			(uuid "eb7d66b5-2b54-4a23-bbaa-f5766b2b37f9")
+		)
+		(pin "2"
+			(uuid "dc301cfc-df18-4a78-b121-f2423ec18ad5")
+		)
+		(pin "7"
+			(uuid "7e8b3fc7-08bd-4a01-ab36-ae3141da2773")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "U603")
 					(unit 1)
 				)
 			)
@@ -11633,20 +17699,26 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Power:+3V3D")
-		(at 96.52 82.55 0)
+		(lib_id "Power:Earth")
+		(at 55.88 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e0d873e5-19dc-4ebd-860e-eb3b88cf757a")
-		(property "Reference" "#PWR0607"
-			(at 96.52 86.36 0)
+		(uuid "d04c2b21-d764-4626-a213-58c4d62cf3e9")
+		(property "Reference" "#PWR0641"
+			(at 55.88 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11654,16 +17726,199 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3D"
-			(at 96.52 77.47 0)
+		(property "Value" "Earth"
+			(at 55.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 55.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3fe07d4-fdaf-4a23-b406-cb88caeda53e")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "#PWR0641")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:100uF_1210")
+		(at 44.45 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d08a54d7-83cb-4792-8657-ebdb205eff19")
+		(property "Reference" "C620"
+			(at 46.863 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 96.52 82.55 0)
+		(property "Value" "100u"
+			(at 46.863 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "passives:C_1210"
+			(at 44.45 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J107ME20-01.pdf"
+			(at 44.45 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100uF / 6.3V"
+			(at 44.45 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 44.323 136.017 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/grm32er60j107me20l/702653"
+			(at 44.45 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GRM"
+			(at 44.323 136.017 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "GRM32ER60J107ME20L"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd271546-7cd0-4ed3-9986-8171cc427f4e")
+		)
+		(pin "1"
+			(uuid "24c0185d-2d38-4127-ad4c-3f0fda6fab70")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "C620")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:0u1F_0603")
+		(at 109.22 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d42a3e58-04a9-476a-b56f-b32aebc7e09a")
+		(property "Reference" "C626"
+			(at 108.966 133.096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0u1"
+			(at 108.712 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "passives:C_0603"
+			(at 109.22 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11672,7 +17927,118 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 82.55 0)
+			(at 109.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1uF / 50V"
+			(at 109.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 109.347 133.477 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71H104KA12D/2783803"
+			(at 99.695 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 109.347 133.477 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "GCJ188R71H104KA12D"
+			(at 104.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfdc9816-2f7b-4254-8e59-dc65d7175c1c")
+		)
+		(pin "1"
+			(uuid "3f4ff7ff-623b-4630-a16f-7a4fded06d87")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "C626")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:+3V3D")
+		(at 92.71 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0d873e5-19dc-4ebd-860e-eb3b88cf757a")
+		(property "Reference" "#PWR0607"
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3D"
+			(at 92.71 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11681,7 +18047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3D\""
-			(at 96.52 82.55 0)
+			(at 92.71 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11696,6 +18062,232 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0607")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:22nF_0603")
+		(at 128.27 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e195cef4-36ad-4bfc-8b22-274fb5ec4572")
+		(property "Reference" "C625"
+			(at 132.588 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22n"
+			(at 131.826 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "passives:C_0603"
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.022UF 50V X7R 0603"
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 128.397 149.987 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/kemet/C0603C223K5RACTU/416043"
+			(at 118.745 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 128.397 149.987 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C0603C223K5RACTU"
+			(at 123.19 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6aa46a8f-8554-4aa1-ae0c-df4d5e12079c")
+		)
+		(pin "2"
+			(uuid "dc9d5b8c-6ad1-41dd-b0ec-08520d130313")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "C625")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:10kR_0603")
+		(at 49.53 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2cfa34a-7622-4fa2-a3c4-dce75647f61f")
+		(property "Reference" "R604"
+			(at 51.054 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 51.054 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passives:R_0603"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kohm 1/16W"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CPF0603F10KC1/2384568"
+			(at 44.196 166.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CPF0603F10KC1"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5bc0d334-02be-4ec2-8b9b-3bf444b497a9")
+		)
+		(pin "1"
+			(uuid "b3d70ad7-0a3b-4e61-a906-bf6142784e31")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "R604")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11766,20 +18358,26 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Power:Earth")
-		(at 100.33 151.13 0)
+		(at 41.91 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e8120ca6-c414-4992-9795-b9c0623f3829")
-		(property "Reference" "#PWR0610"
-			(at 100.33 157.48 0)
+		(uuid "e40c5aba-57bb-4830-9424-e0511be80045")
+		(property "Reference" "#PWR0640"
+			(at 41.91 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11788,7 +18386,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 100.33 154.94 0)
+			(at 41.91 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11797,7 +18395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 151.13 0)
+			(at 41.91 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11806,7 +18404,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 151.13 0)
+			(at 41.91 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11815,7 +18413,191 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 100.33 151.13 0)
+			(at 41.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25b436c6-4fd3-4bf3-98f3-fddaf68ef2c6")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "#PWR0640")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:1pF_0603")
+		(at 82.55 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e608312f-4ee4-49aa-a344-6f65efdbb794")
+		(property "Reference" "C623"
+			(at 89.662 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1p"
+			(at 89.662 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "passives:C_0603"
+			(at 82.55 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1pF / 50V"
+			(at 82.55 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 82.423 123.317 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/yageo/CC0603BRNPO9BN1R0/5883417"
+			(at 82.55 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 82.423 123.317 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CC0603BRNPO9BN1R0"
+			(at 82.55 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e139e28-30fe-4415-b605-b3875b8af4b8")
+		)
+		(pin "2"
+			(uuid "b5a380f8-1a8d-4842-b802-c2785db03e8b")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
+					(reference "C623")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:Earth")
+		(at 96.52 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8120ca6-c414-4992-9795-b9c0623f3829")
+		(property "Reference" "#PWR0610"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 96.52 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11830,6 +18612,12 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0610")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11900,6 +18688,12 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11964,6 +18758,12 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "#PWR0634")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12033,11 +18833,17 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "ICs:PCM4201PWR")
-		(at 58.42 114.3 0)
+		(at 54.61 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12046,7 +18852,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe6dea98-2d6a-4e3e-a446-651cc059ae63")
 		(property "Reference" "U601"
-			(at 102.4733 107.95 0)
+			(at 98.6633 53.34 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12055,7 +18861,7 @@
 			)
 		)
 		(property "Value" "PCM4201PWR"
-			(at 102.4733 110.49 0)
+			(at 98.6633 55.88 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12064,7 +18870,7 @@
 			)
 		)
 		(property "Footprint" "ICs:PCM4201"
-			(at 88.9 110.744 0)
+			(at 85.09 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12074,7 +18880,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/pcm4201"
-			(at 120.904 145.288 0)
+			(at 117.094 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12084,7 +18890,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 114.3 0)
+			(at 54.61 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12093,7 +18899,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 67.31 91.694 0)
+			(at 63.5 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12102,7 +18908,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/texas-instruments/PCM4201PWR/1573432"
-			(at 92.71 93.98 0)
+			(at 88.9 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12111,7 +18917,7 @@
 			)
 		)
 		(property "Manufacturer" "TI"
-			(at 58.42 114.3 0)
+			(at 54.61 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12120,7 +18926,7 @@
 			)
 		)
 		(property "PN" "PCM4201PWR"
-			(at 78.74 92.202 0)
+			(at 74.93 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12180,6 +18986,12 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
 					(reference "U601")
+					(unit 1)
+				)
+			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -12249,6 +19061,18 @@
 					(unit 1)
 				)
 			)
+			(project "Analog_Frontend"
+				(path "/f14eaccc-8d6b-4eb3-a9c7-19528998f840"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

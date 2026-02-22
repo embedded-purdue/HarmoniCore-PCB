@@ -10989,7 +10989,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LED_LTST-C170GKT_LTO"
+			(property "Footprint" "passives:LED_0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -20008,8 +20008,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "afdc52b1-2707-4bd0-b50c-e4ce0d376168")
 		(property "Reference" "TP7"
 			(at 254 29.2099 0)
@@ -21075,7 +21074,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c7e81a4d-0db1-4fcc-9954-89beef950631")
 		(property "Reference" "TP8"
@@ -21848,7 +21847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0805"
+		(property "Footprint" "passives:LED_0805"
 			(at 60.96 83.82 0)
 			(effects
 				(font
