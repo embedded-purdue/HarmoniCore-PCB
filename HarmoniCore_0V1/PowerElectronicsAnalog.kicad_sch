@@ -9,36 +9,35 @@
 		(date "2025-09-21")
 	)
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
+			(property "Reference" "L"
+				(at -1.27 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "L"
+				(at 1.905 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -55,7 +54,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "Inductor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,7 +72,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,25 +81,49 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
 					(stroke
-						(width 0.508)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -108,11 +131,11 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "L_1_1"
 				(pin passive line
 					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
+					(length 1.27)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -129,157 +152,8 @@
 				)
 				(pin passive line
 					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "~"
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1047,6 +921,218 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "passives:TAJA475K016RNJ"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TAJA475K016RNJ"
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "passives:TAJA475K016RNJ"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.7uF/16v Tantalum"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "031320"
+				(at 0.254 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.8 mm"
+				(at -0.254 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "AVX"
+				(at -0.254 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/kyocera-avx/TAJA475K016RNJ/1126796"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TAJA475K016RNJ_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.713 -1.532)
+					(end -2.824 -1.405)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.332 -1.913)
+					(end -3.205 -1.024)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 2.54) (xy -2.032 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -2.54)
+					(mid -1.0549 0)
+					(end -0.254 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "5v in (needs to be filtered) (pi filter/ferrite beads)\nBest approach should be to use pi filter based on buck's frequency, and then use ferrite beads after that\n\n3.3v LDO (TPS767D301PWPR)\n\n(need to ask for current requirements)"
 		(exclude_from_sim no)
@@ -1057,16 +1143,6 @@
 			)
 		)
 		(uuid "5536392a-712f-4b42-b2b8-a40a23724b46")
-	)
-	(text "LD1085D2T33R\n"
-		(exclude_from_sim no)
-		(at 22.352 18.796 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b2386a8b-3b11-4b72-9cdb-651107b8226f")
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
@@ -1138,16 +1214,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 45.72) (xy 74.93 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "375bce16-8943-4f96-a00f-aa930b8fea6e")
-	)
-	(wire
-		(pts
 			(xy 35.56 73.66) (xy 44.45 73.66)
 		)
 		(stroke
@@ -1168,13 +1234,23 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 46.99) (xy 29.21 49.53)
+			(xy 29.21 44.45) (xy 29.21 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "695dc741-e638-455f-b760-830d068de50b")
+	)
+	(wire
+		(pts
+			(xy 74.93 38.1) (xy 74.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a886dcd-be08-4ae9-868e-ace53c380713")
 	)
 	(wire
 		(pts
@@ -1208,16 +1284,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 38.1) (xy 74.93 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a056cc1f-b724-4dcf-8b13-efce055dfb0a")
-	)
-	(wire
-		(pts
 			(xy 54.61 81.28) (xy 35.56 81.28)
 		)
 		(stroke
@@ -1235,6 +1301,16 @@
 			(type default)
 		)
 		(uuid "bb40c722-81d6-4b07-9f60-73bea3f61af1")
+	)
+	(wire
+		(pts
+			(xy 74.93 46.99) (xy 74.93 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac89e8e-5531-4473-b72f-88d9d07e723d")
 	)
 	(wire
 		(pts
@@ -1257,45 +1333,33 @@
 		(uuid "ff5ac098-5381-47c9-afa7-8906f6677122")
 	)
 	(symbol
-		(lib_id "passives:4.7uF_0805")
-		(at 74.93 43.18 90)
+		(lib_id "Device:L")
+		(at 62.23 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "39e3922b-8e0f-4b7d-a160-16f7f0f34bf5")
-		(property "Reference" "C2"
-			(at 77.47 42.0369 90)
+		(uuid "27f61236-e8b9-46fe-b45b-0e5d4b7a7d21")
+		(property "Reference" "L1"
+			(at 62.23 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "4.7u tantalum"
-			(at 77.47 44.5769 90)
+		(property "Value" "SRP4020TA-100M"
+			(at 62.23 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "passives:C_0805"
-			(at 74.93 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf"
-			(at 74.93 43.18 0)
+		(property "Footprint" ""
+			(at 62.23 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,8 +1367,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7uF/10V"
-			(at 74.93 43.18 0)
+		(property "Datasheet" "~"
+			(at 62.23 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1312,43 +1376,25 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "490-6479-2-ND"
-			(at 74.93 43.18 0)
+		(property "Description" "https://www.digikey.com/en/products/detail/bourns-inc/SRP4020TA-100M/4900999"
+			(at 62.23 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Part Number" "GRM21BR71A475KA73K"
-			(at 74.93 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 74.93 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03e4c88c-830d-433e-b3cf-5af150d19953")
 		)
 		(pin "2"
-			(uuid "345c8ecc-9d56-4bf3-b7c6-52a475b02485")
+			(uuid "7acada86-7eac-45eb-b70d-ab5cd5c03962")
+		)
+		(pin "1"
+			(uuid "83381a41-462c-4afb-b498-17e69c90edb1")
 		)
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/050cf94a-fa1b-478c-9dcb-adb120579c78"
-					(reference "C2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -1464,33 +1510,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 62.23 38.1 90)
+		(lib_id "passives:4.7uF_0805")
+		(at 29.21 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "64ab62a4-b4a9-4cb8-860a-c373ea15750d")
-		(property "Reference" "FB1"
-			(at 62.1792 30.48 90)
+		(uuid "71bc0e57-b085-4c54-a56e-30f7fcc98b96")
+		(property "Reference" "C5"
+			(at 31.75 40.7669 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "FerriteBead"
-			(at 62.1792 33.02 90)
+		(property "Value" "4.7u"
+			(at 31.75 43.3069 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 62.23 39.878 90)
+		(property "Footprint" "passives:C_0805"
+			(at 29.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf"
+			(at 29.21 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,8 +1556,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 62.23 38.1 0)
+		(property "Description" "4.7uF/10V"
+			(at 29.21 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,8 +1565,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead"
-			(at 62.23 38.1 0)
+		(property "DigiKey Part Number" "490-6479-2-ND"
+			(at 29.21 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,16 +1574,34 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "f3122e3f-0d80-4be7-a709-50d0f0461ceb")
+		(property "Part Number" "GRM21BR71A475KA73K"
+			(at 29.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 29.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "cbef525c-255e-4ff9-bf17-3a60cabdcb9b")
+			(uuid "4a8077de-6196-4efb-b8c9-f1783e77d771")
+		)
+		(pin "2"
+			(uuid "0d4d9f81-437d-4839-8c01-f9749b55c120")
 		)
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/050cf94a-fa1b-478c-9dcb-adb120579c78"
-					(reference "FB1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -1666,76 +1742,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 29.21 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99a4de49-4b16-4705-b58e-f2183481fee3")
-		(property "Reference" "C1"
-			(at 33.02 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 - 4.7 uF Ceramic"
-			(at 33.02 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.1752 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5dabf964-86bd-462d-9dd3-f5ac0d777af1")
-		)
-		(pin "1"
-			(uuid "03ececb4-7c65-4c84-97ea-9ead21e004a7")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/050cf94a-fa1b-478c-9dcb-adb120579c78"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power:+5VD")
 		(at 29.21 36.83 0)
 		(unit 1)
@@ -1820,7 +1826,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u tantalum"
+		(property "Value" "10u 15v tantalum"
 			(at 38.1 77.5969 90)
 			(effects
 				(font
@@ -2075,6 +2081,126 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/050cf94a-fa1b-478c-9dcb-adb120579c78"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passives:TAJA475K016RNJ")
+		(at 74.93 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d76ee0c6-d584-4a59-97a6-b306a301c0c5")
+		(property "Reference" "C1"
+			(at 78.74 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TAJA475K016RNJ"
+			(at 78.74 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "passives:TAJA475K016RNJ"
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
+			(at 74.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7uF/16v Tantalum"
+			(at 74.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "031320"
+			(at 78.232 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 81.788 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.8 mm"
+			(at 83.566 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "AVX"
+			(at 85.344 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/kyocera-avx/TAJA475K016RNJ/1126796"
+			(at 74.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0046c4b8-9bb1-4c1c-b037-96cac8a55d7f")
+		)
+		(pin "1"
+			(uuid "14ef1bae-74d5-4ff4-bdff-ac01122f0ba8")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/050cf94a-fa1b-478c-9dcb-adb120579c78"
+					(reference "C1")
 					(unit 1)
 				)
 			)

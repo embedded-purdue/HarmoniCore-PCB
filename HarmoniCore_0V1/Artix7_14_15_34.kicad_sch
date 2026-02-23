@@ -6867,6 +6867,12 @@
 		(uuid "3c9f5d0b-06a4-4e8b-a4e2-4619ea06a6c2")
 	)
 	(junction
+		(at 73.66 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5189cfbb-31ed-46d1-a511-7102f01444b7")
+	)
+	(junction
 		(at 80.01 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6877,12 +6883,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7458c90-47d0-4d28-b9c2-8321198123db")
-	)
-	(junction
-		(at 73.66 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d80a33c7-af77-4f03-9f5e-11a2ecb3dbea")
 	)
 	(junction
 		(at 73.66 68.58)
@@ -6938,7 +6938,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 93.98) (xy 73.66 93.98)
+			(xy 62.23 83.82) (xy 73.66 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6985,6 +6985,16 @@
 			(type default)
 		)
 		(uuid "211a856a-a004-46ba-8aaa-a85aefe39f47")
+	)
+	(wire
+		(pts
+			(xy 81.28 50.8) (xy 90.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e12989-dcb0-4d87-8970-b3ad9e9d3a2b")
 	)
 	(wire
 		(pts
@@ -7158,16 +7168,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 93.98) (xy 90.17 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d73f7e4-fc04-421a-a051-e1be601d2543")
-	)
-	(wire
-		(pts
 			(xy 80.01 58.42) (xy 72.39 58.42)
 		)
 		(stroke
@@ -7215,6 +7215,16 @@
 			(type default)
 		)
 		(uuid "6e3d0667-57b8-460e-a806-14a9c9d524fb")
+	)
+	(wire
+		(pts
+			(xy 73.66 83.82) (xy 90.17 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71dde90f-7a57-4ec0-b029-183294f0ad7e")
 	)
 	(wire
 		(pts
@@ -7495,16 +7505,6 @@
 			(type default)
 		)
 		(uuid "d73ab8e0-0ec5-4fd5-a668-4a405993aa8d")
-	)
-	(wire
-		(pts
-			(xy 78.74 83.82) (xy 90.17 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d792a645-aa76-48e3-98bc-098d92eedff8")
 	)
 	(wire
 		(pts
@@ -7796,6 +7796,16 @@
 		)
 		(uuid "3220c880-e87c-42d5-8b55-4032d78c9748")
 	)
+	(label "DAC_WCLK"
+		(at 81.28 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3458199d-ce54-4361-99b0-a7dffcff752b")
+	)
 	(label "S4"
 		(at 22.86 128.27 180)
 		(effects
@@ -7977,7 +7987,7 @@
 		(uuid "67c92d8f-4560-4148-8b0b-73acd97671b7")
 	)
 	(label "ADC_nRST"
-		(at 62.23 93.98 0)
+		(at 62.23 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8025,16 +8035,6 @@
 			(justify right bottom)
 		)
 		(uuid "739035f2-57e8-4752-ace3-d2c48a86ded3")
-	)
-	(label "DAC_WCLK"
-		(at 78.74 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e534714-5d54-4f32-8baa-6b069b651015")
 	)
 	(label "ADC_BCK"
 		(at 78.74 91.44 0)
@@ -10247,7 +10247,7 @@
 	)
 	(symbol
 		(lib_id "Power:Earth")
-		(at 73.66 99.06 0)
+		(at 73.66 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10256,7 +10256,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b021d4d-38c5-4bc2-972d-89e9b64fe1cc")
 		(property "Reference" "#PWR0504"
-			(at 73.66 105.41 0)
+			(at 73.66 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10265,7 +10265,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 73.66 102.87 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10274,7 +10274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 99.06 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +10283,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 99.06 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10292,7 +10292,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 73.66 99.06 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11384,7 +11384,7 @@
 	)
 	(symbol
 		(lib_id "passives:4k7R_0603")
-		(at 73.66 99.06 90)
+		(at 73.66 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11392,7 +11392,7 @@
 		(dnp no)
 		(uuid "380a3c7f-b576-4cba-a5a4-586c5fb7d7ba")
 		(property "Reference" "R506"
-			(at 67.564 95.758 90)
+			(at 67.564 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11401,7 +11401,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 67.564 98.298 90)
+			(at 67.564 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11410,7 +11410,7 @@
 			)
 		)
 		(property "Footprint" "passives:R_0603"
-			(at 73.66 99.06 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11419,7 +11419,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 99.06 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11428,7 +11428,7 @@
 			)
 		)
 		(property "Description" "4.7k Ohm 1/10W"
-			(at 73.66 99.06 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11437,7 +11437,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 73.66 99.06 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11446,7 +11446,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-074K7L/726785"
-			(at 68.326 97.536 0)
+			(at 68.326 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11455,7 +11455,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 73.66 99.06 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11464,7 +11464,7 @@
 			)
 		)
 		(property "PN" "RC0603JR-074K7L"
-			(at 73.66 99.06 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
