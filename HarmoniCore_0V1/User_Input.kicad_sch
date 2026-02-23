@@ -8944,6 +8944,21 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 40.64 176.53) (xy 33.02 176.53) (xy 33.02 167.894) (xy 40.64 167.894)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 1a136bfa-b83a-484c-9e02-9492dc81b43c)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 40.64 163.83) (xy 33.02 163.83) (xy 33.02 152.654) (xy 40.64 152.654)
 			)
 			(stroke
@@ -8953,7 +8968,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 286b4c93-0510-4675-acf5-671c4810f4bd)
+			(uuid 4f47ebf9-0f9b-4812-8f93-ec353fc7990c)
 		)
 	)
 	(rule_area
@@ -8968,22 +8983,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 3b10bff7-84ca-43de-99db-07f527c164f7)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 40.64 176.53) (xy 33.02 176.53) (xy 33.02 167.894) (xy 40.64 167.894)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 5bff33d5-81a0-4261-8660-442ad55419bf)
+			(uuid 7ee1c2c9-48b0-407a-97e3-eba09169fbb7)
 		)
 	)
 	(rule_area
@@ -8998,7 +8998,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 9273e3e4-3fdc-48e0-8c58-d7ce84f701c5)
+			(uuid 801cabcd-e82b-4a38-bc4f-a41fde1913e1)
 		)
 	)
 	(rule_area
@@ -9013,7 +9013,7 @@
 			(fill
 				(type none)
 			)
-			(uuid a51972de-2d1f-4929-bf96-80491051827c)
+			(uuid ce9366fc-e3a9-4dd5-8ec7-a00f98209c7c)
 		)
 	)
 	(netclass_flag ""
@@ -17104,7 +17104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d85b4bd7-07c9-4577-a0d8-a21545529c36")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0103"
 			(at 273.05 147.32 0)
 			(effects
 				(font
@@ -17155,7 +17155,7 @@
 		(instances
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a1dfb567-88aa-4fc3-b53e-af9bfc3832a8"
-					(reference "#PWR021")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -18009,7 +18009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3e57bdc-70ff-466c-b60a-cddc0c9719e7")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR0102"
 			(at 262.89 105.41 0)
 			(effects
 				(font
@@ -18059,7 +18059,7 @@
 		(instances
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a1dfb567-88aa-4fc3-b53e-af9bfc3832a8"
-					(reference "#PWR020")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)

@@ -9509,7 +9509,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 142.24) (xy 80.01 142.24)
+			(xy 74.93 142.24) (xy 78.74 142.24)
 		)
 		(stroke
 			(width 0)
@@ -11644,51 +11644,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 69.596 219.71) (xy 57.15 219.71) (xy 57.15 208.534) (xy 69.596 208.534)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 2da982a8-d786-40f8-a695-ab31863c9163)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 212.471 228.6) (xy 197.485 228.6) (xy 197.612 206.121) (xy 212.598 206.121)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 52ee13c0-3e26-4938-b511-08f3c103a007)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 320.421 222.25) (xy 307.975 222.25) (xy 307.848 207.01) (xy 320.294 207.01)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 5edd3fcb-0b0d-40d3-b423-85d84f653112)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 247.65 218.44) (xy 234.188 218.44) (xy 234.188 207.264) (xy 247.65 207.264)
 			)
 			(stroke
@@ -11698,7 +11653,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 7bf51c24-8b10-46f5-862b-60d1e06d0c6f)
+			(uuid 00f9ceb0-0b1a-4d6f-bf7e-b50f7d24d4f3)
 		)
 	)
 	(rule_area
@@ -11713,7 +11668,52 @@
 			(fill
 				(type none)
 			)
-			(uuid b2de235a-9143-42f7-a7ed-775b25548c9f)
+			(uuid 77a7f506-795c-490d-a7ee-1787414d8cef)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 320.421 222.25) (xy 307.975 222.25) (xy 307.848 207.01) (xy 320.294 207.01)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 878caed3-0e3b-4ade-a34b-4cef7ce233a6)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 212.471 228.6) (xy 197.485 228.6) (xy 197.612 206.121) (xy 212.598 206.121)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a96ff3a9-a009-46ce-ba2c-d35c8d674c85)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 69.596 219.71) (xy 57.15 219.71) (xy 57.15 208.534) (xy 69.596 208.534)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e343009b-80e7-4c94-8f29-03bae3db6542)
 		)
 	)
 	(netclass_flag ""
@@ -16119,7 +16119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c2ad8e7-96e6-47b9-b38a-7d6ef8962426")
-		(property "Reference" "R?"
+		(property "Reference" "R613"
 			(at 64.77 138.43 0)
 			(effects
 				(font
@@ -16207,7 +16207,7 @@
 		(instances
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
-					(reference "R?")
+					(reference "R613")
 					(unit 1)
 				)
 			)
@@ -16301,7 +16301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "802f695e-525f-4cf4-9acf-e1a8ee6e378b")
-		(property "Reference" "R?"
+		(property "Reference" "R610"
 			(at 54.61 119.38 0)
 			(effects
 				(font
@@ -16389,7 +16389,7 @@
 		(instances
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
-					(reference "R?")
+					(reference "R610")
 					(unit 1)
 				)
 			)
@@ -17354,7 +17354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa2d56ea-5cd1-483f-bffa-d23e5145ea89")
-		(property "Reference" "R?"
+		(property "Reference" "R612"
 			(at 63.5 119.38 0)
 			(effects
 				(font
@@ -17442,7 +17442,7 @@
 		(instances
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
-					(reference "R?")
+					(reference "R612")
 					(unit 1)
 				)
 			)
@@ -21071,7 +21071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f742abbe-47d6-4342-b0a7-9c093023ca18")
-		(property "Reference" "R?"
+		(property "Reference" "R611"
 			(at 54.61 138.43 0)
 			(effects
 				(font
@@ -21159,7 +21159,7 @@
 		(instances
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/23621a02-c13b-4cf6-ae44-e1073ce197c7"
-					(reference "R?")
+					(reference "R611")
 					(unit 1)
 				)
 			)
