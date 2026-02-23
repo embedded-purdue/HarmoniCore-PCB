@@ -167,7 +167,7 @@
 		(uuid "f548f8b0-75ef-4305-9293-39d84c315636")
 	)
 	(embedded_fonts no)
-	(model "SRP2512A-2R2M.stp"
+	(model "${KIPRJMOD}/lib/step/SRP4020TA-100M.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -175,7 +175,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
