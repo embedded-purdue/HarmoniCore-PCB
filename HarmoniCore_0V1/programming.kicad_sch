@@ -1663,7 +1663,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 9.525 73.025 0)
+				(at 8.89 73.025 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1671,7 +1671,7 @@
 				)
 			)
 			(property "Value" "XC7A25T-CSG325"
-				(at -2.54 75.565 0)
+				(at -3.175 75.565 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2672,8 +2672,8 @@
 			)
 			(symbol "XC7A25T-CSG325_2_1"
 				(rectangle
-					(start -15.875 57.15)
-					(end 14.605 -72.39)
+					(start -16.51 57.15)
+					(end 13.97 -72.39)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2683,7 +2683,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 54.61 0)
+					(at -22.86 54.61 0)
 					(length 6.35)
 					(name "IO_0_34"
 						(effects
@@ -2701,7 +2701,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 52.07 0)
+					(at -22.86 52.07 0)
 					(length 6.35)
 					(name "IO_L1P_T0_34"
 						(effects
@@ -2719,7 +2719,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 49.53 0)
+					(at -22.86 49.53 0)
 					(length 6.35)
 					(name "IO_L1N_T0_34"
 						(effects
@@ -2737,7 +2737,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 46.99 0)
+					(at -22.86 46.99 0)
 					(length 6.35)
 					(name "IO_L2P_T0_34"
 						(effects
@@ -2755,7 +2755,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 44.45 0)
+					(at -22.86 44.45 0)
 					(length 6.35)
 					(name "IO_L2N_T0_34"
 						(effects
@@ -2773,7 +2773,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 41.91 0)
+					(at -22.86 41.91 0)
 					(length 6.35)
 					(name "IO_L3P_T0_DQS_34"
 						(effects
@@ -2791,7 +2791,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 39.37 0)
+					(at -22.86 39.37 0)
 					(length 6.35)
 					(name "IO_L3N_T0_DQS_34"
 						(effects
@@ -2809,7 +2809,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 36.83 0)
+					(at -22.86 36.83 0)
 					(length 6.35)
 					(name "IO_L4P_T0_34"
 						(effects
@@ -2827,7 +2827,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 34.29 0)
+					(at -22.86 34.29 0)
 					(length 6.35)
 					(name "IO_L4N_T0_34"
 						(effects
@@ -2845,7 +2845,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 31.75 0)
+					(at -22.86 31.75 0)
 					(length 6.35)
 					(name "IO_L5P_T0_34"
 						(effects
@@ -2863,7 +2863,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 29.21 0)
+					(at -22.86 29.21 0)
 					(length 6.35)
 					(name "IO_L5N_T0_34"
 						(effects
@@ -2881,7 +2881,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 26.67 0)
+					(at -22.86 26.67 0)
 					(length 6.35)
 					(name "IO_L6P_T0_34"
 						(effects
@@ -2899,7 +2899,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 24.13 0)
+					(at -22.86 24.13 0)
 					(length 6.35)
 					(name "IO_L6N_T0_VREF_34"
 						(effects
@@ -2917,7 +2917,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 21.59 0)
+					(at -22.86 21.59 0)
 					(length 6.35)
 					(name "IO_L7P_T1_34"
 						(effects
@@ -2935,7 +2935,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 19.05 0)
+					(at -22.86 19.05 0)
 					(length 6.35)
 					(name "IO_L7N_T1_34"
 						(effects
@@ -2953,7 +2953,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 16.51 0)
+					(at -22.86 16.51 0)
 					(length 6.35)
 					(name "IO_L8P_T1_34"
 						(effects
@@ -2971,7 +2971,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 13.97 0)
+					(at -22.86 13.97 0)
 					(length 6.35)
 					(name "IO_L8N_T1_34"
 						(effects
@@ -2989,7 +2989,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 11.43 0)
+					(at -22.86 11.43 0)
 					(length 6.35)
 					(name "IO_L9P_T1_DQS_34"
 						(effects
@@ -3007,7 +3007,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 8.89 0)
+					(at -22.86 8.89 0)
 					(length 6.35)
 					(name "IO_L9N_T1_DQS_34"
 						(effects
@@ -3025,7 +3025,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 6.35 0)
+					(at -22.86 6.35 0)
 					(length 6.35)
 					(name "IO_L10P_T1_34"
 						(effects
@@ -3043,7 +3043,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 3.81 0)
+					(at -22.86 3.81 0)
 					(length 6.35)
 					(name "IO_L10N_T1_34"
 						(effects
@@ -3061,7 +3061,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 1.27 0)
+					(at -22.86 1.27 0)
 					(length 6.35)
 					(name "IO_L11P_T1_SRCC_34"
 						(effects
@@ -3079,7 +3079,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -1.27 0)
+					(at -22.86 -1.27 0)
 					(length 6.35)
 					(name "IO_L11N_T1_SRCC_34"
 						(effects
@@ -3097,7 +3097,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -3.81 0)
+					(at -22.86 -3.81 0)
 					(length 6.35)
 					(name "IO_L12P_T1_MRCC_34"
 						(effects
@@ -3115,7 +3115,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -6.35 0)
+					(at -22.86 -6.35 0)
 					(length 6.35)
 					(name "IO_L12N_T1_MRCC_34"
 						(effects
@@ -3133,7 +3133,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -8.89 0)
+					(at -22.86 -8.89 0)
 					(length 6.35)
 					(name "IO_L13P_T2_MRCC_34"
 						(effects
@@ -3151,7 +3151,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -11.43 0)
+					(at -22.86 -11.43 0)
 					(length 6.35)
 					(name "IO_L13N_T2_MRCC_34"
 						(effects
@@ -3169,7 +3169,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -13.97 0)
+					(at -22.86 -13.97 0)
 					(length 6.35)
 					(name "IO_L14P_T2_SRCC_34"
 						(effects
@@ -3187,7 +3187,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -16.51 0)
+					(at -22.86 -16.51 0)
 					(length 6.35)
 					(name "IO_L14N_T2_SRCC_34"
 						(effects
@@ -3205,7 +3205,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -19.05 0)
+					(at -22.86 -19.05 0)
 					(length 6.35)
 					(name "IO_L15P_T2_DQS_34"
 						(effects
@@ -3223,7 +3223,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -21.59 0)
+					(at -22.86 -21.59 0)
 					(length 6.35)
 					(name "IO_L15N_T2_DQS_34"
 						(effects
@@ -3241,7 +3241,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -24.13 0)
+					(at -22.86 -24.13 0)
 					(length 6.35)
 					(name "IO_L16P_T2_34"
 						(effects
@@ -3259,7 +3259,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -26.67 0)
+					(at -22.86 -26.67 0)
 					(length 6.35)
 					(name "IO_L16N_T2_34"
 						(effects
@@ -3277,7 +3277,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -29.21 0)
+					(at -22.86 -29.21 0)
 					(length 6.35)
 					(name "IO_L17P_T2_34"
 						(effects
@@ -3295,7 +3295,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -31.75 0)
+					(at -22.86 -31.75 0)
 					(length 6.35)
 					(name "IO_L17N_T2_34"
 						(effects
@@ -3313,7 +3313,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -34.29 0)
+					(at -22.86 -34.29 0)
 					(length 6.35)
 					(name "IO_L18P_T2_34"
 						(effects
@@ -3331,7 +3331,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -36.83 0)
+					(at -22.86 -36.83 0)
 					(length 6.35)
 					(name "IO_L18N_T2_34"
 						(effects
@@ -3349,7 +3349,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -39.37 0)
+					(at -22.86 -39.37 0)
 					(length 6.35)
 					(name "IO_L19P_T3_34"
 						(effects
@@ -3367,7 +3367,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -41.91 0)
+					(at -22.86 -41.91 0)
 					(length 6.35)
 					(name "IO_L19N_T3_VREF_34"
 						(effects
@@ -3385,7 +3385,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -44.45 0)
+					(at -22.86 -44.45 0)
 					(length 6.35)
 					(name "IO_L20P_T3_34"
 						(effects
@@ -3403,7 +3403,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -46.99 0)
+					(at -22.86 -46.99 0)
 					(length 6.35)
 					(name "IO_L20N_T3_34"
 						(effects
@@ -3421,7 +3421,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -49.53 0)
+					(at -22.86 -49.53 0)
 					(length 6.35)
 					(name "IO_L21P_T3_DQS_34"
 						(effects
@@ -3439,7 +3439,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -52.07 0)
+					(at -22.86 -52.07 0)
 					(length 6.35)
 					(name "IO_L21N_T3_DQS_34"
 						(effects
@@ -3457,7 +3457,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -54.61 0)
+					(at -22.86 -54.61 0)
 					(length 6.35)
 					(name "IO_L22P_T3_34"
 						(effects
@@ -3475,7 +3475,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -57.15 0)
+					(at -22.86 -57.15 0)
 					(length 6.35)
 					(name "IO_L22N_T3_34"
 						(effects
@@ -3493,7 +3493,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -59.69 0)
+					(at -22.86 -59.69 0)
 					(length 6.35)
 					(name "IO_L23P_T3_34"
 						(effects
@@ -3511,7 +3511,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -62.23 0)
+					(at -22.86 -62.23 0)
 					(length 6.35)
 					(name "IO_L23N_T3_34"
 						(effects
@@ -3529,7 +3529,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -64.77 0)
+					(at -22.86 -64.77 0)
 					(length 6.35)
 					(name "IO_L24P_T3_34"
 						(effects
@@ -3547,7 +3547,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -67.31 0)
+					(at -22.86 -67.31 0)
 					(length 6.35)
 					(name "IO_L24N_T3_34"
 						(effects
@@ -3565,7 +3565,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.225 -69.85 0)
+					(at -22.86 -69.85 0)
 					(length 6.35)
 					(name "IO_25_34"
 						(effects
@@ -10989,7 +10989,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LED_LTST-C170GKT_LTO"
+			(property "Footprint" "passives:LED_0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -11621,19 +11621,6 @@
 		(uuid 263e74ce-a416-4467-a1ec-2c3bfd323556)
 	)
 	(rectangle
-		(start 83.82 165.1)
-		(end 91.44 180.34)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 53fa12d7-aae3-4b16-8216-5ac66e894477)
-	)
-	(rectangle
 		(start 22.098 22.606)
 		(end 83.82 112.776)
 		(stroke
@@ -11685,31 +11672,6 @@
 		)
 		(uuid fc0b7b66-7239-48f7-9799-21be66bb90ea)
 	)
-	(text_box "LAYOUT NOTE:\nblablabla"
-		(exclude_from_sim no)
-		(at 16.51 179.07 0)
-		(size 26.67 11.43)
-		(margins 1.4525 1.4525 1.4525 1.4525)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(thickness 0.4)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "3227315e-7608-4ac8-a0ed-b13152f9b0a6")
-	)
 	(text_box "Test Points"
 		(exclude_from_sim no)
 		(at 249.174 43.18 0)
@@ -11757,29 +11719,6 @@
 			(justify bottom)
 		)
 		(uuid "63c1dbdc-a5b3-4463-b517-31baa01b30c8")
-	)
-	(text_box "DESIGN NOTE:\nblablabla"
-		(exclude_from_sim no)
-		(at 49.53 179.07 0)
-		(size 21.59 11.43)
-		(margins 1.3525 1.3525 1.3525 1.3525)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 250 236 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "6a70c4e3-0dd7-4f94-9e52-46317362715a")
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
@@ -11854,7 +11793,7 @@
 	)
 	(text_box "GLOBAL NETS"
 		(exclude_from_sim no)
-		(at -2.286 143.764 0)
+		(at 7.874 144.272 0)
 		(size 76.2 7.62)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -13543,17 +13482,6 @@
 	)
 	(polyline
 		(pts
-			(xy 83.82 175.26) (xy 71.12 179.07)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(uuid "d0bb9749-2a5d-4760-b552-0c06022f20bd")
-	)
-	(polyline
-		(pts
 			(xy 86.614 22.352) (xy 236.728 22.352)
 		)
 		(stroke
@@ -14518,7 +14446,22 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 35.56 143.51) (xy 22.86 143.51) (xy 22.86 126.492) (xy 35.56 126.492)
+				(xy 63.5 143.51) (xy 50.8 143.51) (xy 50.8 116.586) (xy 63.5 116.586)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 09b7705e-6ffd-47b5-8204-127eee44e5a3)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 35.56 143.51) (xy 22.86 143.51) (xy 22.86 122.936) (xy 35.56 122.936)
 			)
 			(stroke
 				(width 0)
@@ -14528,6 +14471,37 @@
 				(type none)
 			)
 			(uuid e728107f-d980-4b2b-98f1-f83517553fad)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 57.15 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b1a8dd6-3b9a-46a7-af99-d66c6d796e32")
+		(property "Netclass" "SIG"
+			(at 58.3565 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -13.97 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
 		)
 	)
 	(netclass_flag ""
@@ -21848,7 +21822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives:C_0805"
+		(property "Footprint" "passives:LED_0805"
 			(at 60.96 83.82 0)
 			(effects
 				(font

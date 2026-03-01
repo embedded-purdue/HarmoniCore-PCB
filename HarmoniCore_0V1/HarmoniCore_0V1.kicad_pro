@@ -536,7 +536,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.156464,
         "via_diameter": 0.26,
@@ -545,9 +545,16 @@
       },
       {
         "line_style": 0,
-        "name": "SIG",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "PWR",
+        "pcb_color": "rgb(255, 0, 0)",
         "priority": 0,
+        "schematic_color": "rgb(194, 0, 0)"
+      },
+      {
+        "line_style": 0,
+        "name": "SIG",
+        "pcb_color": "rgb(0, 0, 0)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -556,14 +563,31 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+1V0D": [
+        "PWR"
+      ],
+      "+1V8D": [
+        "PWR"
+      ],
+      "+3V3A": [
+        "PWR"
+      ],
+      "+3V3D": [
+        "PWR"
+      ],
+      "+5VA": [
+        "PWR"
+      ],
       "/Project Architecture/Analog_Frontend/MICBIAS": [
         "ANALOG"
       ],
       "12M_FTDI": [
-        "CLK"
+        "CLK",
+        "SIG"
       ],
       "156M_A7": [
-        "CLK"
+        "CLK",
+        "SIG"
       ],
       "ADC_BCK": [
         "SIG"
@@ -718,6 +742,10 @@
       {
         "netclass": "SIG",
         "pattern": "USB"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "PWR"
       }
     ]
   },
