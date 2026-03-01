@@ -561,7 +561,11 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+1V0D": "rgb(194, 194, 0)",
+      "+1V8D": "rgb(132, 0, 132)",
+      "+3V3D": "rgb(0, 194, 194)"
+    },
     "netclass_assignments": {
       "+1V0D": [
         "PWR"
