@@ -5863,6 +5863,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 101.6) (xy 55.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2ce4f8-8b5e-4a59-b63b-d540af01b4e2")
+	)
+	(wire
+		(pts
 			(xy 163.83 123.19) (xy 179.07 123.19)
 		)
 		(stroke
@@ -6713,6 +6723,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 101.6) (xy 71.12 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a67b8c9-71c6-4a4d-b67d-36e1c745536a")
+	)
+	(wire
+		(pts
 			(xy 143.51 123.19) (xy 143.51 127)
 		)
 		(stroke
@@ -7163,16 +7183,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 101.6) (xy 55.88 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2e3fa3e-75c0-4a73-b9de-a539093c335e")
-	)
-	(wire
-		(pts
 			(xy 218.44 127) (xy 226.06 127)
 		)
 		(stroke
@@ -7260,16 +7270,6 @@
 			(type default)
 		)
 		(uuid "d3b922b3-0957-4518-92a6-804a45523adb")
-	)
-	(wire
-		(pts
-			(xy 66.04 101.6) (xy 71.12 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3f9014d-2250-4f2b-b409-a369c5aab45a")
 	)
 	(wire
 		(pts
@@ -8526,7 +8526,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 57.15 170.18) (xy 49.53 170.18) (xy 49.53 159.004) (xy 57.15 159.004)
+				(xy 41.91 167.64) (xy 34.29 167.64) (xy 34.29 159.004) (xy 41.91 159.004)
 			)
 			(stroke
 				(width 0)
@@ -8535,22 +8535,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 286b4c93-0510-4675-acf5-671c4810f4bd)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 40.64 182.88) (xy 33.02 182.88) (xy 33.02 174.244) (xy 40.64 174.244)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 3b10bff7-84ca-43de-99db-07f527c164f7)
+			(uuid 6dd6a68c-5842-4f82-bd32-8209a301fd31)
 		)
 	)
 	(rule_area
@@ -8565,7 +8550,22 @@
 			(fill
 				(type none)
 			)
-			(uuid 5bff33d5-81a0-4261-8660-442ad55419bf)
+			(uuid 8fb08ddf-800b-4e0c-96ab-825a5d634507)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 40.64 182.88) (xy 33.02 182.88) (xy 33.02 174.244) (xy 40.64 174.244)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a5a8d668-f8d9-4dee-aff7-40ce3147ef9c)
 		)
 	)
 	(rule_area
@@ -8580,13 +8580,13 @@
 			(fill
 				(type none)
 			)
-			(uuid 9ed29547-dbe2-4643-a247-4283e16a1af4)
+			(uuid f2f2eea1-43a6-4a15-8f1a-feac32d1555c)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 41.91 167.64) (xy 34.29 167.64) (xy 34.29 159.004) (xy 41.91 159.004)
+				(xy 57.15 170.18) (xy 49.53 170.18) (xy 49.53 159.004) (xy 57.15 159.004)
 			)
 			(stroke
 				(width 0)
@@ -8595,7 +8595,7 @@
 			(fill
 				(type none)
 			)
-			(uuid a51972de-2d1f-4929-bf96-80491051827c)
+			(uuid ffbe3ce3-a754-4561-b052-1a615859fc6b)
 		)
 	)
 	(netclass_flag ""
@@ -9762,8 +9762,7 @@
 	)
 	(symbol
 		(lib_id "Semiconductors:AO3401A")
-		(at 60.96 104.14 270)
-		(mirror x)
+		(at 60.96 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9787,7 +9786,7 @@
 			)
 		)
 		(property "Footprint" "ICs:SOT-23-3L_AOS-L"
-			(at 59.055 99.06 0)
+			(at 62.865 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,7 +9797,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 57.15 99.06 0)
+			(at 64.77 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
