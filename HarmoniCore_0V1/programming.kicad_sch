@@ -11834,6 +11834,12 @@
 		(uuid "1150ea29-e071-41d7-91dc-7771db19fe39")
 	)
 	(junction
+		(at 227.33 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a8ac773-0b05-46ab-ae85-9183fa1c5225")
+	)
+	(junction
 		(at 142.24 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13841,7 +13847,7 @@
 		)
 		(uuid "52032782-7e36-4f48-8e1a-8e7eca8545b7")
 	)
-	(label "D_m"
+	(label "D_n"
 		(at 116.84 86.36 0)
 		(effects
 			(font
@@ -13861,7 +13867,7 @@
 		)
 		(uuid "64dda0b1-e748-48df-9ec1-a908b2268667")
 	)
-	(label "D_m"
+	(label "D_n"
 		(at 31.75 119.38 180)
 		(effects
 			(font
@@ -14125,7 +14131,7 @@
 			)
 		)
 	)
-	(global_label "D_p"
+	(global_label "D_P"
 		(shape input)
 		(at 38.1 121.92 0)
 		(fields_autoplaced yes)
@@ -14137,7 +14143,7 @@
 		)
 		(uuid "32412501-aaca-4b7b-852d-5f44e0d4ebf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.4718 121.92 0)
+			(at 44.0602 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14377,7 +14383,7 @@
 			)
 		)
 	)
-	(global_label "D_m"
+	(global_label "D_N"
 		(shape input)
 		(at 38.1 119.38 0)
 		(fields_autoplaced yes)
@@ -14389,7 +14395,7 @@
 		)
 		(uuid "cf7fd6d8-4a53-41bb-8f9a-9406c19a5edd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.0161 119.38 0)
+			(at 44.0602 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16114,6 +16120,73 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
 					(reference "C703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:Earth")
+		(at 227.33 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c303bc7-06da-47af-a1d9-af1a1f84cb20")
+		(property "Reference" "#PWR0738"
+			(at 227.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 227.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 227.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ade6dc8-79c6-4ef1-b00e-18cfb7fa1905")
+		)
+		(instances
+			(project "HarmoniCore_0V1"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a527885e-a52f-4920-b92e-9eb2339a94bf"
+					(reference "#PWR0738")
 					(unit 1)
 				)
 			)
