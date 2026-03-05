@@ -536,7 +536,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.156464,
         "via_diameter": 0.26,
@@ -545,16 +545,27 @@
       },
       {
         "line_style": 0,
-        "name": "SIG",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "PWR",
+        "pcb_color": "rgb(255, 0, 0)",
         "priority": 0,
+        "schematic_color": "rgb(194, 0, 0)"
+      },
+      {
+        "line_style": 0,
+        "name": "SIG",
+        "pcb_color": "rgb(0, 0, 0)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+1V0D": "rgb(194, 194, 0)",
+      "+1V8D": "rgb(132, 0, 132)",
+      "+3V3D": "rgb(0, 194, 194)"
+    },
     "netclass_assignments": {
       "+1V0D": [
         "PWR"
@@ -654,6 +665,9 @@
       "D_m": [
         "USB"
       ],
+      "D_n": [
+        "USB"
+      ],
       "D_p": [
         "USB"
       ],
@@ -741,6 +755,10 @@
       {
         "netclass": "SIG",
         "pattern": "USB"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "PWR"
       }
     ]
   },
