@@ -138,7 +138,7 @@
 		)
 		(uuid "2d20025d-61e4-451d-b51e-153fedc44d68")
 	)
-	(text "Revision History"
+	(text "Timing"
 		(exclude_from_sim no)
 		(at 45.72 152.4 0)
 		(effects
@@ -152,7 +152,7 @@
 		)
 		(uuid "2df49b6e-980f-4a01-ab23-c61ed27bd1b8")
 	)
-	(text "Power Sequencing"
+	(text "Power Electronics: Analog"
 		(exclude_from_sim no)
 		(at 45.72 144.78 0)
 		(effects
@@ -328,7 +328,7 @@
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
-				(color 140 140 140 1)
+				(color 0 0 194 1)
 			)
 			(justify left bottom)
 		)
@@ -786,7 +786,7 @@
 		)
 		(uuid "9d747571-2a3a-41dd-b7ab-0c07afaa5df1")
 	)
-	(text "..........................................."
+	(text "User Input"
 		(exclude_from_sim no)
 		(at 144.78 83.82 0)
 		(effects
@@ -992,7 +992,7 @@
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
-				(color 0 0 255 1)
+				(color 194 194 194 1)
 			)
 			(justify left bottom)
 		)
