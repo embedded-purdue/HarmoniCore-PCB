@@ -167,7 +167,7 @@
 		)
 		(uuid d8a608aa-d710-4d73-9273-2b52adac6230)
 	)
-	(text "for 50 Ohm, Trace width 6.16mils\nFor 90 Ohm Differential, Trace width 6.23mils, 8 mils spacing"
+	(text "for 50 Ohm, Trace width 6.16mils\nFor 90 Ohm Differential, Trace width 6.23mils, 8 mils spacing\nJLC06161H-3313"
 		(exclude_from_sim no)
 		(at 104.902 70.866 0)
 		(effects
