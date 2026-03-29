@@ -1,0 +1,14 @@
+passives * 7
+expensive stuff (buck converter, DAC, ADC, all ICs) * 4
+
+Stuff not on Digikey:
+
+FPGA - done
+
+Buck Converter - done
+
+S25FL128SAGMFI000 (Mouser)
+
+FT232HL-REEL (LCSC) - done
+
+510CCA156M250AAG (to do)

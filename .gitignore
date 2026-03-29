@@ -27,7 +27,6 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
 
 # Archived Backups (KiCad 6.0)
 **/Hardware/HarmoniCore_0V1/*-backups/*.zip
