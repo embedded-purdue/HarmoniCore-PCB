@@ -9,182 +9,6 @@
 		(date "2025-09-21")
 	)
 	(lib_symbols
-		(symbol "ICs:156M_LVCMOS"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at -10.16 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "156M_LVCMOS"
-				(at 2.54 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "ICs:OSC_510CCA156M250AAG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Vendor" "Digikey"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Link" "https://www.digikey.com/en/products/detail/skyworks-solutions-inc/510CCA156M250AAG/9991297"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Skyworks"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PN" "510CCA156M250AAG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "156M_LVCMOS_0_0"
-				(rectangle
-					(start -6.35 7.62)
-					(end 6.35 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -11.43 0 0)
-					(length 5.08)
-					(name "OE"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output clock
-					(at 11.43 0 180)
-					(length 5.08)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ICs:ECS-2520MV-120-BN-TR"
 			(pin_names
 				(offset 1.016)
@@ -385,6 +209,180 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ICs:SiT8209AI-82-18S-155.520000"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SiT8209AI-82-18S-155.520000"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ICs:QFN_7050_4pins"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sitime.com/support/resource-library/datasheets/sit8209-datasheet"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ultra Performance Oscillator, 7 x 5mm Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/sitime/SIT8209AI-82-33E-156-250000/10783111"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "SiTime"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "SIT8209AI-82-33E-156.250000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SiT8209AI-82-18S-155.520000_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "OE/~{ST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1322,10 +1320,10 @@
 		(uuid "1a28d740-a46b-4b2b-8f1d-46939d7f56c3")
 	)
 	(junction
-		(at 168.91 38.1)
+		(at 146.05 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "652328a6-446a-40fe-9900-6042751beaa3")
+		(uuid "afa84fee-96fd-4841-bed5-b18715eb8aca")
 	)
 	(no_connect
 		(at 46.99 50.8)
@@ -1353,6 +1351,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 57.15) (xy 191.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2942421f-4602-4f0e-89fe-5b8dc2bfe948")
+	)
+	(wire
+		(pts
 			(xy 87.63 45.72) (xy 90.17 45.72)
 		)
 		(stroke
@@ -1363,13 +1371,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 52.07) (xy 189.23 52.07)
+			(xy 146.05 53.34) (xy 146.05 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2eceae3c-d640-4fd3-8886-720c385074bc")
+		(uuid "3055a750-ca41-4681-9279-73198eba9113")
 	)
 	(wire
 		(pts
@@ -1383,6 +1391,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 53.34) (xy 152.4 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46dadad6-c91a-4357-a83f-cb65b3f84036")
+	)
+	(wire
+		(pts
 			(xy 90.17 55.88) (xy 90.17 58.42)
 		)
 		(stroke
@@ -1390,6 +1408,26 @@
 			(type default)
 		)
 		(uuid "502a615b-428b-4261-8460-4ff60610f1a9")
+	)
+	(wire
+		(pts
+			(xy 146.05 59.69) (xy 152.4 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c807f9b-ba0f-4e6c-b0ea-484283fa6919")
+	)
+	(wire
+		(pts
+			(xy 146.05 53.34) (xy 152.4 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d8e05b-5821-4f37-aac3-f6421da8b837")
 	)
 	(wire
 		(pts
@@ -1413,16 +1451,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 44.45) (xy 153.67 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81b6cfa3-7e9d-4719-af27-f77c9bcd6e6e")
-	)
-	(wire
-		(pts
 			(xy 48.26 166.37) (xy 53.34 166.37)
 		)
 		(stroke
@@ -1433,13 +1461,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 52.07) (xy 157.48 52.07)
+			(xy 185.42 57.15) (xy 182.88 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8d9f154-f43f-4486-943d-9ef01dd0b19b")
+		(uuid "a48da6c5-cccf-430a-96bb-f476950c00b4")
 	)
 	(wire
 		(pts
@@ -1481,16 +1509,6 @@
 		)
 		(uuid "ce5e1070-a440-4032-b313-ca3241620ca4")
 	)
-	(wire
-		(pts
-			(xy 168.91 38.1) (xy 168.91 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e383db88-e60b-4364-817f-4df6a4c09dd9")
-	)
 	(label "12M_FTDI"
 		(at 48.26 161.29 180)
 		(effects
@@ -1502,7 +1520,7 @@
 		(uuid "68926741-9b4e-4a1b-8cb4-75516b088381")
 	)
 	(label "156M_A7"
-		(at 189.23 52.07 0)
+		(at 191.77 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1622,7 +1640,7 @@
 	)
 	(symbol
 		(lib_id "Power:+3V3D")
-		(at 153.67 44.45 0)
+		(at 146.05 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1631,7 +1649,7 @@
 		(fields_autoplaced yes)
 		(uuid "00fa7c88-1c5f-481b-bb4d-3d1e71bb61ab")
 		(property "Reference" "#PWR01004"
-			(at 153.67 48.26 0)
+			(at 146.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1658,7 @@
 			)
 		)
 		(property "Value" "+3V3D"
-			(at 153.67 39.37 0)
+			(at 146.05 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,7 +1666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 44.45 0)
+			(at 146.05 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +1675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 44.45 0)
+			(at 146.05 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1684,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3D\""
-			(at 153.67 44.45 0)
+			(at 146.05 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,7 +1706,7 @@
 	)
 	(symbol
 		(lib_id "Power:Earth")
-		(at 168.91 64.77 0)
+		(at 182.88 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1697,7 +1715,7 @@
 		(fields_autoplaced yes)
 		(uuid "026eda7b-f8cd-4771-87c5-878af0051cd3")
 		(property "Reference" "#PWR01006"
-			(at 168.91 71.12 0)
+			(at 182.88 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +1724,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 168.91 68.58 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +1733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 64.77 0)
+			(at 182.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1742,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 64.77 0)
+			(at 182.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1751,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 168.91 64.77 0)
+			(at 182.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,116 +1833,6 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/65b7cb26-9f51-480f-bdb7-f186c65ba647"
 					(reference "#PWR01002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ICs:156M_LVCMOS")
-		(at 168.91 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c0954d5-e048-4758-be9c-5427d98559b9")
-		(property "Reference" "Y1002"
-			(at 158.242 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "156M_LVCMOS"
-			(at 161.29 61.468 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ICs:OSC_510CCA156M250AAG"
-			(at 168.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 168.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/skyworks-solutions-inc/510CCA156M250AAG/9991297"
-			(at 168.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Skyworks"
-			(at 168.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "510CCA156M250AAG"
-			(at 168.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "832806fb-a4ed-4b8f-93a8-0580e5cd61a4")
-		)
-		(pin "3"
-			(uuid "1efd5000-b528-4d86-a08c-d4b7ba1d0e81")
-		)
-		(pin "1"
-			(uuid "f1ffb032-ab77-4090-b0df-9274374fd76a")
-		)
-		(pin "4"
-			(uuid "55f4b3c5-b0b4-4237-af1c-b2663be61fcf")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/65b7cb26-9f51-480f-bdb7-f186c65ba647"
-					(reference "Y1002")
 					(unit 1)
 				)
 			)
@@ -2389,7 +2297,7 @@
 	)
 	(symbol
 		(lib_id "passives:10kR_0603")
-		(at 153.67 52.07 90)
+		(at 146.05 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2397,7 +2305,7 @@
 		(dnp no)
 		(uuid "716e0db8-24ac-4eef-8835-d9c9ba17cc46")
 		(property "Reference" "R1002"
-			(at 151.13 48.26 90)
+			(at 143.51 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2314,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 151.13 50.8 90)
+			(at 143.51 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +2323,7 @@
 			)
 		)
 		(property "Footprint" "passives:R_0603"
-			(at 153.67 52.07 0)
+			(at 146.05 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +2332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 52.07 0)
+			(at 146.05 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,7 +2341,7 @@
 			)
 		)
 		(property "Description" "10kohm 1/16W"
-			(at 153.67 52.07 0)
+			(at 146.05 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,7 +2350,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 153.67 52.07 0)
+			(at 146.05 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,7 +2359,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CPF0603F10KC1/2384568"
-			(at 148.336 50.546 0)
+			(at 140.716 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +2368,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity Passive Product"
-			(at 153.67 52.07 0)
+			(at 146.05 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +2377,7 @@
 			)
 		)
 		(property "PN" "CPF0603F10KC1"
-			(at 153.67 52.07 0)
+			(at 146.05 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2402,7 @@
 	)
 	(symbol
 		(lib_id "passives:33R_0603")
-		(at 180.34 52.07 0)
+		(at 185.42 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2502,7 +2410,7 @@
 		(dnp no)
 		(uuid "9ae6f7f1-5c5c-4b20-b981-ed1e9a22b45c")
 		(property "Reference" "R1003"
-			(at 182.88 54.356 0)
+			(at 187.96 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,7 +2418,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 182.88 56.642 0)
+			(at 187.96 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +2426,7 @@
 			)
 		)
 		(property "Footprint" "passives:R_0603"
-			(at 180.34 52.07 0)
+			(at 185.42 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2435,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 52.07 0)
+			(at 185.42 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2444,7 @@
 			)
 		)
 		(property "Description" "33ohm 1/10W"
-			(at 180.34 52.07 0)
+			(at 185.42 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2453,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 180.34 52.07 0)
+			(at 185.42 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,7 +2462,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-0733RL/726771"
-			(at 181.864 46.736 0)
+			(at 186.944 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2471,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 180.34 52.07 0)
+			(at 185.42 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2480,7 @@
 			)
 		)
 		(property "PN" "RC0603JR-0733RL"
-			(at 180.34 52.07 0)
+			(at 185.42 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,6 +2697,117 @@
 			(project "HarmoniCore_0V1"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/65b7cb26-9f51-480f-bdb7-f186c65ba647"
 					(reference "#PWR01007")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICs:SiT8209AI-82-18S-155.520000")
+		(at 152.4 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d587d648-d972-49b9-b181-177af6b15fd2")
+		(property "Reference" "Y1002"
+			(at 167.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SiT8209AI-82-18S-155.520000"
+			(at 167.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ICs:QFN_7050_4pins"
+			(at 179.07 152.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sitime.com/support/resource-library/datasheets/sit8209-datasheet"
+			(at 179.07 252.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra Performance Oscillator, 7 x 5mm Package"
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/sitime/SIT8209AI-82-33E-156-250000/10783111"
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SiTime"
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "SIT8209AI-82-33E-156.250000"
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "52cc2c51-4a18-4460-89d4-447f91d3a369")
+		)
+		(pin "2"
+			(uuid "97e4bcd2-d123-4efd-a104-9b8f429e48c5")
+		)
+		(pin "4"
+			(uuid "47c02c50-0ca8-4145-9fbd-2f88a623d77b")
+		)
+		(pin "1"
+			(uuid "965a7fc2-618d-48c7-a3a5-a9b3b66b37a5")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/65b7cb26-9f51-480f-bdb7-f186c65ba647"
+					(reference "Y1002")
 					(unit 1)
 				)
 			)

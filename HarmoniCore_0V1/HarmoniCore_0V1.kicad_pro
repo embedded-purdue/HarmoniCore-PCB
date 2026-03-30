@@ -768,7 +768,7 @@
       "idf": "",
       "netlist": "amulet_controller.net",
       "plot": "Manufacturing/Fabrication/Gerbers/",
-      "pos_files": "",
+      "pos_files": "Manufacturing/Assembly/",
       "specctra_dsn": "",
       "step": "STEP/amulet_controller.step",
       "svg": "",
@@ -778,7 +778,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "Manufacturing\\Assembly\\HarmoniCore_0V1.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -959,6 +959,24 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART_REV",
+          "name": "PART_REV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer GRM 0 0 Center Center 0 0  PN GRM32ER60J107ME20L",
+          "name": "Manufacturer GRM 0 0 Center Center 0 0  PN GRM32ER60J107ME20L",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
           "show": false
         }
       ],

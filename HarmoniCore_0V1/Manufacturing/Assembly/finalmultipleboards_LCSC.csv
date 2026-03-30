@@ -1,5 +1,5 @@
-﻿Index,LCSC#,MPN,Manufacturer,Package,Customer #,Description,RoHS,Quantity,MOQ,Multiple,Unit Price($),Extended Price($),Product Link
-1,C51997,FT232HL-REEL,FTDI,LQFP-48(7x7),,1 480Mbps USB 2.0 LQFP-48(7x7) Interface Controllers RoHS,yes,3,1,1,10.6168,31.85,https://www.lcsc.com/product-detail/C51997.html
-2,C178236,SY8003ADFC,Silergy,DFN-8(2x2),,1MHz Buck Adjustable 3A 2.7V~5.5V DFN-8(2x2) Voltage Regulators - DC DC Switching Regulators RoHS,yes,20,5,5,0.2219,4.44,https://www.lcsc.com/product-detail/C178236.html
-3,C1551014,XC7A25T-2CSG325I,AMD/XILINX,CSBGA-325,,CSBGA-325 FPGAs (Field Programmable Gate Array) RoHS,yes,3,1,1,17.4601,52.38,https://www.lcsc.com/product-detail/C1551014.html
-4,C393875,S25FL128SAGMFI000,Infineon/CYPRESS,SO-16-300mil,,2.7V~3.6V 128Mbit 133MHz SPI SO-16-300mil Memory (ICs) RoHS,yes,4,1,1,4.2307,16.92,https://www.lcsc.com/product-detail/C393875.html
+﻿Component,Designator,Footprint,LCSC#
+FT232HL-REEL,U701,LQFP48_FT232HL_FTD-L,C51997
+SY8003ADFC,"PS801,PS802,PS803",SY8003ADFC,C178236
+XC7A25T-2CSG325I,U401,Xilinx_CSG325,C1551014
+S25FL128SAGMFI000,U703,SO3016_INF-L,C393875
