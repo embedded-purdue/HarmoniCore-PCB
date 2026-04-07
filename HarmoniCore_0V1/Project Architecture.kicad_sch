@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "43756dca-f8f6-4179-bbe2-5af9585c666d")
 	(paper "A3")
 	(title_block
@@ -22,7 +22,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 055071ba-7216-47dc-af92-e615f4e56e85)
+		(uuid "055071ba-7216-47dc-af92-e615f4e56e85")
 	)
 	(arc
 		(start 193.04 114.3)
@@ -35,7 +35,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 39374ae6-3219-4d94-aa30-e3f747ed5e77)
+		(uuid "39374ae6-3219-4d94-aa30-e3f747ed5e77")
 	)
 	(arc
 		(start 191.77 127)
@@ -48,7 +48,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 40f68398-8217-4fb3-a50b-7c3c175b36e7)
+		(uuid "40f68398-8217-4fb3-a50b-7c3c175b36e7")
 	)
 	(arc
 		(start 195.58 55.88)
@@ -61,7 +61,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 463357f7-f9d2-46fa-b0b6-a6251e6ce150)
+		(uuid "463357f7-f9d2-46fa-b0b6-a6251e6ce150")
 	)
 	(arc
 		(start 241.32 82.53)
@@ -74,7 +74,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 73f6865c-4f24-4b13-a9e7-cf8bfa00ee32)
+		(uuid "73f6865c-4f24-4b13-a9e7-cf8bfa00ee32")
 	)
 	(arc
 		(start 194.31 57.15)
@@ -87,7 +87,7 @@
 		(fill
 			(type none)
 		)
-		(uuid a134b516-cfaf-437e-b6e0-fd4fe5086d29)
+		(uuid "a134b516-cfaf-437e-b6e0-fd4fe5086d29")
 	)
 	(arc
 		(start 243.86 105.39)
@@ -100,7 +100,7 @@
 		(fill
 			(type none)
 		)
-		(uuid a8227c96-ad98-472e-856e-98a46a3c9121)
+		(uuid "a8227c96-ad98-472e-856e-98a46a3c9121")
 	)
 	(arc
 		(start 195.58 142.24)
@@ -113,7 +113,7 @@
 		(fill
 			(type none)
 		)
-		(uuid c59f1df0-f8f8-4983-be0f-9ead2d5e2eeb)
+		(uuid "c59f1df0-f8f8-4983-be0f-9ead2d5e2eeb")
 	)
 	(arc
 		(start 193.04 125.73)
@@ -126,7 +126,7 @@
 		(fill
 			(type none)
 		)
-		(uuid c7e342ae-c9b1-4d78-9adc-0d9c65d0a0e4)
+		(uuid "c7e342ae-c9b1-4d78-9adc-0d9c65d0a0e4")
 	)
 	(arc
 		(start 245.13 95.23)
@@ -139,7 +139,7 @@
 		(fill
 			(type none)
 		)
-		(uuid cc4cf7fb-4bd9-4be9-81d7-4f1f2d80469e)
+		(uuid "cc4cf7fb-4bd9-4be9-81d7-4f1f2d80469e")
 	)
 	(arc
 		(start 195.58 44.45)
@@ -152,7 +152,7 @@
 		(fill
 			(type none)
 		)
-		(uuid d1fe5f0f-24cb-4f3d-baf1-1b36c0a6f68e)
+		(uuid "d1fe5f0f-24cb-4f3d-baf1-1b36c0a6f68e")
 	)
 	(arc
 		(start 198.12 72.39)
@@ -165,7 +165,7 @@
 		(fill
 			(type none)
 		)
-		(uuid d8a608aa-d710-4d73-9273-2b52adac6230)
+		(uuid "d8a608aa-d710-4d73-9273-2b52adac6230")
 	)
 	(text "for 50 Ohm, Trace width 6.16mils\nFor 90 Ohm Differential, Trace width 6.23mils, 8 mils spacing\nJLC06161H-3313"
 		(exclude_from_sim no)
@@ -2258,11 +2258,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "050cf94a-fa1b-478c-9dcb-adb120579c78")
 		(property "Sheetname" "PE_Analog"
 			(at 203.2 212.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,6 +2274,8 @@
 		)
 		(property "Sheetfile" "PowerElectronicsAnalog.kicad_sch"
 			(at 203.2 236.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,11 +2304,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0db1585d-6420-4db0-a495-665c76333017")
 		(property "Sheetname" "PE_Digital"
 			(at 203.2 182.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,6 +2320,8 @@
 		)
 		(property "Sheetfile" "PowerElectronics.kicad_sch"
 			(at 203.2 206.3246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,11 +2350,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "23621a02-c13b-4cf6-ae44-e1073ce197c7")
 		(property "Sheetname" "Analog_Frontend"
 			(at 200.66 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,6 +2366,8 @@
 		)
 		(property "Sheetfile" "Analog_Frontend.kicad_sch"
 			(at 200.66 136.4746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,11 +2396,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "65b7cb26-9f51-480f-bdb7-f186c65ba647")
 		(property "Sheetname" "Timing"
 			(at 266.065 114.2234 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,6 +2412,8 @@
 		)
 		(property "Sheetfile" "Timing.kicad_sch"
 			(at 266.065 137.1096 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,11 +2442,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a1dfb567-88aa-4fc3-b53e-af9bfc3832a8")
 		(property "Sheetname" "User_Input"
 			(at 266.192 147.6244 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,6 +2459,7 @@
 		(property "Sheetfile" "User_Input.kicad_sch"
 			(at 266.192 169.4946 0)
 			(show_name yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,11 +2488,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a4f0bdbc-b007-4d98-b53f-91e97b1989ac")
 		(property "Sheetname" "Artix7_14_15_34"
 			(at 200.152 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,6 +2504,8 @@
 		)
 		(property "Sheetfile" "Artix7_14_15_34.kicad_sch"
 			(at 200.152 66.8786 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,11 +2534,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a527885e-a52f-4920-b92e-9eb2339a94bf")
 		(property "Sheetname" "Programming"
 			(at 203.2 151.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,6 +2550,8 @@
 		)
 		(property "Sheetfile" "programming.kicad_sch"
 			(at 203.2 173.3046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,11 +2580,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "db7dbef2-8018-4cbd-910a-63ca18756cca")
 		(property "Sheetname" "Artix7_PWR"
 			(at 200.406 82.0924 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,6 +2596,8 @@
 		)
 		(property "Sheetfile" "Artix7_PWR.kicad_sch"
 			(at 200.406 105.4866 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

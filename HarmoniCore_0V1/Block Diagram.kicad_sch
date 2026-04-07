@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "d4440dba-022e-49b2-97f2-6fc1871c7304")
 	(paper "A3")
 	(title_block
@@ -23,7 +23,7 @@
 			(type color)
 			(color 0 0 0 1)
 		)
-		(uuid 8956a1c0-282a-4b1e-927b-8bc74278d14f)
+		(uuid "8956a1c0-282a-4b1e-927b-8bc74278d14f")
 	)
 	(rectangle
 		(start 331.47 204.47)
@@ -37,7 +37,7 @@
 			(type color)
 			(color 0 0 0 1)
 		)
-		(uuid d631d51a-2515-45dc-a2c0-e57c4fee46cd)
+		(uuid "d631d51a-2515-45dc-a2c0-e57c4fee46cd")
 	)
 	(text_box "Spec 3"
 		(exclude_from_sim no)
