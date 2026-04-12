@@ -544,7 +544,6 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.156464,
-        "tuning_profile": "",
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 6
@@ -562,7 +561,6 @@
         "priority": 2,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.156464,
-        "tuning_profile": "",
         "via_diameter": 0.26,
         "via_drill": 0.15,
         "wire_width": 24
@@ -572,20 +570,18 @@
         "name": "PWR",
         "pcb_color": "rgb(255, 0, 0)",
         "priority": 0,
-        "schematic_color": "rgb(194, 0, 0)",
-        "tuning_profile": ""
+        "schematic_color": "rgb(194, 0, 0)"
       },
       {
         "line_style": 0,
         "name": "SIG",
         "pcb_color": "rgb(0, 0, 0)",
         "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "Test"
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
-      "version": 5
+      "version": 4
     },
     "net_colors": {
       "+1V0D": "rgb(194, 194, 0)",
